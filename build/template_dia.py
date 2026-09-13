@@ -52,7 +52,7 @@ HTML_SHELL = """<!doctype html>
   .headline .l2 {{ color:#e2571e; display:block; }}
 
   .subtitle {{
-    position:absolute; top:452px; left:72px; width:780px;
+    position:absolute; top:{subtitle_top}px; left:72px; width:780px;
     font-family:'Inter',sans-serif; font-weight:400; font-size:29px; line-height:1.35;
     color:#a2a2a3;
   }}
@@ -211,12 +211,44 @@ SLIDES = [
         counter="29 / 28",
         screenshot="../capturas-app/processed/dia-29-mijuego.png",
     ),
+    dict(
+        out="dia-01.html",
+        label="HORARIO · RESERVAS",
+        tag="PARA EL ALUMNO",
+        line1="VOY.",
+        line2="",
+        subtitle="El horario de tu club, en el bolsillo. Un toque y tu plaza queda reservada.",
+        counter="01 / 28",
+        screenshot="../capturas-app/processed/dia-01-misemana.png",
+        subtitle_top=300,
+    ),
+    dict(
+        out="dia-13.html",
+        label="PANEL DEL CLUB · MIEMBROS",
+        tag="PARA EL CLUB",
+        line1="EL CLUB,",
+        line2="EN ORDEN.",
+        subtitle="Solicitudes, altas y permisos — la ficha de cada uno, al día.",
+        counter="13 / 28",
+        screenshot="../capturas-app/processed/dia-13-miembros.png",
+    ),
+    dict(
+        out="dia-25.html",
+        label="PANEL DEL CLUB · INVITAR",
+        tag="PARA EL CLUB",
+        line1="INVITA EN",
+        line2="UN TOQUE.",
+        subtitle="Busca por nombre, @usuario o email y la invitación sale sola.",
+        counter="25 / 28",
+        screenshot="../capturas-app/processed/dia-25-invitar.png",
+    ),
 ]
 
 for s in SLIDES:
     html = HTML_SHELL.format(
         label=s["label"], tag=s["tag"], line1=s["line1"], line2=s["line2"],
         subtitle=s["subtitle"], counter=s["counter"], screenshot=s["screenshot"],
+        subtitle_top=s.get("subtitle_top", 452),
     )
     with open(os.path.join(BASE, s["out"]), "w") as f:
         f.write(html)

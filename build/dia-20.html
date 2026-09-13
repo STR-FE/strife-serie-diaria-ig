@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Anton'; font-weight: 400; font-style: normal;
+    src: url('fonts/anton.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'JetBrains Mono'; font-weight: 700; font-style: normal;
+    src: url('fonts/jbmono-bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter'; font-weight: 400; font-style: normal;
+    src: url('fonts/inter-regular.woff2') format('woff2');
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; background:#0b0b0d; overflow:hidden; }
+  body {
+    position:relative;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% 100%, rgba(120,45,15,0.35), transparent 60%),
+      #0b0c0e;
+    font-family:'Inter',sans-serif;
+  }
+
+  .header { position:absolute; top:70px; left:72px; right:72px; display:flex; justify-content:space-between; align-items:center; }
+  .header .label { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.14em; color:#e2571e; text-transform:uppercase; }
+  .header .tag { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:26px; letter-spacing:0.12em; color:#5f6064; text-transform:uppercase; }
+
+  .headline { position:absolute; top:150px; left:68px; width:960px; font-family:'Anton',sans-serif; font-size:110px; line-height:0.93; text-transform:uppercase; }
+  .headline .l1 { color:#ffffff; display:block; }
+  .headline .l2 { color:#e2571e; display:block; }
+
+  .subtitle { position:absolute; top:452px; left:72px; width:780px; font-family:'Inter',sans-serif; font-weight:400; font-size:29px; line-height:1.35; color:#a2a2a3; }
+
+  .phone { position:absolute; left:300px; top:575px; width:534px; height:775px; border-radius:52px 52px 0 0; overflow:hidden; background:#0e0f12; }
+  .phone .statusbar { position:relative; height:66px; width:100%; background:#000; }
+  .phone .statusbar .time { position:absolute; left:26px; top:16px; font-weight:700; font-size:26px; color:#fff; }
+  .phone .statusbar .icons { position:absolute; right:24px; top:20px; display:flex; align-items:center; gap:8px; }
+
+  .screen { padding:28px 24px; color:#fff; }
+  .nav-hdr { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+  .nav-chip { background:#c0392b; border-radius:999px; padding:6px 14px; display:flex; align-items:center; gap:6px; font-weight:700; font-size:15px; }
+  .scr-title { font-family:'Anton',sans-serif; font-size:34px; margin:10px 0 4px; }
+  .scr-sub { font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.1em; color:#e2571e; margin-bottom:14px; }
+
+  .policy-card { background:#17181c; border:1px solid #2a2b2f; border-radius:16px; padding:16px 18px; display:flex; gap:14px; align-items:flex-start; margin-bottom:14px; }
+  .policy-icon { width:38px; height:38px; border-radius:10px; background:#3a2a12; display:flex; align-items:center; justify-content:center; color:#e2a23a; font-size:18px; flex-shrink:0; }
+  .policy-title { font-weight:700; font-size:16px; }
+  .policy-sub { color:#9a9a9e; font-size:13px; margin-top:2px; }
+  .policy-tag { margin-left:auto; font-family:'JetBrains Mono',monospace; font-size:11px; color:#6b6c70; }
+
+  .tabs { display:flex; background:#17181c; border-radius:12px; padding:4px; margin-bottom:16px; }
+  .tab { flex:1; text-align:center; padding:9px 0; border-radius:9px; font-size:14px; font-weight:600; color:#9a9a9e; }
+  .tab.active { background:#fff; color:#111; }
+
+  .req-card { background:#17181c; border:1px solid #2a2b2f; border-radius:16px; padding:18px; margin-bottom:16px; }
+  .req-top { display:flex; gap:12px; align-items:center; }
+  .avatar { width:46px; height:46px; border-radius:50%; background:#6d5ed1; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:16px; flex-shrink:0; }
+  .req-name { font-weight:700; font-size:17px; }
+  .req-role { color:#c7c7ca; font-size:13.5px; }
+  .req-role b { color:#fff; }
+  .req-meta { font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#6b6c70; letter-spacing:0.05em; margin-top:2px; }
+  .entra-label { font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#6b6c70; letter-spacing:0.08em; margin:14px 0 8px; }
+  .role-pick { display:flex; background:#0e0f12; border-radius:10px; padding:4px; margin-bottom:14px; }
+  .role-opt { flex:1; text-align:center; padding:8px 0; border-radius:7px; font-size:13.5px; font-weight:600; color:#9a9a9e; }
+  .role-opt.sel { background:#fff; color:#111; }
+  .req-actions { display:flex; gap:10px; }
+  .btn { flex:1; text-align:center; padding:13px 0; border-radius:10px; font-weight:700; font-size:14.5px; }
+  .btn-rej { background:transparent; border:1px solid #3a3b3f; color:#c7c7ca; }
+  .btn-acc { background:#fff; color:#111; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">PANEL DEL CLUB · ADMISIONES</div>
+    <div class="tag">PARA EL CLUB</div>
+  </div>
+  <div class="headline"><span class="l1">LA PUERTA,</span><span class="l2">CON CRITERIO.</span></div>
+  <div class="subtitle">Cada solicitud llega con su ficha. Un toque: dentro o fuera.</div>
+  <div class="phone">
+    <div class="statusbar">
+      <div class="time">9:41</div>
+      <div class="icons">
+        <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="12" width="5" height="8" rx="1" fill="white"/>
+          <rect x="7" y="9" width="5" height="11" rx="1" fill="white"/>
+          <rect x="14" y="5" width="5" height="15" rx="1" fill="white"/>
+          <rect x="21" y="1" width="5" height="19" rx="1" fill="white"/>
+        </svg>
+        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 16.5C13 16.5 13.8 15.7 13.8 14.7C13.8 13.7 13 12.9 12 12.9C11 12.9 10.2 13.7 10.2 14.7C10.2 15.7 11 16.5 12 16.5Z" fill="white"/>
+          <path d="M12 9C14.5 9 16.8 10 18.5 11.6L16.6 13.6C15.4 12.5 13.8 11.8 12 11.8C10.2 11.8 8.6 12.5 7.4 13.6L5.5 11.6C7.2 10 9.5 9 12 9Z" fill="white"/>
+          <path d="M12 2C16.7 2 21 3.9 24 7L22.1 9C19.5 6.5 15.9 5 12 5C8.1 5 4.5 6.5 1.9 9L0 7C3 3.9 7.3 2 12 2Z" fill="white"/>
+        </svg>
+        <svg width="42" height="20" viewBox="0 0 42 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="34" height="18" rx="4" stroke="white" stroke-width="1.5"/>
+          <rect x="3.5" y="3.5" width="29" height="13" rx="2" fill="white"/>
+          <rect x="37" y="7" width="3" height="6" rx="1.5" fill="white"/>
+        </svg>
+      </div>
+    </div>
+    <div class="screen">
+      <div class="nav-hdr">
+        <div class="nav-chip">🥋 JGS JIU JITSU</div>
+      </div>
+      <div class="scr-title">Admisiones</div>
+      <div class="scr-sub">JGS JIU JITSU</div>
+
+      <div class="policy-card">
+        <div class="policy-icon">🛡</div>
+        <div>
+          <div class="policy-title">Bajo solicitud</div>
+          <div class="policy-sub">Apruebas cada entrada antes de aceptarla.</div>
+        </div>
+        <div class="policy-tag">REQUEST</div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active">Pendientes · 2</div>
+        <div class="tab">Historial</div>
+      </div>
+
+      <div class="req-card">
+        <div class="req-top">
+          <div class="avatar">JO</div>
+          <div>
+            <div class="req-name">Javier Ortega</div>
+            <div class="req-role">Solicita entrar como <b>Alumno</b></div>
+            <div class="req-meta">HACE 5 H · BUSCÓ EL CENTRO</div>
+          </div>
+        </div>
+        <div class="entra-label">ENTRA COMO</div>
+        <div class="role-pick">
+          <div class="role-opt sel">Alumno</div>
+          <div class="role-opt">Coach</div>
+          <div class="role-opt">Admin</div>
+        </div>
+        <div class="req-actions">
+          <div class="btn btn-rej">Rechazar</div>
+          <div class="btn btn-acc">✓ Aceptar como Alumno</div>
+        </div>
+      </div>
+
+      <div class="req-card">
+        <div class="req-top">
+          <div class="avatar">NP</div>
+          <div>
+            <div class="req-name">Nuria Prats</div>
+            <div class="req-role">Solicita entrar como <b>Coach</b></div>
+            <div class="req-meta">HACE 2 DÍAS · BUSCÓ EL CENTRO</div>
+          </div>
+        </div>
+        <div class="req-actions" style="margin-top:16px;">
+          <div class="btn btn-rej">Rechazar</div>
+          <div class="btn btn-acc">✓ Aceptar como Coach</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-logo" style="position:absolute;left:72px;bottom:112px;font-family:'Anton',sans-serif;font-size:38px;color:#fff;">STR<span style="color:#e2571e">/</span>FE</div>
+  <div class="footer-tag" style="position:absolute;left:72px;bottom:72px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;letter-spacing:0.08em;color:#5f6064;line-height:1.5;">BETA CERRADA<br>VERANO 2026</div>
+  <div class="counter" style="position:absolute;right:72px;bottom:72px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;letter-spacing:0.1em;color:#e2571e;">20 / 28</div>
+</body>
+</html>
