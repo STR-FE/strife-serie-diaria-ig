@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Anton'; font-weight: 400; font-style: normal;
+    src: url('fonts/anton.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'JetBrains Mono'; font-weight: 700; font-style: normal;
+    src: url('fonts/jbmono-bold.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter'; font-weight: 400; font-style: normal;
+    src: url('fonts/inter-regular.woff2') format('woff2');
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1350px; background:#0b0b0d; overflow:hidden; }
+  body {
+    position:relative;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% 100%, rgba(120,45,15,0.35), transparent 60%),
+      #0b0c0e;
+    font-family:'Inter',sans-serif;
+  }
+
+  .header {
+    position:absolute; top:70px; left:72px; right:72px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .header .label {
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px;
+    letter-spacing:0.14em; color:#e2571e; text-transform:uppercase;
+  }
+  .header .tag {
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:26px;
+    letter-spacing:0.12em; color:#5f6064; text-transform:uppercase;
+  }
+
+  .headline {
+    position:absolute; top:150px; left:68px; width:960px;
+    font-family:'Anton',sans-serif; font-size:110px; line-height:0.93;
+    text-transform:uppercase;
+  }
+  .headline .l1 { color:#ffffff; display:block; }
+  .headline .l2 { color:#e2571e; display:block; }
+
+  .subtitle {
+    position:absolute; top:452px; left:72px; width:780px;
+    font-family:'Inter',sans-serif; font-weight:400; font-size:29px; line-height:1.35;
+    color:#a2a2a3;
+  }
+
+  .phone {
+    position:absolute; left:300px; top:575px; width:534px; height:775px;
+    border-radius:52px 52px 0 0; overflow:hidden; background:#000;
+  }
+  .phone .statusbar {
+    position:relative; height:66px; width:100%; background:#000;
+  }
+  .phone .statusbar .time {
+    position:absolute; left:26px; top:16px; font-family:'Inter',sans-serif;
+    font-weight:700; font-size:26px; color:#fff;
+  }
+  .phone .statusbar .icons {
+    position:absolute; right:24px; top:20px; display:flex; align-items:center; gap:8px;
+  }
+  .phone .shot {
+    width:100%; height:calc(100% - 66px); object-fit:cover; object-position:top center; display:block;
+  }
+
+  .footer-logo {
+    position:absolute; left:72px; bottom:112px;
+    font-family:'Anton',sans-serif; font-size:38px; color:#fff;
+  }
+  .footer-logo span { color:#e2571e; }
+  .footer-tag {
+    position:absolute; left:72px; bottom:72px;
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:22px;
+    letter-spacing:0.08em; color:#5f6064; line-height:1.5;
+  }
+  .counter {
+    position:absolute; right:72px; bottom:72px;
+    font-family:'JetBrains Mono',monospace; font-weight:700; font-size:26px;
+    letter-spacing:0.1em; color:#e2571e;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="label">LOGROS · PALMARÉS</div>
+    <div class="tag">PARA EL ALUMNO</div>
+  </div>
+  <div class="headline"><span class="l1">TU VITRINA,</span><span class="l2">CONTIGO.</span></div>
+  <div class="subtitle">Parches, medallas y cinturones — lo ganado queda en tu ficha.</div>
+  <div class="phone">
+    <div class="statusbar">
+      <div class="time">9:41</div>
+      <div class="icons">
+        <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="12" width="5" height="8" rx="1" fill="white"/>
+          <rect x="7" y="9" width="5" height="11" rx="1" fill="white"/>
+          <rect x="14" y="5" width="5" height="15" rx="1" fill="white"/>
+          <rect x="21" y="1" width="5" height="19" rx="1" fill="white"/>
+        </svg>
+        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 16.5C13 16.5 13.8 15.7 13.8 14.7C13.8 13.7 13 12.9 12 12.9C11 12.9 10.2 13.7 10.2 14.7C10.2 15.7 11 16.5 12 16.5Z" fill="white"/>
+          <path d="M12 9C14.5 9 16.8 10 18.5 11.6L16.6 13.6C15.4 12.5 13.8 11.8 12 11.8C10.2 11.8 8.6 12.5 7.4 13.6L5.5 11.6C7.2 10 9.5 9 12 9Z" fill="white"/>
+          <path d="M12 2C16.7 2 21 3.9 24 7L22.1 9C19.5 6.5 15.9 5 12 5C8.1 5 4.5 6.5 1.9 9L0 7C3 3.9 7.3 2 12 2Z" fill="white"/>
+        </svg>
+        <svg width="42" height="20" viewBox="0 0 42 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="34" height="18" rx="4" stroke="white" stroke-width="1.5"/>
+          <rect x="3.5" y="3.5" width="29" height="13" rx="2" fill="white"/>
+          <rect x="37" y="7" width="3" height="6" rx="1.5" fill="white"/>
+        </svg>
+      </div>
+    </div>
+    <img class="shot" src="../capturas-app/processed/dia-12-logros.png">
+  </div>
+  <div class="footer-logo">STR<span>/</span>FE</div>
+  <div class="footer-tag">BETA CERRADA<br>VERANO 2026</div>
+  <div class="counter">12 / 28</div>
+</body>
+</html>
