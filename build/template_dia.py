@@ -242,6 +242,36 @@ SLIDES = [
         counter="25 / 28",
         screenshot="../capturas-app/processed/dia-25-invitar.png",
     ),
+    dict(
+        out="dia-17.html",
+        label="RANKING · CARA A CARA",
+        tag="PARA EL ALUMNO",
+        line1="CARA",
+        line2="A CARA.",
+        subtitle="Tú contra quien quieras: puntos, rachas y asistencia, lado a lado.",
+        counter="17 / 28",
+        screenshot="../capturas-app/processed/dia-17-caraacara-1.png",
+    ),
+    dict(
+        out="dia-04.html",
+        label="PANEL DEL CLUB · PASAR LISTA",
+        tag="PARA EL CLUB",
+        line1="LISTA EN",
+        line2="30 SEGUNDOS.",
+        subtitle="Presente, tarde o ausente. Uno a uno o toda la clase de golpe.",
+        counter="04 / 28",
+        screenshot="../capturas-app/processed/dia-04-asistentes-crop.png",
+    ),
+    dict(
+        out="dia-26.html",
+        label="CLASE · DETALLE DE SESIÓN",
+        tag="PARA EL ALUMNO",
+        line1="SABES",
+        line2="A QUÉ VAS.",
+        subtitle="Plan de la clase, coach y quién va — antes de pisar el tatami.",
+        counter="26 / 28",
+        screenshot="../capturas-app/processed/dia-26-detalleclase.png",
+    ),
 ]
 
 for s in SLIDES:
