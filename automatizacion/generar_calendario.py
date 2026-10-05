@@ -48,7 +48,7 @@ DIAS_ES = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domin
 # tras el dia 29 (alumno primero, club despues).
 CARRUSELES = {
     "TU PRIMER DÍA": {"id": "guia-alumno", "carpeta": "guia-alumno", "offset": 1},
-    "ABRE TU CLUB": {"id": "guia-club", "carpeta": "guia-club", "offset": 2},
+    "ABRE TU CENTRO": {"id": "guia-club", "carpeta": "guia-club", "offset": 2},
 }
 
 

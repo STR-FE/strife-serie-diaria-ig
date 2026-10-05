@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family:'Anton'; src:url('fonts/anton.woff2') format('woff2'); }
+  @font-face { font-family:'JetBrains Mono'; font-weight:700; src:url('fonts/jbmono-bold.woff2') format('woff2'); }
+  @font-face { font-family:'Inter'; src:url('fonts/inter-regular.woff2') format('woff2'); }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1080px; height:1080px; overflow:hidden; }
+  body {
+    position:relative; font-family:'Inter',sans-serif;
+    background: radial-gradient(ellipse 900px 500px at 15% 100%, rgba(120,45,15,0.35), transparent 60%), #0b0c0e;
+  }
+  .header { position:absolute; top:70px; left:72px; right:72px; display:flex; justify-content:space-between; }
+  .label { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:28px; letter-spacing:0.18em; color:#e2571e; }
+  .counter { font-family:'JetBrains Mono',monospace; font-weight:700; font-size:26px; letter-spacing:0.1em; color:#5f6064; }
+  .title-row { position:absolute; top:158px; left:68px; right:68px; display:flex; align-items:flex-end; gap:14px; }
+  .num { font-family:'Anton',sans-serif; font-size:132px; line-height:0.78; color:#e2571e; }
+  .txt { font-family:'Anton',sans-serif; font-size:58px; line-height:0.95; color:#fff; text-transform:uppercase; padding-bottom:10px; }
+  .subtitle { position:absolute; top:300px; left:72px; width:940px; font-size:29px; line-height:1.35; color:#a2a2a3; }
+  .phone { position:absolute; left:320px; top:386px; width:440px; height:946px; border-radius:60px; overflow:hidden; background:#000; }
+  .phone .bar { height:66px; background:#000; position:relative; }
+  .phone .bar .time { position:absolute; left:26px; top:16px; font-weight:700; font-size:26px; color:#fff; }
+  .phone .bar .icons { position:absolute; right:24px; top:20px; display:flex; gap:8px; }
+  .phone img { width:100%; height:calc(100% - 66px); object-fit:cover; object-position:top center; display:block; }
+  .logo { position:absolute; left:72px; bottom:56px; font-family:'Anton',sans-serif; font-size:38px; color:#fff; }
+  .logo span, .o { color:#e2571e; }
+  .big { position:absolute; left:68px; top:0px; font-family:'Anton',sans-serif; font-size:150px; line-height:0.93; color:#fff; text-transform:uppercase; }
+  .lead { position:absolute; left:72px; top:0px; width:880px; font-size:32px; line-height:1.4; color:#a2a2a3; }
+  .mono { position:absolute; left:72px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:24px; letter-spacing:0.14em; color:#e2571e; }
+  .art { position:absolute; opacity:0.30; }
+  .wordmark { position:absolute; left:0; right:0; text-align:center; font-family:'Anton',sans-serif; font-size:190px; line-height:1; color:#fff; letter-spacing:0.01em; }
+  .tagline { position:absolute; left:0; right:0; text-align:center; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:30px; letter-spacing:0.2em; color:#e8e8e8; }
+  .sub2 { position:absolute; left:0; right:0; text-align:center; font-size:30px; color:#a2a2a3; }
+</style>
+</head>
+<body>
+<img class="art" src="/Users/jaimevillalba/StudioProjects/strife-marketing/reel/public/hares_transparent_bg.png" style="left:28px; top:-10px; width:1024px; opacity:0.42"><div class="header"><div class="label">LA APP</div><div class="counter"><span class="o">21</span> / 29</div></div><div class="wordmark" style="top:600px">STR<span class="o">/</span>FE</div><div class="tagline" style="top:830px">30 DÍAS GRATIS PARA TU CENTRO</div><div class="sub2" style="top:895px">Horario, QR, cuotas, tienda y seguimiento.</div>
+</body>
+</html>

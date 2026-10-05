@@ -14,7 +14,7 @@ Cinco piezas en fila. Cada una coge lo de la anterior y produce lo de la siguien
 
 | Pieza | Qué hace |
 |---|---|
-| `pies-de-foto.txt` | **Lo que escribes tú.** Los textos de los 31 posts, en crudo. Única fuente de verdad del contenido. |
+| `pies-de-foto.txt` | **Lo que escribes tú.** Los textos de los 29 posts y los 2 carruseles, en crudo. Única fuente de verdad del contenido. |
 | `automatizacion/generar_calendario.py` | **El que reparte las fechas.** Les pone fecha empezando por el lunes que le digas y comprueba que no falte ninguna imagen. |
 | `automatizacion/calendario.json` | **El plan.** Qué día sale cada post, con qué imagen y qué texto. No se edita a mano: se regenera. |
 | `automatizacion/publicar.py` | **El que publica.** Mira qué día es hoy, busca si hay algo para hoy, y lo publica. Si no toca nada, no hace nada. |
@@ -73,7 +73,7 @@ python3 publicar.py --dia 1 --dry-run
 Cambies lo que cambies, **regenera y sube**, en ese orden:
 
 ```bash
-cd ~/Downloads/export/ig/serie-diaria/automatizacion
+cd ~/StudioProjects/strife-serie-diaria-ig/automatizacion
 python3 generar_calendario.py
 cd .. && git add -A && git commit -m "lo que has cambiado" && git push
 ```
@@ -97,3 +97,18 @@ Ojo con dos cosas:
 - **Nunca lo pegues en un chat, un correo o un commit.** Va directo al almacén de
   secretos de GitHub: *Settings → Secrets and variables → Actions*, con el nombre
   `IG_ACCESS_TOKEN`.
+
+## 7. Las imágenes (versión 2, octubre 2026)
+
+Todas salen de capturas reales de la app 1.4.1 en **Villalba Fighting Co.** con alumnos ficticios; nada de JGS.
+Las capturas originales viven en el repo privado `strife-marketing` (`reel/mi-4`, `reel/mi-5` y `serie-v2/`, cada
+una con su `capturas.md`: quién sale y cómo se llegó). Aquí solo se suben los recortes (`capturas-app/v2/`).
+
+| Qué | Generador | Comando |
+|---|---|---|
+| Los 25 posts con móvil | `build/serie_v2.py` | `python3 build/serie_v2.py` (o solo unos días: `python3 build/serie_v2.py 4 17`) |
+| Los 4 cierres y las 2 guías | `build/guias_cierres_v2.py` | `python3 build/guias_cierres_v2.py cierres guias` |
+
+Cada generador recorta la captura, escribe el HTML en `build/`, lo pinta con Chrome headless y deja el PNG en la
+raíz (o en `guia-*/`) y el JPEG en `jpg/`. En cada post, el texto, el recorte (`y`) y la captura de origen están en
+la lista `SLIDES` del generador. Después, como siempre: regenerar el calendario y subir.
