@@ -224,7 +224,7 @@ def build(s):
     im.crop((0, s['y'], 1080, s['y'] + SHOT_H)).save(shot)
     html = HTML_SHELL.format(
         label=s['label'], tag=s['tag'], line1=s['line1'], line2=s['line2'], subtitle=s['subtitle'],
-        counter=f"{s['n']:02d} / 29", screenshot=f'../capturas-app/v2/{key}.png', footer=FOOTER,
+        counter='', screenshot=f'../capturas-app/v2/{key}.png', footer=FOOTER,
         subtitle_top=s.get('subtitle_top', 452),
     )
     page = os.path.join(BASE, key + '.html')

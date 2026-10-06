@@ -151,7 +151,7 @@ def cierre(c):
     if c.get('flip'):
         art = art.replace('style="', 'style="transform:scaleX(-1); ')
     body = art + '<div class="header"><div class="label">LA APP</div>'
-    body += f'<div class="counter"><span class="o">{c["n"]:02d}</span> / 29</div></div>'
+    body += '<div class="counter"></div></div>'
     body += '<div class="wordmark" style="top:600px">STR<span class="o">/</span>FE</div>'
     body += f'<div class="tagline" style="top:830px">{c["tagline"]}</div>'
     body += f'<div class="sub2" style="top:895px">{c["sub"]}</div>'

@@ -5,15 +5,13 @@ name: Publicar serie diaria en Instagram
 
 on:
   schedule:
-    # Horario de verano (la serie va de agosto a septiembre, todo CEST = UTC+2).
-    # L-V 17:30 UTC = 19:30 Madrid — ventana de entreno del publico de contacto.
-    # S-D 09:30 UTC = 11:30 Madrid — pico matinal de fin de semana.
-    - cron: "30 17 * * 1-5"
-    - cron: "30 9 * * 0,6"
+    # Cada 15 minutos: publicar.py mira la hora de cada post en calendario.json (Europe/Madrid,
+    # cambio de hora incluido) y solo publica cuando le toca. GitHub puede retrasar el cron unos minutos.
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
-      dia:
-        description: "Dia concreto de la serie (1-28). Vacio = el que toque hoy."
+      id:
+        description: "Id concreto (p. ej. dia-07, guia-clases). Vacio = el de hoy, si ya es su hora."
         required: false
       dry_run:
         description: "Ensayo sin publicar"
@@ -45,7 +43,7 @@ jobs:
         run: |
           cd automatizacion
           python3 publicar.py \
-            ${{ inputs.dia && format('--dia {0}', inputs.dia) || '' }} \
+            ${{ inputs.id && format('--id {0}', inputs.id) || '' }} \
             ${{ inputs.dry_run == true && '--dry-run' || '' }}
 
       - name: Guardar el registro para no repetir publicacion

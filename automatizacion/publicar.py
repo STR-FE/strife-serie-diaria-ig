@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Publica en Instagram el post que toca hoy, segun calendario.json.
+"""Publica en Instagram el post de hoy, segun calendario.json, en cuanto llega su hora.
+
+El workflow lo ejecuta cada 15 minutos: si hoy hay post, ya es su hora (Europe/Madrid) y no
+consta en el registro, lo publica. Un dia que se paso sin publicar no se recupera al dia siguiente.
 
 Imagen suelta: contenedor de medios y publicar. Carrusel: un contenedor por foto
 (is_carousel_item), un contenedor CAROUSEL con los hijos, y publicar.
@@ -16,13 +19,14 @@ Variables de entorno necesarias:
   GRAPH_HOST        opcional, por defecto graph.instagram.com
 """
 import argparse, json, os, sys, time, urllib.parse, urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
 CALENDARIO = AQUI / "calendario.json"
 REGISTRO = AQUI / "registro.json"
-MADRID = timezone(timedelta(hours=2))  # CEST, la serie va de agosto a septiembre
+MADRID = ZoneInfo("Europe/Madrid")
 
 
 def api(metodo, ruta, datos=None):
@@ -75,7 +79,7 @@ def publicar(post, ensayo):
     archivos = post.get("archivos") or [post["archivo"]]
     urls = [f"{base}/{urllib.parse.quote(a)}" for a in archivos]
     tipo = post.get("tipo", "imagen")
-    print(f"{post['id']} · {post['fecha']} ({post['dia_semana']}) · {post['audiencia']} · {tipo}")
+    print(f"{post['id']} · {post['fecha']} {post['hora']} ({post['dia_semana']}) · {post['audiencia']} · {tipo}")
     for u in urls:
         print(f"  imagen : {u}")
     print(f"  caption: {post['caption'][:80]}{'...' if len(post['caption']) > 80 else ''}")
@@ -114,8 +118,8 @@ def publicar(post, ensayo):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--fecha", help="AAAA-MM-DD; por defecto hoy en Europe/Madrid")
-    p.add_argument("--dia", type=int, help="publicar un dia concreto de la serie (1-29)")
-    p.add_argument("--id", dest="post_id", help="publicar por id (p. ej. guia-alumno, guia-club, dia-07)")
+    p.add_argument("--orden", type=int, help="publicar la publicacion n de la serie (1-49), sin mirar la hora")
+    p.add_argument("--id", dest="post_id", help="publicar por id (p. ej. guia-clases, dia-07), sin mirar la hora")
     p.add_argument("--dry-run", action="store_true", help="ensayo: muestra que haria sin publicar")
     p.add_argument("--force", action="store_true", help="publicar aunque ya conste en el registro")
     args = p.parse_args()
@@ -125,13 +129,17 @@ def main():
         elegidos = [x for x in posts if x["id"] == args.post_id]
         if not elegidos:
             raise SystemExit(f"no existe el id {args.post_id}")
-    elif args.dia:
-        elegidos = [x for x in posts if x["tipo"] == "imagen" and x["dia"] == args.dia]
+    elif args.orden:
+        elegidos = [x for x in posts if x["orden"] == args.orden]
     else:
-        fecha = args.fecha or datetime.now(MADRID).date().isoformat()
+        ahora = datetime.now(MADRID)
+        fecha = args.fecha or ahora.date().isoformat()
         elegidos = [x for x in posts if x["fecha"] == fecha]
         if not elegidos:
             print(f"{fecha}: no hay post programado para hoy. Nada que hacer.")
+            return 0
+        if not args.fecha and ahora.strftime("%H:%M") < elegidos[0]["hora"] and not args.dry_run:
+            print(f"{fecha}: {elegidos[0]['id']} sale a las {elegidos[0]['hora']} (ahora {ahora:%H:%M}). Todavia no.")
             return 0
 
     post = elegidos[0]

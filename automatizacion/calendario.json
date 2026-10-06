@@ -1,360 +1,40 @@
 [
   {
-    "id": "dia-01",
-    "tipo": "imagen",
-    "dia": 1,
-    "fecha": "2026-08-24",
-    "dia_semana": "lunes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-01-voy.jpg",
-    "origen_png": "dia-01-voy.png",
-    "caption": "Abre la clase, mira quién va y reserva con un toque. ¿No vas? Avisa: tu hueco lo pilla otro.\n\n#strife #strifeapp"
-  },
-  {
-    "id": "dia-02",
-    "tipo": "imagen",
-    "dia": 2,
-    "fecha": "2026-08-25",
-    "dia_semana": "martes",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-02-la-semana-montada.jpg",
-    "origen_png": "dia-02-la-semana-montada.png",
-    "caption": "Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-03",
-    "tipo": "imagen",
-    "dia": 3,
-    "fecha": "2026-08-26",
-    "dia_semana": "miercoles",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-03-ficha-al-entrar.jpg",
-    "origen_png": "dia-03-ficha-al-entrar.png",
-    "caption": "Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta.\n\n#strife #strifeapp"
-  },
-  {
-    "id": "dia-04",
-    "tipo": "imagen",
-    "dia": 4,
-    "fecha": "2026-08-27",
-    "dia_semana": "jueves",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-04-lista-30-segundos.jpg",
-    "origen_png": "dia-04-lista-30-segundos.png",
-    "caption": "Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-05",
-    "tipo": "imagen",
-    "dia": 5,
-    "fecha": "2026-08-28",
-    "dia_semana": "viernes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-05-mes-nuevo-podio-nuevo.jpg",
-    "origen_png": "dia-05-mes-nuevo-podio-nuevo.png",
-    "caption": "Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero.\n\n#strife #ranking"
-  },
-  {
-    "id": "dia-06",
-    "tipo": "imagen",
-    "dia": 6,
-    "fecha": "2026-08-29",
-    "dia_semana": "sabado",
-    "hora": "11:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-06-el-mes-cuadrado.jpg",
-    "origen_png": "dia-06-el-mes-cuadrado.png",
-    "caption": "Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar.\n\n#strife #clubes"
-  },
-  {
     "id": "dia-07",
-    "tipo": "imagen",
-    "dia": 7,
-    "fecha": "2026-08-30",
-    "dia_semana": "domingo",
-    "hora": "11:30",
-    "audiencia": "cierre",
-    "archivo": "jpg/dia-07-cierre-semana-1.jpg",
-    "origen_png": "dia-07-cierre-semana-1.png",
-    "caption": "STRIFE ya está en Google Play. Gratis para quien entrena; 30 días de prueba para tu centro.\n\n#strife"
-  },
-  {
-    "id": "dia-08",
-    "tipo": "imagen",
-    "dia": 8,
-    "fecha": "2026-08-31",
-    "dia_semana": "lunes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-08-cada-roll-apuntado.jpg",
-    "origen_png": "dia-08-cada-roll-apuntado.png",
-    "caption": "El parte del día en 30 segundos: con quién, cómo acabó y con qué.\n\n#strife #sparring"
-  },
-  {
-    "id": "dia-09",
-    "tipo": "imagen",
-    "dia": 9,
-    "fecha": "2026-09-01",
+    "orden": 1,
+    "fecha": "2026-10-06",
     "dia_semana": "martes",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-09-dicho-una-vez.jpg",
-    "origen_png": "dia-09-dicho-una-vez.png",
-    "caption": "Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-10",
+    "hora": "21:30",
+    "audiencia": "marca",
     "tipo": "imagen",
-    "dia": 10,
-    "fecha": "2026-09-02",
-    "dia_semana": "miercoles",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-10-el-peso-a-raya.jpg",
-    "origen_png": "dia-10-el-peso-a-raya.png",
-    "caption": "Un número y listo: tu peso, tu objetivo y las lesiones que te frenan, en tu perfil.\n\n#strife #pesaje"
-  },
-  {
-    "id": "dia-11",
-    "tipo": "imagen",
-    "dia": 11,
-    "fecha": "2026-09-03",
-    "dia_semana": "jueves",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-11-la-tienda-sin-mostrador.jpg",
-    "origen_png": "dia-11-la-tienda-sin-mostrador.png",
-    "caption": "Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-12",
-    "tipo": "imagen",
-    "dia": 12,
-    "fecha": "2026-09-04",
-    "dia_semana": "viernes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-12-tu-vitrina-contigo.jpg",
-    "origen_png": "dia-12-tu-vitrina-contigo.png",
-    "caption": "Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina.\n\n#strife #logros"
-  },
-  {
-    "id": "dia-13",
-    "tipo": "imagen",
-    "dia": 13,
-    "fecha": "2026-09-05",
-    "dia_semana": "sabado",
-    "hora": "11:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-13-el-club-en-orden.jpg",
-    "origen_png": "dia-13-el-club-en-orden.png",
-    "caption": "La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-14",
-    "tipo": "imagen",
-    "dia": 14,
-    "fecha": "2026-09-06",
-    "dia_semana": "domingo",
-    "hora": "11:30",
-    "audiencia": "cierre",
-    "archivo": "jpg/dia-14-cierre-semana-2.jpg",
-    "origen_png": "dia-14-cierre-semana-2.png",
-    "caption": "Semana dos. STRIFE ya está en Google Play: descárgala y busca tu gimnasio.\n\n#strife"
-  },
-  {
-    "id": "dia-15",
-    "tipo": "imagen",
-    "dia": 15,
-    "fecha": "2026-09-07",
-    "dia_semana": "lunes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-15-compites-aparece.jpg",
-    "origen_png": "dia-15-compites-aparece.png",
-    "caption": "Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento.\n\n#strife #competicion"
-  },
-  {
-    "id": "dia-16",
-    "tipo": "imagen",
-    "dia": 16,
-    "fecha": "2026-09-08",
-    "dia_semana": "martes",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-16-nadie-se-descuelga.jpg",
-    "origen_png": "dia-16-nadie-se-descuelga.png",
-    "caption": "El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-17",
-    "tipo": "imagen",
-    "dia": 17,
-    "fecha": "2026-09-09",
-    "dia_semana": "miercoles",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-17-cara-a-cara.jpg",
-    "origen_png": "dia-17-cara-a-cara.png",
-    "caption": "Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle.\n\n#strife #ranking"
-  },
-  {
-    "id": "dia-18",
-    "tipo": "imagen",
-    "dia": 18,
-    "fecha": "2026-09-10",
-    "dia_semana": "jueves",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-18-el-grupo-sin-ruido.jpg",
-    "origen_png": "dia-18-el-grupo-sin-ruido.png",
-    "caption": "El chat del centro, dentro de la app: con normas, denuncias y bloqueo.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-19",
-    "tipo": "imagen",
-    "dia": 19,
-    "fecha": "2026-09-11",
-    "dia_semana": "viernes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-19-tu-cinturon-tiene-historia.jpg",
-    "origen_png": "dia-19-tu-cinturon-tiene-historia.png",
-    "caption": "Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse.\n\n#strife #bjj"
-  },
-  {
-    "id": "dia-20",
-    "tipo": "imagen",
-    "dia": 20,
-    "fecha": "2026-09-12",
-    "dia_semana": "sabado",
-    "hora": "11:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-20-la-puerta-con-criterio.jpg",
-    "origen_png": "dia-20-la-puerta-con-criterio.png",
-    "caption": "Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-21",
-    "tipo": "imagen",
-    "dia": 21,
-    "fecha": "2026-09-13",
-    "dia_semana": "domingo",
-    "hora": "11:30",
-    "audiencia": "cierre",
-    "archivo": "jpg/dia-21-cierre-semana-3.jpg",
-    "origen_png": "dia-21-cierre-semana-3.png",
-    "caption": "Tres semanas, una idea: tu gimnasio entero en una app. Ya en Google Play.\n\n#strife"
+    "archivos": [
+      "jpg/dia-07-cierre-semana-1.jpg"
+    ],
+    "caption": "STRIFE ya está en Google Play. Gratis para quien entrena; 30 días de prueba para tu centro.\n\n#strife",
+    "archivo": "jpg/dia-07-cierre-semana-1.jpg"
   },
   {
     "id": "dia-22",
-    "tipo": "imagen",
-    "dia": 22,
-    "fecha": "2026-09-14",
-    "dia_semana": "lunes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-22-empieza-aqui.jpg",
-    "origen_png": "dia-22-empieza-aqui.png",
-    "caption": "Descargas la app, buscas tu gimnasio en el mapa y pides plaza. El primer día empieza antes de llegar.\n\n#strife #strifeapp"
-  },
-  {
-    "id": "dia-23",
-    "tipo": "imagen",
-    "dia": 23,
-    "fecha": "2026-09-15",
-    "dia_semana": "martes",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-23-abre-tu-club.jpg",
-    "origen_png": "dia-23-abre-tu-club.png",
-    "caption": "Abrir tu centro: nombre, disciplinas y quién entra. Un revisor lo aprueba en minutos y empiezas con 30 días gratis.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-24",
-    "tipo": "imagen",
-    "dia": 24,
-    "fecha": "2026-09-16",
+    "orden": 2,
+    "fecha": "2026-10-07",
     "dia_semana": "miercoles",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-24-tu-cuota-clara.jpg",
-    "origen_png": "dia-24-tu-cuota-clara.png",
-    "caption": "Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil.\n\n#strife #strifeapp"
-  },
-  {
-    "id": "dia-25",
+    "hora": "21:30",
+    "audiencia": "alumno",
     "tipo": "imagen",
-    "dia": 25,
-    "fecha": "2026-09-17",
-    "dia_semana": "jueves",
-    "hora": "19:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-25-invita-en-un-toque.jpg",
-    "origen_png": "dia-25-invita-en-un-toque.png",
-    "caption": "Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-26",
-    "tipo": "imagen",
-    "dia": 26,
-    "fecha": "2026-09-18",
-    "dia_semana": "viernes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-26-sabes-a-que-vas.jpg",
-    "origen_png": "dia-26-sabes-a-que-vas.png",
-    "caption": "El plan de hoy, el coach y quién va, antes de pisar el tatami.\n\n#strife #strifeapp"
-  },
-  {
-    "id": "dia-27",
-    "tipo": "imagen",
-    "dia": 27,
-    "fecha": "2026-09-19",
-    "dia_semana": "sabado",
-    "hora": "11:30",
-    "audiencia": "para quien dirige",
-    "archivo": "jpg/dia-27-tu-club-tu-casa.jpg",
-    "origen_png": "dia-27-tu-club-tu-casa.png",
-    "caption": "La portada es de tu centro: emblema, disciplinas, horario y estado.\n\n#strife #clubes"
-  },
-  {
-    "id": "dia-28",
-    "tipo": "imagen",
-    "dia": 28,
-    "fecha": "2026-09-20",
-    "dia_semana": "domingo",
-    "hora": "11:30",
-    "audiencia": "cierre",
-    "archivo": "jpg/dia-28-cierre-semana-4.jpg",
-    "origen_png": "dia-28-cierre-semana-4.png",
-    "caption": "Cuatro semanas, todo el gimnasio en una app. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después.\n\n#strife"
-  },
-  {
-    "id": "dia-29",
-    "tipo": "imagen",
-    "dia": 29,
-    "fecha": "2026-09-21",
-    "dia_semana": "lunes",
-    "hora": "19:30",
-    "audiencia": "para quien entrena",
-    "archivo": "jpg/dia-29-tu-juego-en-datos.jpg",
-    "origen_png": "dia-29-tu-juego-en-datos.png",
-    "caption": "Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado.\n\n#strife #sparring"
+    "archivos": [
+      "jpg/dia-22-empieza-aqui.jpg"
+    ],
+    "caption": "Descargas la app, buscas tu gimnasio en el mapa y pides plaza. El primer día empieza antes de llegar.\n\n#strife #strifeapp",
+    "archivo": "jpg/dia-22-empieza-aqui.jpg"
   },
   {
     "id": "guia-alumno",
+    "orden": 3,
+    "fecha": "2026-10-08",
+    "dia_semana": "jueves",
+    "hora": "21:30",
+    "audiencia": "alumno",
     "tipo": "carrusel",
-    "dia": 30,
-    "fecha": "2026-09-22",
-    "dia_semana": "martes",
-    "hora": "19:30",
-    "audiencia": "GUÍA — TU PRIMER DÍA (alumno)",
     "archivos": [
       "jpg/guia-alumno/01-portada.jpg",
       "jpg/guia-alumno/02-paso-1-crea-tu-cuenta.jpg",
@@ -368,13 +48,27 @@
     "caption": "Tu primer día, paso a paso: cuenta, perfil, rol, tu gimnasio en el mapa y plaza pedida. Guárdatelo para el día uno.\n\n#strife #tutorial"
   },
   {
+    "id": "dia-23",
+    "orden": 4,
+    "fecha": "2026-10-09",
+    "dia_semana": "viernes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-23-abre-tu-club.jpg"
+    ],
+    "caption": "Abrir tu centro: nombre, disciplinas y quién entra. Un revisor lo aprueba en minutos y empiezas con 30 días gratis.\n\n#strife #clubes",
+    "archivo": "jpg/dia-23-abre-tu-club.jpg"
+  },
+  {
     "id": "guia-club",
+    "orden": 5,
+    "fecha": "2026-10-10",
+    "dia_semana": "sabado",
+    "hora": "10:30",
+    "audiencia": "centro",
     "tipo": "carrusel",
-    "dia": 31,
-    "fecha": "2026-09-23",
-    "dia_semana": "miercoles",
-    "hora": "19:30",
-    "audiencia": "GUÍA — ABRE TU CENTRO (admin / admin+coach)",
     "archivos": [
       "jpg/guia-club/01-portada.jpg",
       "jpg/guia-club/02-paso-1-crea-tu-cuenta.jpg",
@@ -388,5 +82,722 @@
       "jpg/guia-club/10-cierre.jpg"
     ],
     "caption": "Abrir tu centro, paso a paso: cuenta, rol, datos, disciplinas, quién entra y solicitud enviada. Cinco minutos y 30 días gratis.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-14",
+    "orden": 6,
+    "fecha": "2026-10-11",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "marca",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-14-cierre-semana-2.jpg"
+    ],
+    "caption": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio. Ya en Google Play.\n\n#strife",
+    "archivo": "jpg/dia-14-cierre-semana-2.jpg"
+  },
+  {
+    "id": "dia-02",
+    "orden": 7,
+    "fecha": "2026-10-12",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-02-la-semana-montada.jpg"
+    ],
+    "caption": "Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo.\n\n#strife #clubes",
+    "archivo": "jpg/dia-02-la-semana-montada.jpg"
+  },
+  {
+    "id": "dia-01",
+    "orden": 8,
+    "fecha": "2026-10-13",
+    "dia_semana": "martes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-01-voy.jpg"
+    ],
+    "caption": "Abre la clase, mira quién va y reserva con un toque. ¿No vas? Avisa: tu hueco lo pilla otro.\n\n#strife #strifeapp",
+    "archivo": "jpg/dia-01-voy.jpg"
+  },
+  {
+    "id": "guia-clases",
+    "orden": 9,
+    "fecha": "2026-10-14",
+    "dia_semana": "miercoles",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-clases/01.jpg",
+      "jpg/guia-clases/02.jpg",
+      "jpg/guia-clases/03.jpg",
+      "jpg/guia-clases/04.jpg",
+      "jpg/guia-clases/05.jpg",
+      "jpg/guia-clases/06.jpg",
+      "jpg/guia-clases/07.jpg",
+      "jpg/guia-clases/08.jpg",
+      "jpg/guia-clases/09.jpg",
+      "jpg/guia-clases/10.jpg"
+    ],
+    "caption": "Tu horario, en una tab: quien dirige lo monta una vez y quien entrena lo ve por semana, mes o lista, reserva con un toque y se lo lleva a su calendario.\n\n#strife #clases #tutorial"
+  },
+  {
+    "id": "dia-04",
+    "orden": 10,
+    "fecha": "2026-10-15",
+    "dia_semana": "jueves",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-04-lista-30-segundos.jpg"
+    ],
+    "caption": "Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado.\n\n#strife #clubes",
+    "archivo": "jpg/dia-04-lista-30-segundos.jpg"
+  },
+  {
+    "id": "guia-asistencia",
+    "orden": 11,
+    "fecha": "2026-10-16",
+    "dia_semana": "viernes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-asistencia/01.jpg",
+      "jpg/guia-asistencia/02.jpg",
+      "jpg/guia-asistencia/03.jpg",
+      "jpg/guia-asistencia/04.jpg",
+      "jpg/guia-asistencia/05.jpg",
+      "jpg/guia-asistencia/06.jpg",
+      "jpg/guia-asistencia/07.jpg"
+    ],
+    "caption": "Lista en 30 segundos: presente, ausente o retraso. O proyecta el QR y la lista se llena sola mientras saludas en la puerta.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-03",
+    "orden": 12,
+    "fecha": "2026-10-17",
+    "dia_semana": "sabado",
+    "hora": "13:00",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-03-ficha-al-entrar.jpg"
+    ],
+    "caption": "Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta.\n\n#strife #strifeapp",
+    "archivo": "jpg/dia-03-ficha-al-entrar.jpg"
+  },
+  {
+    "id": "guia-hoy",
+    "orden": 13,
+    "fecha": "2026-10-18",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-hoy/01.jpg",
+      "jpg/guia-hoy/02.jpg",
+      "jpg/guia-hoy/03.jpg",
+      "jpg/guia-hoy/04.jpg",
+      "jpg/guia-hoy/05.jpg"
+    ],
+    "caption": "Tu día de un vistazo: las clases de hoy, el parte que te falta apuntar y lo que pasa en tu centro.\n\n#strife #strifeapp"
+  },
+  {
+    "id": "dia-06",
+    "orden": 14,
+    "fecha": "2026-10-19",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-06-el-mes-cuadrado.jpg"
+    ],
+    "caption": "Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar.\n\n#strife #clubes",
+    "archivo": "jpg/dia-06-el-mes-cuadrado.jpg"
+  },
+  {
+    "id": "dia-24",
+    "orden": 15,
+    "fecha": "2026-10-20",
+    "dia_semana": "martes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-24-tu-cuota-clara.jpg"
+    ],
+    "caption": "Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil.\n\n#strife #strifeapp",
+    "archivo": "jpg/dia-24-tu-cuota-clara.jpg"
+  },
+  {
+    "id": "guia-cobrar",
+    "orden": 16,
+    "fecha": "2026-10-21",
+    "dia_semana": "miercoles",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-cobrar/01.jpg",
+      "jpg/guia-cobrar/02.jpg",
+      "jpg/guia-cobrar/03.jpg",
+      "jpg/guia-cobrar/04.jpg",
+      "jpg/guia-cobrar/05.jpg",
+      "jpg/guia-cobrar/06.jpg",
+      "jpg/guia-cobrar/07.jpg",
+      "jpg/guia-cobrar/08.jpg",
+      "jpg/guia-cobrar/09.jpg",
+      "jpg/guia-cobrar/10.jpg"
+    ],
+    "caption": "Sabes quién debe, hoy. Registras el pago en dos toques y la app le recuerda la cuota al alumno. Sin comisiones: la app lleva las cuentas, no el dinero.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-11",
+    "orden": 17,
+    "fecha": "2026-10-22",
+    "dia_semana": "jueves",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-11-la-tienda-sin-mostrador.jpg"
+    ],
+    "caption": "Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador.\n\n#strife #clubes",
+    "archivo": "jpg/dia-11-la-tienda-sin-mostrador.jpg"
+  },
+  {
+    "id": "guia-tienda",
+    "orden": 18,
+    "fecha": "2026-10-23",
+    "dia_semana": "viernes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-tienda/01.jpg",
+      "jpg/guia-tienda/02.jpg",
+      "jpg/guia-tienda/03.jpg",
+      "jpg/guia-tienda/04.jpg",
+      "jpg/guia-tienda/05.jpg",
+      "jpg/guia-tienda/06.jpg",
+      "jpg/guia-tienda/07.jpg"
+    ],
+    "caption": "Guantes, vendas o espinilleras: el alumno elige talla y color, lo reserva en la app y lo paga al recogerlo en el mostrador.\n\n#strife #clubes"
+  },
+  {
+    "id": "dia-26",
+    "orden": 19,
+    "fecha": "2026-10-24",
+    "dia_semana": "sabado",
+    "hora": "13:00",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-26-sabes-a-que-vas.jpg"
+    ],
+    "caption": "El plan de hoy, el coach y quién va, antes de pisar el tatami.\n\n#strife #strifeapp",
+    "archivo": "jpg/dia-26-sabes-a-que-vas.jpg"
+  },
+  {
+    "id": "dia-21",
+    "orden": 20,
+    "fecha": "2026-10-25",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "marca",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-21-cierre-semana-3.jpg"
+    ],
+    "caption": "Una idea: tu gimnasio entero en una app. 30 días gratis para tu centro, ya en Google Play.\n\n#strife",
+    "archivo": "jpg/dia-21-cierre-semana-3.jpg"
+  },
+  {
+    "id": "dia-08",
+    "orden": 21,
+    "fecha": "2026-10-26",
+    "dia_semana": "lunes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-08-cada-roll-apuntado.jpg"
+    ],
+    "caption": "El parte del día en 30 segundos: con quién, cómo acabó y con qué.\n\n#strife #sparring",
+    "archivo": "jpg/dia-08-cada-roll-apuntado.jpg"
+  },
+  {
+    "id": "guia-juego",
+    "orden": 22,
+    "fecha": "2026-10-27",
+    "dia_semana": "martes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-juego/01.jpg",
+      "jpg/guia-juego/02.jpg",
+      "jpg/guia-juego/03.jpg",
+      "jpg/guia-juego/04.jpg",
+      "jpg/guia-juego/05.jpg",
+      "jpg/guia-juego/06.jpg",
+      "jpg/guia-juego/07.jpg",
+      "jpg/guia-juego/08.jpg",
+      "jpg/guia-juego/09.jpg",
+      "jpg/guia-juego/10.jpg"
+    ],
+    "caption": "Cada roll, apuntado: con quién, cómo acabó y con qué técnica. Tu diario de sparring, mes a mes.\n\n#strife #sparring #tutorial"
+  },
+  {
+    "id": "dia-29",
+    "orden": 23,
+    "fecha": "2026-10-28",
+    "dia_semana": "miercoles",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-29-tu-juego-en-datos.jpg"
+    ],
+    "caption": "Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado.\n\n#strife #sparring",
+    "archivo": "jpg/dia-29-tu-juego-en-datos.jpg"
+  },
+  {
+    "id": "dia-10",
+    "orden": 24,
+    "fecha": "2026-10-29",
+    "dia_semana": "jueves",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-10-el-peso-a-raya.jpg"
+    ],
+    "caption": "Un número y listo: tu peso, tu objetivo y las lesiones que te frenan, en tu perfil.\n\n#strife #pesaje",
+    "archivo": "jpg/dia-10-el-peso-a-raya.jpg"
+  },
+  {
+    "id": "guia-lesion",
+    "orden": 25,
+    "fecha": "2026-10-30",
+    "dia_semana": "viernes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-lesion/01.jpg",
+      "jpg/guia-lesion/02.jpg",
+      "jpg/guia-lesion/03.jpg",
+      "jpg/guia-lesion/04.jpg",
+      "jpg/guia-lesion/05.jpg",
+      "jpg/guia-lesion/06.jpg",
+      "jpg/guia-lesion/07.jpg",
+      "jpg/guia-lesion/08.jpg",
+      "jpg/guia-lesion/09.jpg",
+      "jpg/guia-lesion/10.jpg"
+    ],
+    "caption": "Hasta el menisco: marca la lesión en la silueta, concrétala en 3D y mira cuánto te cuesta en el peso y en el tatami.\n\n#strife #lesiones #tutorial"
+  },
+  {
+    "id": "guia-peso",
+    "orden": 26,
+    "fecha": "2026-10-31",
+    "dia_semana": "sabado",
+    "hora": "13:00",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-peso/01.jpg",
+      "jpg/guia-peso/02.jpg",
+      "jpg/guia-peso/03.jpg",
+      "jpg/guia-peso/04.jpg",
+      "jpg/guia-peso/05.jpg",
+      "jpg/guia-peso/06.jpg",
+      "jpg/guia-peso/07.jpg",
+      "jpg/guia-peso/08.jpg",
+      "jpg/guia-peso/09.jpg"
+    ],
+    "caption": "El peso, a raya: un número cuando quieras y cada lesión encima de la curva. Tus datos son tuyos.\n\n#strife #pesaje"
+  },
+  {
+    "id": "dia-05",
+    "orden": 27,
+    "fecha": "2026-11-01",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-05-mes-nuevo-podio-nuevo.jpg"
+    ],
+    "caption": "Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero.\n\n#strife #ranking",
+    "archivo": "jpg/dia-05-mes-nuevo-podio-nuevo.jpg"
+  },
+  {
+    "id": "dia-16",
+    "orden": 28,
+    "fecha": "2026-11-02",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-16-nadie-se-descuelga.jpg"
+    ],
+    "caption": "El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy.\n\n#strife #clubes",
+    "archivo": "jpg/dia-16-nadie-se-descuelga.jpg"
+  },
+  {
+    "id": "guia-parte",
+    "orden": 29,
+    "fecha": "2026-11-03",
+    "dia_semana": "martes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-parte/01.jpg",
+      "jpg/guia-parte/02.jpg",
+      "jpg/guia-parte/03.jpg",
+      "jpg/guia-parte/04.jpg",
+      "jpg/guia-parte/05.jpg",
+      "jpg/guia-parte/06.jpg",
+      "jpg/guia-parte/07.jpg"
+    ],
+    "caption": "El parte en un minuto: quien dio la clase marca a cada uno —bien, normal u ojo— y dos frases si hace falta. Privado: el alumno no lo ve.\n\n#strife #coaches #tutorial"
+  },
+  {
+    "id": "guia-seguimiento",
+    "orden": 30,
+    "fecha": "2026-11-04",
+    "dia_semana": "miercoles",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-seguimiento/01.jpg",
+      "jpg/guia-seguimiento/02.jpg",
+      "jpg/guia-seguimiento/03.jpg",
+      "jpg/guia-seguimiento/04.jpg",
+      "jpg/guia-seguimiento/05.jpg",
+      "jpg/guia-seguimiento/06.jpg",
+      "jpg/guia-seguimiento/07.jpg",
+      "jpg/guia-seguimiento/08.jpg"
+    ],
+    "caption": "Nadie se descuelga sin que lo veas: el termómetro avisa de quién se enfría y te dice a quién escribir hoy. Sin «te echamos de menos» automáticos.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-17",
+    "orden": 31,
+    "fecha": "2026-11-05",
+    "dia_semana": "jueves",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-17-cara-a-cara.jpg"
+    ],
+    "caption": "Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle.\n\n#strife #ranking",
+    "archivo": "jpg/dia-17-cara-a-cara.jpg"
+  },
+  {
+    "id": "dia-12",
+    "orden": 32,
+    "fecha": "2026-11-06",
+    "dia_semana": "viernes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-12-tu-vitrina-contigo.jpg"
+    ],
+    "caption": "Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina.\n\n#strife #logros",
+    "archivo": "jpg/dia-12-tu-vitrina-contigo.jpg"
+  },
+  {
+    "id": "dia-15",
+    "orden": 33,
+    "fecha": "2026-11-07",
+    "dia_semana": "sabado",
+    "hora": "13:00",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-15-compites-aparece.jpg"
+    ],
+    "caption": "Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento.\n\n#strife #competicion",
+    "archivo": "jpg/dia-15-compites-aparece.jpg"
+  },
+  {
+    "id": "guia-perfil",
+    "orden": 34,
+    "fecha": "2026-11-08",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-perfil/01.jpg",
+      "jpg/guia-perfil/02.jpg",
+      "jpg/guia-perfil/03.jpg",
+      "jpg/guia-perfil/04.jpg",
+      "jpg/guia-perfil/05.jpg",
+      "jpg/guia-perfil/06.jpg",
+      "jpg/guia-perfil/07.jpg",
+      "jpg/guia-perfil/08.jpg"
+    ],
+    "caption": "Tu ficha de luchador: cinturón con su historia, palmarés de competición, logros y tu sparring del mes.\n\n#strife #strifeapp"
+  },
+  {
+    "id": "dia-13",
+    "orden": 35,
+    "fecha": "2026-11-09",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-13-el-club-en-orden.jpg"
+    ],
+    "caption": "La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto.\n\n#strife #clubes",
+    "archivo": "jpg/dia-13-el-club-en-orden.jpg"
+  },
+  {
+    "id": "guia-miembros",
+    "orden": 36,
+    "fecha": "2026-11-10",
+    "dia_semana": "martes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-miembros/01.jpg",
+      "jpg/guia-miembros/02.jpg",
+      "jpg/guia-miembros/03.jpg",
+      "jpg/guia-miembros/04.jpg",
+      "jpg/guia-miembros/05.jpg",
+      "jpg/guia-miembros/06.jpg",
+      "jpg/guia-miembros/07.jpg",
+      "jpg/guia-miembros/08.jpg"
+    ],
+    "caption": "Cada alumno, una ficha: cómo viene, su cinturón, su cuota, sus notas y su acceso. Todo en una pantalla.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-20",
+    "orden": 37,
+    "fecha": "2026-11-11",
+    "dia_semana": "miercoles",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-20-la-puerta-con-criterio.jpg"
+    ],
+    "caption": "Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera.\n\n#strife #clubes",
+    "archivo": "jpg/dia-20-la-puerta-con-criterio.jpg"
+  },
+  {
+    "id": "dia-25",
+    "orden": 38,
+    "fecha": "2026-11-12",
+    "dia_semana": "jueves",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-25-invita-en-un-toque.jpg"
+    ],
+    "caption": "Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola.\n\n#strife #clubes",
+    "archivo": "jpg/dia-25-invita-en-un-toque.jpg"
+  },
+  {
+    "id": "guia-invitar",
+    "orden": 39,
+    "fecha": "2026-11-13",
+    "dia_semana": "viernes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-invitar/01.jpg",
+      "jpg/guia-invitar/02.jpg",
+      "jpg/guia-invitar/03.jpg",
+      "jpg/guia-invitar/04.jpg",
+      "jpg/guia-invitar/05.jpg",
+      "jpg/guia-invitar/06.jpg",
+      "jpg/guia-invitar/07.jpg"
+    ],
+    "caption": "Invita en un toque: por nombre, @usuario o email. Le llega la invitación y el alta se hace sola.\n\n#strife #clubes"
+  },
+  {
+    "id": "dia-18",
+    "orden": 40,
+    "fecha": "2026-11-14",
+    "dia_semana": "sabado",
+    "hora": "10:30",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-18-el-grupo-sin-ruido.jpg"
+    ],
+    "caption": "El chat del centro, dentro de la app: con normas, denuncias y bloqueo.\n\n#strife #clubes",
+    "archivo": "jpg/dia-18-el-grupo-sin-ruido.jpg"
+  },
+  {
+    "id": "guia-chat",
+    "orden": 41,
+    "fecha": "2026-11-15",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-chat/01.jpg",
+      "jpg/guia-chat/02.jpg",
+      "jpg/guia-chat/03.jpg",
+      "jpg/guia-chat/04.jpg",
+      "jpg/guia-chat/05.jpg",
+      "jpg/guia-chat/06.jpg"
+    ],
+    "caption": "El grupo del centro, sin ruido: dentro de la app, con normas, reacciones, denuncias y bloqueo.\n\n#strife #comunidad"
+  },
+  {
+    "id": "guia-permisos",
+    "orden": 42,
+    "fecha": "2026-11-16",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-permisos/01.jpg",
+      "jpg/guia-permisos/02.jpg",
+      "jpg/guia-permisos/03.jpg",
+      "jpg/guia-permisos/04.jpg",
+      "jpg/guia-permisos/05.jpg",
+      "jpg/guia-permisos/06.jpg",
+      "jpg/guia-permisos/07.jpg"
+    ],
+    "caption": "¿El coach llega tarde? Dale «pasar lista» a un alumno de confianza. Solo a ese, y queda apuntado quién y cuándo.\n\n#strife #clubes #tutorial"
+  },
+  {
+    "id": "dia-19",
+    "orden": 43,
+    "fecha": "2026-11-17",
+    "dia_semana": "martes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-19-tu-cinturon-tiene-historia.jpg"
+    ],
+    "caption": "Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse.\n\n#strife #bjj",
+    "archivo": "jpg/dia-19-tu-cinturon-tiene-historia.jpg"
+  },
+  {
+    "id": "dia-09",
+    "orden": 44,
+    "fecha": "2026-11-18",
+    "dia_semana": "miercoles",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-09-dicho-una-vez.jpg"
+    ],
+    "caption": "Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo.\n\n#strife #clubes",
+    "archivo": "jpg/dia-09-dicho-una-vez.jpg"
+  },
+  {
+    "id": "dia-27",
+    "orden": 45,
+    "fecha": "2026-11-19",
+    "dia_semana": "jueves",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-27-tu-club-tu-casa.jpg"
+    ],
+    "caption": "La portada es de tu centro: emblema, disciplinas, horario y estado.\n\n#strife #clubes",
+    "archivo": "jpg/dia-27-tu-club-tu-casa.jpg"
+  },
+  {
+    "id": "guia-centro",
+    "orden": 46,
+    "fecha": "2026-11-20",
+    "dia_semana": "viernes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-centro/01.jpg",
+      "jpg/guia-centro/02.jpg",
+      "jpg/guia-centro/03.jpg",
+      "jpg/guia-centro/04.jpg"
+    ],
+    "caption": "Tu centro, tu casa: portada, tablón, miembros, tienda y caja en la primera pestaña.\n\n#strife #clubes"
+  },
+  {
+    "id": "guia-ajustes-alumno",
+    "orden": 47,
+    "fecha": "2026-11-21",
+    "dia_semana": "sabado",
+    "hora": "13:00",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-ajustes-alumno/01.jpg",
+      "jpg/guia-ajustes-alumno/02.jpg",
+      "jpg/guia-ajustes-alumno/03.jpg",
+      "jpg/guia-ajustes-alumno/04.jpg",
+      "jpg/guia-ajustes-alumno/05.jpg",
+      "jpg/guia-ajustes-alumno/06.jpg",
+      "jpg/guia-ajustes-alumno/07.jpg",
+      "jpg/guia-ajustes-alumno/08.jpg"
+    ],
+    "caption": "Tu cuenta, a tu manera: privacidad, modo claro u oscuro, cinco idiomas y tus datos a la vista.\n\n#strife #strifeapp"
+  },
+  {
+    "id": "dia-28",
+    "orden": 48,
+    "fecha": "2026-11-22",
+    "dia_semana": "domingo",
+    "hora": "20:30",
+    "audiencia": "marca",
+    "tipo": "imagen",
+    "archivos": [
+      "jpg/dia-28-cierre-semana-4.jpg"
+    ],
+    "caption": "Todo el gimnasio en una app. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.\n\n#strife",
+    "archivo": "jpg/dia-28-cierre-semana-4.jpg"
+  },
+  {
+    "id": "guia-ajustes-centro",
+    "orden": 49,
+    "fecha": "2026-11-23",
+    "dia_semana": "lunes",
+    "hora": "14:00",
+    "audiencia": "centro",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-ajustes-centro/01.jpg",
+      "jpg/guia-ajustes-centro/02.jpg",
+      "jpg/guia-ajustes-centro/03.jpg",
+      "jpg/guia-ajustes-centro/04.jpg",
+      "jpg/guia-ajustes-centro/05.jpg",
+      "jpg/guia-ajustes-centro/06.jpg"
+    ],
+    "caption": "Tu centro, tus reglas: admisión, tablón, tienda, seguimiento, roles, pagos y la suscripción. 30 días gratis.\n\n#strife #clubes"
   }
 ]
