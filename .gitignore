@@ -2,3 +2,7 @@
 venv/
 __pycache__/
 token-nuevo.txt
+
+# intermedios de las guías: los HTML llevan rutas locales; los JPG van en jpg/<guia>/
+build/diseno/**/*.html
+build/diseno/**/*.jpg

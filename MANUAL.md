@@ -2,119 +2,89 @@
 
 Cómo funciona la publicación automática y qué tocar para cambiar cada cosa.
 
-> **⏸ PAUSADO.** La automatización está deshabilitada a propósito: no se publica
-> nada hasta que la app esté en la store. Para reactivarla, ve a la pestaña
-> **Actions** del repositorio, entra en *Publicar serie diaria en Instagram* y
-> pulsa **Enable workflow**. Mientras siga deshabilitada, el cron no dispara y
-> tampoco se puede lanzar a mano.
+> **▶ EN MARCHA desde el 6 de octubre de 2026.** 49 publicaciones, una al día, hasta el 23 de noviembre.
+> Para pausarla: pestaña **Actions** › *Publicar serie diaria en Instagram* › **Disable workflow**.
 
 ## 1. La cadena
 
-Cinco piezas en fila. Cada una coge lo de la anterior y produce lo de la siguiente.
-
 | Pieza | Qué hace |
 |---|---|
-| `pies-de-foto.txt` | **Lo que escribes tú.** Los textos de los 29 posts y los 2 carruseles, en crudo. Única fuente de verdad del contenido. |
-| `automatizacion/generar_calendario.py` | **El que reparte las fechas.** Les pone fecha empezando por el lunes que le digas y comprueba que no falte ninguna imagen. |
-| `automatizacion/calendario.json` | **El plan.** Qué día sale cada post, con qué imagen y qué texto. No se edita a mano: se regenera. |
-| `automatizacion/publicar.py` | **El que publica.** Mira qué día es hoy, busca si hay algo para hoy, y lo publica. Si no toca nada, no hace nada. |
-| `.github/workflows/publicar-instagram.yml` | **El despertador.** Vive en GitHub, en la nube. Decide **a qué hora** se ejecuta. Por eso no depende de tu ordenador. |
+| `pies-de-foto.txt` | **Lo que escribes tú.** El texto de los 29 posts (`DÍA N`) y de los 20 carruseles (`CARRUSEL`, con su `Id:`). |
+| `automatizacion/generar_calendario.py` | **El que ordena.** `ORDEN` dice qué sale cada día y para qué público; `HORAS` dice a qué hora según el público y el día de la semana. |
+| `automatizacion/calendario.json` | **El plan.** Fecha, hora, imágenes y texto de cada publicación. No se edita a mano: se regenera. |
+| `automatizacion/publicar.py` | **El que publica.** Si hoy hay post, ya es su hora y no consta en el registro, lo publica. |
+| `automatizacion/registro.json` | **La memoria.** Lo ya publicado, para no repetirlo nunca. Lo escribe el workflow. |
+| `.github/workflows/publicar-instagram.yml` | **El despertador.** Corre en GitHub cada 15 minutos; no depende de ningún ordenador. |
+| `.github/workflows/renovar-token.yml` | **El token.** Los días 1 y 20 comprueba que el token se puede renovar (ver §5). |
 
-Hay un sexto fichero, `registro.json`, que se crea solo: apunta lo que ya se
-publicó para no repetirlo nunca, aunque el despertador se dispare dos veces.
+## 2. Las horas
 
-## 2. La hora no está donde parece
+La hora de cada publicación está en `calendario.json` (campo `hora`, Europe/Madrid) y **sí manda**: el workflow
+despierta cada 15 minutos y `publicar.py` solo publica cuando llega esa hora. El cambio de hora de octubre y marzo
+no la mueve. GitHub puede retrasar el cron unos minutos. Un día que se pasa sin publicar no se recupera al siguiente.
 
-⚠️ En `calendario.json` cada post tiene un campo `"hora": "19:30"`. **Ese campo no
-hace nada** — es informativo. `publicar.py` solo mira el **día**, nunca la hora.
+| Público | L-V | Sábado | Domingo |
+|---|---|---|---|
+| Quien entrena (`alumno`, `marca`) | 21:30 | 13:00 | 20:30 |
+| Quien dirige un centro (`centro`) | 14:00 | 10:30 | 20:30 |
 
-La hora real la decide únicamente el cron del despertador. Si cambias `HORAS` en
-`generar_calendario.py` y no tocas el cron, no cambia nada en la realidad.
+Son estimaciones: Instagram no da las horas de actividad hasta ~100 seguidores. Entonces,
+`IG_ACCESS_TOKEN=… python3 automatizacion/medir_audiencia.py` las saca y se cambian en `HORAS`.
 
-El cron se lee al revés (primero minuto, luego hora) y va en **UTC**, que en
-verano español son dos horas menos:
+## 3. El orden
 
-```
-- cron: "30 17 * * 1-5"    →  17:30 UTC = 19:30 Madrid, lunes a viernes
-- cron: "30  9 * * 0,6"    →  09:30 UTC = 11:30 Madrid, sábado y domingo
-```
+Primero qué es y cómo se entra; luego el día a día (clases y asistencia), el dinero, el atleta (sparring, cuerpo,
+ranking, perfil), el coach (parte y seguimiento) y la gestión fina (miembros, permisos, ajustes). Un post suelto
+presenta una idea y la guía de al lado la enseña paso a paso. Los cierres de marca caen en domingo.
 
-Días: `1-5` lunes a viernes, `0` domingo, `6` sábado.
-
-**Cambio de hora:** el 25 de octubre de 2026 España pasa a UTC+1, así que ese
-mismo cron dispararía a las 18:30 en vez de a las 19:30.
-
-## 3. Qué puedes cambiar
+## 4. Qué puedes cambiar
 
 | Qué | Dónde | Cómo |
 |---|---|---|
-| Día de inicio | ningún fichero | `python3 generar_calendario.py 2026-09-21` — tiene que ser **lunes** |
-| Textos y hashtags | `pies-de-foto.txt` | como un documento normal; respeta `Pie:` y `Tags:` |
-| Hora de publicación | `publicar-instagram.yml` | cambia el cron |
-| Imágenes | carpeta `jpg/` | solo **JPEG**: `sips -s format jpeg -s formatOptions 92 dia-XX.png --out jpg/dia-XX.jpg` |
+| Orden o público | `ORDEN` en `generar_calendario.py` | mover filas |
+| Horas | `HORAS` en `generar_calendario.py` | una lista de 7 por público |
+| Textos y hashtags | `pies-de-foto.txt` | respeta `Pie:`, `Tags:` e `Id:` |
+| Fecha de inicio | ningún fichero | `python3 automatizacion/generar_calendario.py 2026-10-06` |
 
-## 4. Probar sin publicar
+**Regla:** cambies lo que cambies, regenera con la fecha de inicio real (`2026-10-06`) y sube. Quien publica es
+GitHub: lo que no está subido no existe. Lo ya publicado no se repite aunque cambie el orden (va por `id`).
+
+## 5. El token
+
+Dura 60 días; el actual caduca el **5 de diciembre de 2026**. Para renovarlo sin que salga en claro:
 
 ```bash
-cd automatizacion
-python3 publicar.py --dia 1 --dry-run
+openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:4096 -out tok.key
+gh workflow run renovar-token.yml -R STR-FE/strife-serie-diaria-ig -f clave_publica="$(openssl pkey -in tok.key -pubout | base64 | tr -d '\n')"
+# del log, el bloque entre TOKEN_CIFRADO_INICIO y TOKEN_CIFRADO_FIN, en cifrado.b64:
+base64 -d -i cifrado.b64 | openssl pkeyutl -decrypt -inkey tok.key -pkeyopt rsa_padding_mode:oaep \
+  | gh secret set IG_ACCESS_TOKEN -R STR-FE/strife-serie-diaria-ig
+rm tok.key cifrado.b64
 ```
 
-| Quiero… | Comando |
+Generar o renovar un token no invalida el anterior. Para matar uno filtrado hay que revocar el acceso de la app en
+[instagram.com/accounts/manage_access](https://instagram.com/accounts/manage_access). Nunca lo pegues en un chat,
+un correo o un commit.
+
+## 6. Probar sin publicar
+
+| Quiero… | Dónde |
 |---|---|
-| ver qué saldría hoy | `python3 publicar.py --dry-run` |
-| ver un día concreto | `python3 publicar.py --dia 7 --dry-run` |
-| publicar un día a mano | `python3 publicar.py --dia 7` |
-| rehacer el plan | `python3 generar_calendario.py` |
-| renovar el token | `python3 refrescar_token.py` |
+| ver qué saldría hoy | `cd automatizacion && python3 publicar.py --dry-run` |
+| ver un post concreto | `python3 publicar.py --id guia-clases --dry-run` |
+| publicar uno a mano, ya | Actions › *Run workflow* › `id` y `dry_run` desmarcado |
 
-## 5. La única regla que importa
-
-Cambies lo que cambies, **regenera y sube**, en ese orden:
-
-```bash
-cd ~/StudioProjects/strife-serie-diaria-ig/automatizacion
-python3 generar_calendario.py
-cd .. && git add -A && git commit -m "lo que has cambiado" && git push
-```
-
-Quien publica no es tu ordenador, es GitHub. Si el cambio no está subido, **no
-existe**: puedes editar todo lo que quieras en local, que la serie seguiría
-saliendo como estaba.
-
-## 6. El token
-
-Se genera en el panel de Meta: **Instagram → API setup with Instagram business
-login → Generate token**. Dura **60 días**.
-
-Ojo con dos cosas:
-
-- **Generar un token nuevo NO invalida el anterior.** Conviven. Para matar uno
-  filtrado hay que revocar el acceso de la app en
-  [instagram.com/accounts/manage_access](https://instagram.com/accounts/manage_access),
-  lo que invalida *todos* los tokens de esa app; después se vuelve a añadir la
-  cuenta en el panel y se genera uno nuevo.
-- **Nunca lo pegues en un chat, un correo o un commit.** Va directo al almacén de
-  secretos de GitHub: *Settings → Secrets and variables → Actions*, con el nombre
-  `IG_ACCESS_TOKEN`.
-
-## 7. Las imágenes (versión 2, octubre 2026)
+## 7. Las imágenes
 
 Todas salen de capturas reales de la app 1.4.1 en **Villalba Fighting Co.** con alumnos ficticios; nada de JGS.
-Las capturas originales viven en el repo privado `strife-marketing` (`reel/mi-4`, `reel/mi-5` y `serie-v2/`, cada
-una con su `capturas.md`: quién sale y cómo se llegó). Aquí solo se suben los recortes (`capturas-app/v2/`).
+Las capturas originales están en el repo privado `strife-marketing` (`reel/mi-4`, `reel/mi-5` y `serie-v2/`, con
+su `capturas.md`). Instagram solo acepta JPEG: lo que se publica está en `jpg/`.
 
-| Qué | Generador | Comando |
+| Qué | Generador | Sale en |
 |---|---|---|
-| Los 25 posts con móvil | `build/serie_v2.py` | `python3 build/serie_v2.py` (o solo unos días: `python3 build/serie_v2.py 4 17`) |
-| Los 4 cierres y las 2 guías | `build/guias_cierres_v2.py` | `python3 build/guias_cierres_v2.py cierres guias` |
+| 25 posts con móvil | `build/serie_v2.py` | raíz y `jpg/` |
+| 4 cierres y las guías del alumno y del centro | `build/guias_cierres_v2.py` | `guia-alumno/`, `guia-club/` y `jpg/` |
+| 18 guías por caso de uso (diseño B) | `build/guia_diseno.py <guia.json> B` | `build/diseno/<guia>/B/`; luego a `jpg/<guia>/` |
 
-Cada generador recorta la captura, escribe el HTML en `build/`, lo pinta con Chrome headless y deja el PNG en la
-raíz (o en `guia-*/`) y el JPEG en `jpg/`. En cada post, el texto, el recorte (`y`) y la captura de origen están en
-la lista `SLIDES` del generador. Después, como siempre: regenerar el calendario y subir.
-
-## 8. Guías por caso de uso (octubre 2026, WIP)
-
-`build/guia_diseno.py <guia.json> B` pinta una guía en el diseño B (móvil a todo el ancho). Los JSON y las capturas
-originales están en el repo privado `strife-marketing/serie-v2/guias/`. El resultado queda en `build/diseno/<guia>/B/`.
-Todavía no están en `pies-de-foto.txt` ni en el calendario.
+Los JSON de las 18 guías están en `strife-marketing/serie-v2/guias/`. Tras cambiar una guía hay que volver a pasar
+sus PNG a `jpg/<guia>/` y subir.
