@@ -112,3 +112,9 @@ una con su `capturas.md`: quién sale y cómo se llegó). Aquí solo se suben lo
 Cada generador recorta la captura, escribe el HTML en `build/`, lo pinta con Chrome headless y deja el PNG en la
 raíz (o en `guia-*/`) y el JPEG en `jpg/`. En cada post, el texto, el recorte (`y`) y la captura de origen están en
 la lista `SLIDES` del generador. Después, como siempre: regenerar el calendario y subir.
+
+## 8. Guías por caso de uso (octubre 2026, WIP)
+
+`build/guia_diseno.py <guia.json> B` pinta una guía en el diseño B (móvil a todo el ancho). Los JSON y las capturas
+originales están en el repo privado `strife-marketing/serie-v2/guias/`. El resultado queda en `build/diseno/<guia>/B/`.
+Todavía no están en `pies-de-foto.txt` ni en el calendario.
