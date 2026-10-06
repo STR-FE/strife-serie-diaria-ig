@@ -1,11 +1,22 @@
-# Renueva el token de Instagram (dura 60 dias) sin que salga de GitHub. Instagram alarga el mismo
-# token: si devolviera uno distinto, el job falla para avisar de que hay que pegarlo a mano en el secreto.
+# Renueva el token de Instagram (dura 60 dias) sin que salga de GitHub en claro.
+# Instagram devuelve una cadena nueva: el token viejo sigue valiendo hasta su caducidad, pero hay que
+# guardar el nuevo en el secreto IG_ACCESS_TOKEN. Para eso, lanzalo a mano con la clave publica (PEM en
+# base64) de quien lo va a guardar: el log solo lleva el token cifrado con esa clave.
+#   openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:4096 -out tok.key
+#   openssl pkey -in tok.key -pubout | base64        -> input clave_publica
+#   (copiar el bloque cifrado del log) | base64 -d | openssl pkeyutl -decrypt -inkey tok.key \
+#     -pkeyopt rsa_padding_mode:oaep | gh secret set IG_ACCESS_TOKEN -R STR-FE/strife-serie-diaria-ig
+# Sin clave publica (el cron) solo comprueba que el token se puede renovar y cuando caducaria.
 name: Renovar token de Instagram
 
 on:
   schedule:
     - cron: "0 8 1,20 * *"
   workflow_dispatch:
+    inputs:
+      clave_publica:
+        description: "Clave publica RSA (PEM en base64) para recibir el token nuevo cifrado"
+        required: false
 
 jobs:
   renovar:
@@ -14,21 +25,30 @@ jobs:
       - name: Renovar
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLAVE_PUBLICA: ${{ inputs.clave_publica }}
         run: |
           python3 - <<'PY'
-          import json, os, urllib.parse, urllib.request
+          import base64, json, os, subprocess, urllib.parse, urllib.request
           from datetime import datetime, timedelta, timezone
-          token = os.environ["IG_ACCESS_TOKEN"]
           url = "https://graph.instagram.com/refresh_access_token?" + urllib.parse.urlencode(
-              {"grant_type": "ig_refresh_token", "access_token": token})
+              {"grant_type": "ig_refresh_token", "access_token": os.environ["IG_ACCESS_TOKEN"]})
           try:
               with urllib.request.urlopen(url, timeout=60) as r:
                   d = json.load(r)
           except urllib.error.HTTPError as e:
               raise SystemExit("Instagram no renovo el token: " + e.read().decode("utf-8", "replace"))
           caduca = datetime.now(timezone.utc) + timedelta(seconds=int(d["expires_in"]))
-          print(f"renovado: caduca el {caduca:%Y-%m-%d} ({int(d['expires_in']) // 86400} dias)")
-          if d["access_token"] != token:
-              raise SystemExit("Instagram devolvio un token distinto: hay que guardarlo a mano en el secreto IG_ACCESS_TOKEN")
-          print("es el mismo token: el secreto sigue valido")
+          print(f"renovado: el token nuevo caduca el {caduca:%Y-%m-%d}")
+          clave = os.environ.get("CLAVE_PUBLICA", "").strip()
+          if not clave:
+              print("sin clave publica: el token nuevo no se guarda; el del secreto sigue hasta su caducidad")
+              raise SystemExit(0)
+          with open("clave.pub", "wb") as f:
+              f.write(base64.b64decode(clave))
+          cifrado = subprocess.run(
+              ["openssl", "pkeyutl", "-encrypt", "-pubin", "-inkey", "clave.pub", "-pkeyopt", "rsa_padding_mode:oaep"],
+              input=d["access_token"].encode(), capture_output=True, check=True).stdout
+          print("TOKEN_CIFRADO_INICIO")
+          print(base64.b64encode(cifrado).decode())
+          print("TOKEN_CIFRADO_FIN")
           PY
