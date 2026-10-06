@@ -50,7 +50,7 @@ jobs:
         if: inputs.dry_run != true
         run: |
           cd "$GITHUB_WORKSPACE"
-          if git diff --quiet -- automatizacion/registro.json; then
+          if [ -z "$(git status --porcelain -- automatizacion/registro.json)" ]; then
             echo "sin cambios en el registro"
             exit 0
           fi
