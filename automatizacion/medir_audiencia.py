@@ -30,6 +30,79 @@ def api(ruta, datos):
     except urllib.error.HTTPError as e:
         return {"error": json.loads(e.read().decode("utf-8", "replace")).get("error", {})}
 
+COMUNES = ["reach", "views", "likes", "comments", "saved", "shares", "total_interactions"]
+EXTRA = {
+    "REELS": ["ig_reels_avg_watch_time", "ig_reels_video_view_total_time"],
+    "STORY": ["replies", "navigation", "follows", "profile_visits"],
+    "FEED": ["follows", "profile_visits"],
+}
+CUENTA = ["reach", "views", "profile_views", "accounts_engaged", "total_interactions",
+          "likes", "comments", "saves", "shares", "replies", "follows_and_unfollows"]
+
+
+def valor(d):
+    """Un insight llega como values[0].value o como total_value.value."""
+    if "total_value" in d:
+        return d["total_value"].get("value")
+    vals = d.get("values") or [{}]
+    return vals[0].get("value")
+
+
+def metricas(objeto, nombres, token, extra=None):
+    """Una llamada por metrica: si una no existe para ese tipo de pieza, la API
+    rechaza TODA la peticion, asi que se piden sueltas y se anotan los errores."""
+    salida, errores = {}, {}
+    for m in nombres:
+        r = api(f"{objeto}/insights", {"metric": m, "access_token": token, **(extra or {})})
+        if "error" in r:
+            errores[m] = r["error"].get("message", "error")
+        else:
+            for d in r.get("data", []):
+                salida[d["name"]] = valor(d)
+    return salida, errores
+
+
+def cuenta(ig_user, token):
+    print("== Cuenta ==")
+    r = api(ig_user, {"fields": "username,followers_count,follows_count,media_count", "access_token": token})
+    if "error" in r:
+        print(f"  sin datos: {r['error'].get('message')}")
+    else:
+        print("  " + " · ".join(f"{k} {v}" for k, v in r.items() if k != "id"))
+    print("\n== Cuenta: ultimos 30 dias (total) ==")
+    datos, errores = metricas(f"{ig_user}", CUENTA, token, {"metric_type": "total_value", "period": "day"})
+    for k, v in datos.items():
+        print(f"  {k}: {v}")
+    for k, m in errores.items():
+        print(f"  ({k} no disponible: {m[:90]})")
+
+
+def piezas(ig_user, token):
+    print("\n== Todas las publicaciones de la cuenta ==")
+    r = api(f"{ig_user}/media", {"fields": "id,media_type,media_product_type,timestamp,permalink,caption",
+                                   "limit": 50, "access_token": token})
+    if "error" in r:
+        print(f"  sin datos: {r['error'].get('message')}")
+        return
+    media = r.get("data", [])
+    s = api(f"{ig_user}/stories", {"fields": "id,media_type,media_product_type,timestamp,permalink", "access_token": token})
+    historias = s.get("data", []) if "error" not in s else []
+    print(f"  {len(media)} en el feed/reels · {len(historias)} estados activos (24 h)")
+    avisados = set()
+    for m in media + historias:
+        tipo = m.get("media_product_type", "FEED")
+        legible = {"REELS": "reel", "STORY": "estado", "FEED": m.get("media_type", "post").lower()}.get(tipo, tipo)
+        titulo = (m.get("caption") or "").replace("\n", " ")[:50]
+        print(f"\n  [{legible}] {m.get('timestamp', '')[:16]} {m.get('permalink', '')}")
+        if titulo:
+            print(f"    «{titulo}»")
+        datos, errores = metricas(m["id"], COMUNES + EXTRA.get(tipo, EXTRA["FEED"]), token)
+        print("    " + (" · ".join(f"{k} {v}" for k, v in datos.items()) or "sin metricas"))
+        for k, msg in errores.items():
+            if (tipo, k) not in avisados:
+                avisados.add((tipo, k))
+                print(f"    ({k} no disponible en {legible}: {msg[:90]})")
+
 
 def main():
     ig_user = os.environ.get("IG_USER_ID") or "me"
@@ -37,7 +110,10 @@ def main():
     if not token:
         raise SystemExit("exporta IG_ACCESS_TOKEN")
 
-    print("== ¿A qué hora están conectados tus seguidores? (UTC) ==")
+    cuenta(ig_user, token)
+    piezas(ig_user, token)
+
+    print("\n== ¿A qué hora están conectados tus seguidores? (UTC) ==")
     r = api(f"{ig_user}/insights", {"metric": "online_followers", "period": "lifetime", "access_token": token})
     if "error" in r:
         print(f"  sin datos todavía: {r['error'].get('message', r['error'])}")

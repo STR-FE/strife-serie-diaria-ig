@@ -14,14 +14,15 @@ Estado a 7 de octubre de 2026: **sin ejecutar**. Se activa cuando la cuenta lleg
 - `generar_calendario.py` produce `calendario.json` con las horas de la tabla `HORAS`.
 - `publicar-instagram.yml` comprueba cada 15 minutos qué toca publicar según `calendario.json`; no hay que cambiarlo.
 
-## Pendiente de comprobar (antes de nada)
+## Comprobación hecha (7 de octubre de 2026, run 37591845606)
 
-El token vive solo como secreto de GitHub (`IG_ACCESS_TOKEN`), así que no se puede probar en local. Hay que lanzar `medir_audiencia.py` desde un workflow `workflow_dispatch` y mirar:
+Workflow `medir-audiencia.yml` (solo lectura, `workflow_dispatch`) con el token del secreto:
 
-1. ¿`online_followers` responde o da error de permisos? Con la vía «Instagram Login» no hay permiso de insights documentado.
-2. ¿Responde `/{post_id}/insights` (reach, likes, saved, shares)? Esto funciona sin los 100 seguidores y se puede comprobar ya.
+- `/{post_id}/insights` **responde**: dia-07 dio reach 33, likes 4, saved 0, shares 0. El permiso de insights por post existe en la vía «Instagram Login».
+- `online_followers` **no dio error, pero devolvió datos vacíos**. Es lo esperado con menos de 100 seguidores. Que no haya error de permisos apunta a que el permiso está bien, pero no queda demostrado hasta que la cuenta llegue a 100 y salga el histograma.
+- `IG_USER_ID` no está definido como secreto; el script usa `me` y funciona.
 
-Si `online_followers` falla por permisos, hay que decidir entre: otra vía de login con permiso de insights, o leer las horas a mano en la app (Perfil > Estadísticas) y actualizar `HORAS`.
+Cuando haya 100 seguidores, relanzar este workflow como primer paso. Si el histograma sale, seguir con los pasos de abajo; si da error de permisos, leer las horas a mano en la app (Perfil > Estadísticas) y actualizar `HORAS`.
 
 **Cuidado:** el repo es público y los logs de Actions también. No imprimir el token; la salida de `medir_audiencia.py` solo lleva ids de post y cifras.
 
