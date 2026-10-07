@@ -1,0 +1,28 @@
+# Solo lectura: ejecuta medir_audiencia.py con el token del secreto para comprobar que la API
+# de insights responde. No publica ni escribe nada. El repo es publico y el log tambien:
+# el script imprime ids de post y cifras, nunca el token.
+name: Medir audiencia
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  medir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Medir
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          cd automatizacion
+          python3 medir_audiencia.py
