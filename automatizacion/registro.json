@@ -14,5 +14,20 @@
     ],
     "post_id": "18090801548239336",
     "publicado_en": "2026-10-07T21:48:59+00:00"
+  },
+  "guia-alumno": {
+    "fecha_programada": "2026-10-08",
+    "archivos": [
+      "jpg/guia-alumno/01-portada.jpg",
+      "jpg/guia-alumno/02-paso-1-crea-tu-cuenta.jpg",
+      "jpg/guia-alumno/03-paso-2-completa-tu-perfil.jpg",
+      "jpg/guia-alumno/04-paso-3-di-quien-eres.jpg",
+      "jpg/guia-alumno/05-paso-4-busca-tu-gimnasio.jpg",
+      "jpg/guia-alumno/06-paso-5-pide-plaza.jpg",
+      "jpg/guia-alumno/07-paso-6-ya-estas-dentro.jpg",
+      "jpg/guia-alumno/08-cierre.jpg"
+    ],
+    "post_id": "18090160640219929",
+    "publicado_en": "2026-10-08T20:29:18+00:00"
   }
 }
