@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Publica en Instagram el post de hoy, segun calendario.json, en cuanto llega su hora.
+"""Publica en Instagram el post que toca, segun calendario.json, en cuanto llega su hora.
 
-El workflow lo ejecuta cada 15 minutos: si hoy hay post, ya es su hora (Europe/Madrid) y no
-consta en el registro, lo publica. Un dia que se paso sin publicar no se recupera al dia siguiente.
+El workflow lo ejecuta a menudo: publica el post mas antiguo cuya hora (Europe/Madrid) ya paso y
+que no consta en el registro, uno por ejecucion. Si GitHub no corre a tiempo, el post sale tarde
+en la siguiente ejecucion, aunque sea al dia siguiente, en vez de perderse.
 
 Imagen suelta: contenedor de medios y publicar. Carrusel: un contenedor por foto
 (is_carousel_item), un contenedor CAROUSEL con los hijos, y publicar.
@@ -53,6 +54,13 @@ def cargar_registro():
 
 def guardar_registro(registro):
     REGISTRO.write_text(json.dumps(registro, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def elegir_pendiente(posts, registro, ahora):
+    """El post mas antiguo cuya hora ya paso y que no esta en el registro; None si no hay."""
+    ya = ahora.strftime("%Y-%m-%d %H:%M")
+    vencidos = [x for x in posts if x["id"] not in registro and f"{x['fecha']} {x['hora']}" <= ya]
+    return min(vencidos, key=lambda x: (x["fecha"], x["hora"]), default=None)
 
 
 def esperar(contenedor, token, etiqueta="contenedor"):
@@ -131,16 +139,26 @@ def main():
             raise SystemExit(f"no existe el id {args.post_id}")
     elif args.orden:
         elegidos = [x for x in posts if x["orden"] == args.orden]
+    elif args.fecha:
+        elegidos = [x for x in posts if x["fecha"] == args.fecha]
+        if not elegidos:
+            print(f"{args.fecha}: no hay post programado. Nada que hacer.")
+            return 0
     else:
         ahora = datetime.now(MADRID)
-        fecha = args.fecha or ahora.date().isoformat()
-        elegidos = [x for x in posts if x["fecha"] == fecha]
-        if not elegidos:
-            print(f"{fecha}: no hay post programado para hoy. Nada que hacer.")
+        registro = cargar_registro()
+        vencido = elegir_pendiente(posts, registro, ahora)
+        siguientes = sorted((x for x in posts if x["id"] not in registro), key=lambda x: (x["fecha"], x["hora"]))
+        if not vencido and not (args.dry_run and siguientes):
+            if siguientes:
+                s = siguientes[0]
+                print(f"ahora {ahora:%Y-%m-%d %H:%M}: el siguiente es {s['id']}, el {s['fecha']} a las {s['hora']}. Todavia no.")
+            else:
+                print("no queda nada por publicar.")
             return 0
-        if not args.fecha and ahora.strftime("%H:%M") < elegidos[0]["hora"] and not args.dry_run:
-            print(f"{fecha}: {elegidos[0]['id']} sale a las {elegidos[0]['hora']} (ahora {ahora:%H:%M}). Todavia no.")
-            return 0
+        elegidos = [vencido or siguientes[0]]
+        if vencido and vencido["fecha"] != ahora.date().isoformat():
+            print(f"atrasado: {vencido['id']} tocaba el {vencido['fecha']} a las {vencido['hora']}; sale ahora.")
 
     post = elegidos[0]
     registro = cargar_registro()

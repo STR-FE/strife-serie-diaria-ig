@@ -21,7 +21,9 @@ Cómo funciona la publicación automática y qué tocar para cambiar cada cosa.
 
 La hora de cada publicación está en `calendario.json` (campo `hora`, Europe/Madrid) y **sí manda**: el workflow
 despierta cada 15 minutos y `publicar.py` solo publica cuando llega esa hora. El cambio de hora de octubre y marzo
-no la mueve. GitHub puede retrasar el cron unos minutos. Un día que se pasa sin publicar no se recupera al siguiente.
+no la mueve. GitHub retrasa y se salta muchas ejecuciones del cron (hay días con solo 3 o 4), así que un post
+puede salir tarde: `publicar.py` publica siempre el más antiguo que ya pasó su hora y no está en el registro, uno por
+ejecución, aunque sea al día siguiente. Ninguno se pierde.
 
 | Público | L-V | Sábado | Domingo |
 |---|---|---|---|
