@@ -6,3 +6,6 @@ token-nuevo.txt
 # intermedios de las guías: los HTML llevan rutas locales; los JPG van en jpg/<guia>/
 build/diseno/**/*.html
 build/diseno/**/*.jpg
+
+# guia-lista-foto: los renders llevan las caras reales de la foto de grupo; solo se sube jpg/guia-lista-foto (caras alteradas)
+build/diseno/guia-lista-foto/B/

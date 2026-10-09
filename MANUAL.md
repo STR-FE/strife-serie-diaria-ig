@@ -2,14 +2,14 @@
 
 Cómo funciona la publicación automática y qué tocar para cambiar cada cosa.
 
-> **▶ EN MARCHA desde el 6 de octubre de 2026.** 49 publicaciones, una al día, hasta el 23 de noviembre.
+> **▶ EN MARCHA desde el 6 de octubre de 2026.** 50 publicaciones, una al día, hasta el 24 de noviembre.
 > Para pausarla: pestaña **Actions** › *Publicar serie diaria en Instagram* › **Disable workflow**.
 
 ## 1. La cadena
 
 | Pieza | Qué hace |
 |---|---|
-| `pies-de-foto.txt` | **Lo que escribes tú.** El texto de los 29 posts (`DÍA N`) y de los 20 carruseles (`CARRUSEL`, con su `Id:`). |
+| `pies-de-foto.txt` | **Lo que escribes tú.** El texto de los 29 posts (`DÍA N`) y de los 21 carruseles (`CARRUSEL`, con su `Id:`). |
 | `automatizacion/generar_calendario.py` | **El que ordena.** `ORDEN` dice qué sale cada día y para qué público; `HORAS` dice a qué hora según el público y el día de la semana. |
 | `automatizacion/calendario.json` | **El plan.** Fecha, hora, imágenes y texto de cada publicación. No se edita a mano: se regenera. |
 | `automatizacion/publicar.py` | **El que publica.** Si hoy hay post, ya es su hora y no consta en el registro, lo publica. |
@@ -78,7 +78,11 @@ un correo o un commit.
 
 ## 7. Las imágenes
 
-Todas salen de capturas reales de la app 1.4.1 en **Villalba Fighting Co.** con alumnos ficticios; nada de JGS.
+Todas salen de capturas reales de la app 1.4.1 en **Villalba Fighting Co.** con alumnos ficticios; nada de JGS. La
+excepción es `guia-lista-foto` (app 1.5.4): la foto de grupo que se analiza es de una clase de JGS, elegida por Jaime; los
+nombres que se ponen a cada cara son los alumnos ficticios de Villalba, cada uno acorde con la cara. Las caras reales se
+sustituyen por caras alteradas: tras `guia_diseno.py`, `build/guia_lista_foto_caras.py` pega en las fotos 05, 06 y 08 las
+caras de `build/diseno/guia-lista-foto/mod/08 mod.jpeg` y usa `mod/04 mod.jpeg` como la 04.
 Las capturas originales están en el repo privado `strife-marketing` (`reel/mi-4`, `reel/mi-5` y `serie-v2/`, con
 su `capturas.md`). Instagram solo acepta JPEG: lo que se publica está en `jpg/`.
 
@@ -86,7 +90,7 @@ su `capturas.md`). Instagram solo acepta JPEG: lo que se publica está en `jpg/`
 |---|---|---|
 | 25 posts con móvil | `build/serie_v2.py` | raíz y `jpg/` |
 | 4 cierres y las guías del alumno y del centro | `build/guias_cierres_v2.py` | `guia-alumno/`, `guia-club/` y `jpg/` |
-| 18 guías por caso de uso (diseño B) | `build/guia_diseno.py <guia.json> B` | `build/diseno/<guia>/B/`; luego a `jpg/<guia>/` |
+| 19 guías por caso de uso (diseño B) | `build/guia_diseno.py <guia.json> B` | `build/diseno/<guia>/B/`; luego a `jpg/<guia>/` |
 
-Los JSON de las 18 guías están en `strife-marketing/serie-v2/guias/`. Tras cambiar una guía hay que volver a pasar
+Los JSON de las 19 guías están en `strife-marketing/serie-v2/guias/`. Tras cambiar una guía hay que volver a pasar
 sus PNG a `jpg/<guia>/` y subir.

@@ -170,6 +170,12 @@ Carpeta: jpg/guia-asistencia/ (7 fotos)
 Pie: Lista en 30 segundos: presente, ausente o retraso. O proyecta el QR y la lista se llena sola mientras saludas en la puerta.
 Tags: #strife #clubes #tutorial
 
+CARRUSEL · GUÍA — LISTA CON FOTO
+Id: guia-lista-foto
+Carpeta: jpg/guia-lista-foto/ (10 fotos)
+Pie: La foto de grupo al acabar la clase ya pasa lista. El móvil marca cada cara, tú eliges quién es y queda apuntado «vía foto». La foto no se sube ni se guarda.
+Tags: #strife #clubes #tutorial
+
 CARRUSEL · GUÍA — HOY
 Id: guia-hoy
 Carpeta: jpg/guia-hoy/ (5 fotos)

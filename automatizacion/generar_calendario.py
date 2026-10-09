@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convierte pies-de-foto.txt en calendario.json siguiendo ORDEN.
 
-Serie: 29 posts de imagen y 20 carruseles-guía, uno al día desde la fecha de inicio,
+Serie: 29 posts de imagen y 21 carruseles-guía, uno al día desde la fecha de inicio,
 en el orden de ORDEN y a la hora que toca según el público y el día de la semana.
 
   python3 generar_calendario.py 2026-10-06        (o FECHA_INICIO=2026-10-06)
@@ -36,11 +36,11 @@ ORDEN = [
     ("dia-23", "centro"), ("guia-club", "centro"),
     ("dia-14", "marca"),
     ("dia-02", "centro"), ("dia-01", "alumno"), ("guia-clases", "alumno"),
-    ("dia-04", "centro"), ("guia-asistencia", "centro"),
+    ("dia-04", "centro"), ("guia-asistencia", "centro"), ("guia-lista-foto", "centro"),
     ("dia-03", "alumno"), ("guia-hoy", "alumno"),
     ("dia-06", "centro"), ("dia-24", "alumno"), ("guia-cobrar", "centro"),
     ("dia-11", "centro"), ("guia-tienda", "alumno"),
-    ("dia-26", "alumno"), ("dia-21", "marca"),
+    ("dia-21", "marca"), ("dia-26", "alumno"),
     ("dia-08", "alumno"), ("guia-juego", "alumno"), ("dia-29", "alumno"),
     ("dia-10", "alumno"), ("guia-lesion", "alumno"), ("guia-peso", "alumno"),
     ("dia-05", "alumno"),
@@ -50,9 +50,9 @@ ORDEN = [
     ("dia-20", "centro"), ("dia-25", "centro"), ("guia-invitar", "centro"),
     ("dia-18", "centro"), ("guia-chat", "alumno"),
     ("guia-permisos", "centro"), ("dia-19", "alumno"), ("dia-09", "centro"),
-    ("dia-27", "centro"), ("guia-centro", "centro"), ("guia-ajustes-alumno", "alumno"),
+    ("dia-27", "centro"), ("guia-centro", "centro"),
     ("dia-28", "marca"),
-    ("guia-ajustes-centro", "centro"),
+    ("guia-ajustes-alumno", "alumno"), ("guia-ajustes-centro", "centro"),
 ]
 
 
