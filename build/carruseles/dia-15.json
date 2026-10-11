@@ -1,0 +1,49 @@
+{
+ "id": "dia-15",
+ "label": "PASO A PASO · COMPETICIÓN",
+ "slides": [
+  {
+   "cover": [
+    "COMPITES,",
+    "APARECE."
+   ],
+   "lead": "Vincula tu Smoothcomp y tu palmarés entra en tu ficha."
+  },
+  {
+   "num": "01",
+   "title": "TU COMPETICIÓN",
+   "cap": "serie-v3/capturas/dia-15/d15_05_competicion",
+   "sub": "Victorias, por puntos o por sumisión, y eventos.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "CADA COMBATE",
+   "cap": "serie-v3/capturas/dia-15/d15_05b_desplegado",
+   "sub": "Contra quién, cómo acabó y la medalla.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "EL PALMARÉS",
+   "cap": "serie-v3/capturas/dia-15/d15_06_palmares",
+   "sub": "Año a año, evento a evento.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "TUS DERROTAS, TUYAS",
+   "cap": "serie-v3/capturas/dia-15/d15_08_derrotas",
+   "sub": "El centro ve tus victorias. Las derrotas, si quieres.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "TU PALMARÉS,",
+    "EN TU FICHA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

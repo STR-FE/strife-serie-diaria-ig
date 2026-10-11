@@ -1,0 +1,49 @@
+{
+ "id": "dia-17",
+ "label": "PASO A PASO · CARA A CARA",
+ "slides": [
+  {
+   "cover": [
+    "CARA",
+    "A CARA."
+   ],
+   "lead": "Elige rival en el ranking y compárate: puntos, rachas y asistencia."
+  },
+  {
+   "num": "01",
+   "title": "ELIGE RIVAL",
+   "cap": "serie-v3/capturas/dia-17/d17_01_rival",
+   "sub": "El que va justo delante. Toca «VS».",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "EL COMBATE",
+   "cap": "serie-v3/capturas/dia-17/d17_03_caraacara",
+   "sub": "El que defiende contra el aspirante, asalto a asalto.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "LA REMONTADA",
+   "cap": "serie-v3/capturas/dia-17/d17_06_remontada",
+   "sub": "Octubre, día a día, y cuánto te separa.",
+   "modo": "entero"
+  },
+  {
+   "num": "04",
+   "title": "EL ESPEJO",
+   "cap": "serie-v3/capturas/dia-17/d17_08_espejo",
+   "sub": "Así entrena cada uno, y dónde os cruzáis.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "TRES CLASES",
+    "Y ES TUYO."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

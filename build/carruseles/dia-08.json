@@ -1,0 +1,77 @@
+{
+ "id": "dia-08",
+ "label": "PASO A PASO · EL PARTE",
+ "slides": [
+  {
+   "cover": [
+    "CADA ROLL,",
+    "APUNTADO."
+   ],
+   "lead": "El parte del día en 30 segundos: con quién, cómo acabó y con qué."
+  },
+  {
+   "num": "01",
+   "title": "AL ACABAR",
+   "cap": "serie-v3/capturas/dia-08/d08_01_alacabar",
+   "sub": "En Hoy: «El parte de NO-GI está sin registrar».",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "¿DE QUÉ CLASE?",
+   "cap": "serie-v3/capturas/dia-08/d08_02_sesion",
+   "sub": "Solo las clases a las que fuiste.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "EL CORRO",
+   "cap": "serie-v3/capturas/dia-08/d08_03_corro",
+   "sub": "¿Con quién rodaste? Solo salen los que estaban.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "¿CÓMO ACABÓ?",
+   "cap": "serie-v3/capturas/dia-08/d08_04_como",
+   "sub": "Sometí, tablas o me sometieron.",
+   "b": 780
+  },
+  {
+   "num": "05",
+   "title": "¿CON QUÉ?",
+   "cap": "serie-v3/capturas/dia-08/d08_05_conque",
+   "sub": "Opcional: mataleón, kimura, triángulo…",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "TRES ROLLS",
+   "cap": "serie-v3/capturas/dia-08/d08_06_tres",
+   "sub": "Uno ganado, uno empatado, uno perdido. Guardar.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "APUNTADO",
+   "cap": "serie-v3/capturas/dia-08/d08_06b_guardado",
+   "sub": "Tu marcador del mes, al día.",
+   "modo": "entero"
+  },
+  {
+   "num": "08",
+   "title": "TU DIARIO",
+   "cap": "serie-v3/capturas/dia-08/d08_07_diario",
+   "sub": "Doce meses de rolls, sesión a sesión.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "CADA ROLL",
+    "CUENTA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

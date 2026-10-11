@@ -1,0 +1,63 @@
+{
+ "id": "dia-26",
+ "label": "PASO A PASO · TU CLASE",
+ "slides": [
+  {
+   "cover": [
+    "SABES",
+    "A QUÉ VAS."
+   ],
+   "lead": "El plan de hoy, el coach y quién va, antes de pisar el tatami."
+  },
+  {
+   "num": "01",
+   "title": "LAS DE HOY",
+   "cap": "serie-v3/capturas/dia-26/d26_01_hoy",
+   "sub": "Despliega: aforo, quién va y reserva.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "LA CLASE",
+   "cap": "serie-v3/capturas/dia-26/d26_02_clase",
+   "sub": "Cuándo, cuánto dura, para quién y quién la da.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "HOY TRABAJAMOS",
+   "cap": "serie-v3/capturas/dia-26/d26_03_plan",
+   "sub": "Lo que ha preparado tu coach.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "QUIÉN VA",
+   "cap": "serie-v3/capturas/dia-26/d26_04_sala",
+   "sub": "Van once. Con quién empezar y con quién exigirte.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "¿CON QUIÉN?",
+   "cap": "serie-v3/capturas/dia-26/d26_06_ruben",
+   "sub": "Toca a cualquiera: su cinturón, sus parches y su juego.",
+   "modo": "entero"
+  },
+  {
+   "num": "06",
+   "title": "A TU CALENDARIO",
+   "cap": "serie-v3/capturas/dia-26/d26_08_exportar",
+   "sub": "Las próximas cuatro semanas, en el calendario del móvil.",
+   "b": 1188
+  },
+  {
+   "cover": [
+    "SABES",
+    "A QUÉ VAS."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

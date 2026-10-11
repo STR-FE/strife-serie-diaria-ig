@@ -104,12 +104,20 @@
     "dia_semana": "lunes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-02-la-semana-montada.jpg"
+      "jpg/dia-02/01.jpg",
+      "jpg/dia-02/02.jpg",
+      "jpg/dia-02/03.jpg",
+      "jpg/dia-02/04.jpg",
+      "jpg/dia-02/05.jpg",
+      "jpg/dia-02/06.jpg",
+      "jpg/dia-02/07.jpg",
+      "jpg/dia-02/08.jpg",
+      "jpg/dia-02/09.jpg",
+      "jpg/dia-02/10.jpg"
     ],
-    "caption": "Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo.\n\n#strife #clubes",
-    "archivo": "jpg/dia-02-la-semana-montada.jpg"
+    "caption": "Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo. Así se monta, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "dia-01",
@@ -154,12 +162,20 @@
     "dia_semana": "jueves",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-04-lista-30-segundos.jpg"
+      "jpg/dia-04/01.jpg",
+      "jpg/dia-04/02.jpg",
+      "jpg/dia-04/03.jpg",
+      "jpg/dia-04/04.jpg",
+      "jpg/dia-04/05.jpg",
+      "jpg/dia-04/06.jpg",
+      "jpg/dia-04/07.jpg",
+      "jpg/dia-04/08.jpg",
+      "jpg/dia-04/09.jpg",
+      "jpg/dia-04/10.jpg"
     ],
-    "caption": "Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado.\n\n#strife #clubes",
-    "archivo": "jpg/dia-04-lista-30-segundos.jpg"
+    "caption": "Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-asistencia",
@@ -209,12 +225,20 @@
     "dia_semana": "domingo",
     "hora": "20:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-03-ficha-al-entrar.jpg"
+      "jpg/dia-03/01.jpg",
+      "jpg/dia-03/02.jpg",
+      "jpg/dia-03/03.jpg",
+      "jpg/dia-03/04.jpg",
+      "jpg/dia-03/05.jpg",
+      "jpg/dia-03/06.jpg",
+      "jpg/dia-03/07.jpg",
+      "jpg/dia-03/08.jpg",
+      "jpg/dia-03/09.jpg",
+      "jpg/dia-03/10.jpg"
     ],
-    "caption": "Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta.\n\n#strife #strifeapp",
-    "archivo": "jpg/dia-03-ficha-al-entrar.jpg"
+    "caption": "Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta. Así se hace, paso a paso.\n\n#strife #strifeapp"
   },
   {
     "id": "guia-hoy",
@@ -240,12 +264,20 @@
     "dia_semana": "martes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-06-el-mes-cuadrado.jpg"
+      "jpg/dia-06/01.jpg",
+      "jpg/dia-06/02.jpg",
+      "jpg/dia-06/03.jpg",
+      "jpg/dia-06/04.jpg",
+      "jpg/dia-06/05.jpg",
+      "jpg/dia-06/06.jpg",
+      "jpg/dia-06/07.jpg",
+      "jpg/dia-06/08.jpg",
+      "jpg/dia-06/09.jpg",
+      "jpg/dia-06/10.jpg"
     ],
-    "caption": "Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar.\n\n#strife #clubes",
-    "archivo": "jpg/dia-06-el-mes-cuadrado.jpg"
+    "caption": "Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "dia-24",
@@ -254,12 +286,16 @@
     "dia_semana": "miercoles",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-24-tu-cuota-clara.jpg"
+      "jpg/dia-24/01.jpg",
+      "jpg/dia-24/02.jpg",
+      "jpg/dia-24/03.jpg",
+      "jpg/dia-24/04.jpg",
+      "jpg/dia-24/05.jpg",
+      "jpg/dia-24/06.jpg"
     ],
-    "caption": "Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil.\n\n#strife #strifeapp",
-    "archivo": "jpg/dia-24-tu-cuota-clara.jpg"
+    "caption": "Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil. Así se hace, paso a paso.\n\n#strife #strifeapp"
   },
   {
     "id": "guia-cobrar",
@@ -290,12 +326,20 @@
     "dia_semana": "viernes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-11-la-tienda-sin-mostrador.jpg"
+      "jpg/dia-11/01.jpg",
+      "jpg/dia-11/02.jpg",
+      "jpg/dia-11/03.jpg",
+      "jpg/dia-11/04.jpg",
+      "jpg/dia-11/05.jpg",
+      "jpg/dia-11/06.jpg",
+      "jpg/dia-11/07.jpg",
+      "jpg/dia-11/08.jpg",
+      "jpg/dia-11/09.jpg",
+      "jpg/dia-11/10.jpg"
     ],
-    "caption": "Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador.\n\n#strife #clubes",
-    "archivo": "jpg/dia-11-la-tienda-sin-mostrador.jpg"
+    "caption": "Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-tienda",
@@ -337,12 +381,18 @@
     "dia_semana": "lunes",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-26-sabes-a-que-vas.jpg"
+      "jpg/dia-26/01.jpg",
+      "jpg/dia-26/02.jpg",
+      "jpg/dia-26/03.jpg",
+      "jpg/dia-26/04.jpg",
+      "jpg/dia-26/05.jpg",
+      "jpg/dia-26/06.jpg",
+      "jpg/dia-26/07.jpg",
+      "jpg/dia-26/08.jpg"
     ],
-    "caption": "El plan de hoy, el coach y quién va, antes de pisar el tatami.\n\n#strife #strifeapp",
-    "archivo": "jpg/dia-26-sabes-a-que-vas.jpg"
+    "caption": "El plan de hoy, el coach y quién va, antes de pisar el tatami. Así se hace, paso a paso.\n\n#strife #strifeapp"
   },
   {
     "id": "dia-08",
@@ -351,12 +401,20 @@
     "dia_semana": "martes",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-08-cada-roll-apuntado.jpg"
+      "jpg/dia-08/01.jpg",
+      "jpg/dia-08/02.jpg",
+      "jpg/dia-08/03.jpg",
+      "jpg/dia-08/04.jpg",
+      "jpg/dia-08/05.jpg",
+      "jpg/dia-08/06.jpg",
+      "jpg/dia-08/07.jpg",
+      "jpg/dia-08/08.jpg",
+      "jpg/dia-08/09.jpg",
+      "jpg/dia-08/10.jpg"
     ],
-    "caption": "El parte del día en 30 segundos: con quién, cómo acabó y con qué.\n\n#strife #sparring",
-    "archivo": "jpg/dia-08-cada-roll-apuntado.jpg"
+    "caption": "El parte del día en 30 segundos: con quién, cómo acabó y con qué. Así se hace, paso a paso.\n\n#strife #sparring"
   },
   {
     "id": "guia-juego",
@@ -387,12 +445,20 @@
     "dia_semana": "jueves",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-29-tu-juego-en-datos.jpg"
+      "jpg/dia-29/01.jpg",
+      "jpg/dia-29/02.jpg",
+      "jpg/dia-29/03.jpg",
+      "jpg/dia-29/04.jpg",
+      "jpg/dia-29/05.jpg",
+      "jpg/dia-29/06.jpg",
+      "jpg/dia-29/07.jpg",
+      "jpg/dia-29/08.jpg",
+      "jpg/dia-29/09.jpg",
+      "jpg/dia-29/10.jpg"
     ],
-    "caption": "Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado.\n\n#strife #sparring",
-    "archivo": "jpg/dia-29-tu-juego-en-datos.jpg"
+    "caption": "Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado. Así se hace, paso a paso.\n\n#strife #sparring"
   },
   {
     "id": "dia-10",
@@ -458,12 +524,20 @@
     "dia_semana": "lunes",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-05-mes-nuevo-podio-nuevo.jpg"
+      "jpg/dia-05/01.jpg",
+      "jpg/dia-05/02.jpg",
+      "jpg/dia-05/03.jpg",
+      "jpg/dia-05/04.jpg",
+      "jpg/dia-05/05.jpg",
+      "jpg/dia-05/06.jpg",
+      "jpg/dia-05/07.jpg",
+      "jpg/dia-05/08.jpg",
+      "jpg/dia-05/09.jpg",
+      "jpg/dia-05/10.jpg"
     ],
-    "caption": "Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero.\n\n#strife #ranking",
-    "archivo": "jpg/dia-05-mes-nuevo-podio-nuevo.jpg"
+    "caption": "Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero. Así se hace, paso a paso.\n\n#strife #ranking"
   },
   {
     "id": "dia-16",
@@ -525,12 +599,16 @@
     "dia_semana": "viernes",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-17-cara-a-cara.jpg"
+      "jpg/dia-17/01.jpg",
+      "jpg/dia-17/02.jpg",
+      "jpg/dia-17/03.jpg",
+      "jpg/dia-17/04.jpg",
+      "jpg/dia-17/05.jpg",
+      "jpg/dia-17/06.jpg"
     ],
-    "caption": "Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle.\n\n#strife #ranking",
-    "archivo": "jpg/dia-17-cara-a-cara.jpg"
+    "caption": "Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle. Así se hace, paso a paso.\n\n#strife #ranking"
   },
   {
     "id": "dia-12",
@@ -539,12 +617,20 @@
     "dia_semana": "sabado",
     "hora": "13:00",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-12-tu-vitrina-contigo.jpg"
+      "jpg/dia-12/01.jpg",
+      "jpg/dia-12/02.jpg",
+      "jpg/dia-12/03.jpg",
+      "jpg/dia-12/04.jpg",
+      "jpg/dia-12/05.jpg",
+      "jpg/dia-12/06.jpg",
+      "jpg/dia-12/07.jpg",
+      "jpg/dia-12/08.jpg",
+      "jpg/dia-12/09.jpg",
+      "jpg/dia-12/10.jpg"
     ],
-    "caption": "Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina.\n\n#strife #logros",
-    "archivo": "jpg/dia-12-tu-vitrina-contigo.jpg"
+    "caption": "Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina. Así se hace, paso a paso.\n\n#strife #logros"
   },
   {
     "id": "dia-15",
@@ -553,12 +639,16 @@
     "dia_semana": "domingo",
     "hora": "20:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-15-compites-aparece.jpg"
+      "jpg/dia-15/01.jpg",
+      "jpg/dia-15/02.jpg",
+      "jpg/dia-15/03.jpg",
+      "jpg/dia-15/04.jpg",
+      "jpg/dia-15/05.jpg",
+      "jpg/dia-15/06.jpg"
     ],
-    "caption": "Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento.\n\n#strife #competicion",
-    "archivo": "jpg/dia-15-compites-aparece.jpg"
+    "caption": "Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento. Así se hace, paso a paso.\n\n#strife #competicion"
   },
   {
     "id": "guia-perfil",
@@ -587,12 +677,20 @@
     "dia_semana": "martes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-13-el-club-en-orden.jpg"
+      "jpg/dia-13/01.jpg",
+      "jpg/dia-13/02.jpg",
+      "jpg/dia-13/03.jpg",
+      "jpg/dia-13/04.jpg",
+      "jpg/dia-13/05.jpg",
+      "jpg/dia-13/06.jpg",
+      "jpg/dia-13/07.jpg",
+      "jpg/dia-13/08.jpg",
+      "jpg/dia-13/09.jpg",
+      "jpg/dia-13/10.jpg"
     ],
-    "caption": "La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto.\n\n#strife #clubes",
-    "archivo": "jpg/dia-13-el-club-en-orden.jpg"
+    "caption": "La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-miembros",
@@ -621,12 +719,19 @@
     "dia_semana": "jueves",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-20-la-puerta-con-criterio.jpg"
+      "jpg/dia-20/01.jpg",
+      "jpg/dia-20/02.jpg",
+      "jpg/dia-20/03.jpg",
+      "jpg/dia-20/04.jpg",
+      "jpg/dia-20/05.jpg",
+      "jpg/dia-20/06.jpg",
+      "jpg/dia-20/07.jpg",
+      "jpg/dia-20/08.jpg",
+      "jpg/dia-20/09.jpg"
     ],
-    "caption": "Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera.\n\n#strife #clubes",
-    "archivo": "jpg/dia-20-la-puerta-con-criterio.jpg"
+    "caption": "Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "dia-25",
@@ -635,12 +740,19 @@
     "dia_semana": "viernes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-25-invita-en-un-toque.jpg"
+      "jpg/dia-25/01.jpg",
+      "jpg/dia-25/02.jpg",
+      "jpg/dia-25/03.jpg",
+      "jpg/dia-25/04.jpg",
+      "jpg/dia-25/05.jpg",
+      "jpg/dia-25/06.jpg",
+      "jpg/dia-25/07.jpg",
+      "jpg/dia-25/08.jpg",
+      "jpg/dia-25/09.jpg"
     ],
-    "caption": "Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola.\n\n#strife #clubes",
-    "archivo": "jpg/dia-25-invita-en-un-toque.jpg"
+    "caption": "Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-invitar",
@@ -668,12 +780,20 @@
     "dia_semana": "domingo",
     "hora": "20:30",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-18-el-grupo-sin-ruido.jpg"
+      "jpg/dia-18/01.jpg",
+      "jpg/dia-18/02.jpg",
+      "jpg/dia-18/03.jpg",
+      "jpg/dia-18/04.jpg",
+      "jpg/dia-18/05.jpg",
+      "jpg/dia-18/06.jpg",
+      "jpg/dia-18/07.jpg",
+      "jpg/dia-18/08.jpg",
+      "jpg/dia-18/09.jpg",
+      "jpg/dia-18/10.jpg"
     ],
-    "caption": "El chat del centro, dentro de la app: con normas, denuncias y bloqueo.\n\n#strife #clubes",
-    "archivo": "jpg/dia-18-el-grupo-sin-ruido.jpg"
+    "caption": "El chat del centro, dentro de la app: con normas, denuncias y bloqueo. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-chat",
@@ -719,12 +839,18 @@
     "dia_semana": "miercoles",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-19-tu-cinturon-tiene-historia.jpg"
+      "jpg/dia-19/01.jpg",
+      "jpg/dia-19/02.jpg",
+      "jpg/dia-19/03.jpg",
+      "jpg/dia-19/04.jpg",
+      "jpg/dia-19/05.jpg",
+      "jpg/dia-19/06.jpg",
+      "jpg/dia-19/07.jpg",
+      "jpg/dia-19/08.jpg"
     ],
-    "caption": "Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse.\n\n#strife #bjj",
-    "archivo": "jpg/dia-19-tu-cinturon-tiene-historia.jpg"
+    "caption": "Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse. Así se hace, paso a paso.\n\n#strife #bjj"
   },
   {
     "id": "dia-09",
@@ -733,12 +859,20 @@
     "dia_semana": "jueves",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-09-dicho-una-vez.jpg"
+      "jpg/dia-09/01.jpg",
+      "jpg/dia-09/02.jpg",
+      "jpg/dia-09/03.jpg",
+      "jpg/dia-09/04.jpg",
+      "jpg/dia-09/05.jpg",
+      "jpg/dia-09/06.jpg",
+      "jpg/dia-09/07.jpg",
+      "jpg/dia-09/08.jpg",
+      "jpg/dia-09/09.jpg",
+      "jpg/dia-09/10.jpg"
     ],
-    "caption": "Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo.\n\n#strife #clubes",
-    "archivo": "jpg/dia-09-dicho-una-vez.jpg"
+    "caption": "Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "dia-27",
@@ -747,12 +881,19 @@
     "dia_semana": "viernes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-27-tu-club-tu-casa.jpg"
+      "jpg/dia-27/01.jpg",
+      "jpg/dia-27/02.jpg",
+      "jpg/dia-27/03.jpg",
+      "jpg/dia-27/04.jpg",
+      "jpg/dia-27/05.jpg",
+      "jpg/dia-27/06.jpg",
+      "jpg/dia-27/07.jpg",
+      "jpg/dia-27/08.jpg",
+      "jpg/dia-27/09.jpg"
     ],
-    "caption": "La portada es de tu centro: emblema, disciplinas, horario y estado.\n\n#strife #clubes",
-    "archivo": "jpg/dia-27-tu-club-tu-casa.jpg"
+    "caption": "La portada es de tu centro: emblema, disciplinas, horario y estado. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-centro",

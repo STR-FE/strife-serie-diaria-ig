@@ -1,0 +1,77 @@
+{
+ "id": "dia-29",
+ "label": "PASO A PASO · MI JUEGO",
+ "slides": [
+  {
+   "cover": [
+    "TU JUEGO,",
+    "EN DATOS."
+   ],
+   "lead": "Lo que rematas, lo que te rematan y contra quién."
+  },
+  {
+   "num": "01",
+   "title": "EN TU PERFIL",
+   "cap": "serie-v3/capturas/dia-29/d29_01_perfil",
+   "sub": "Tu arma, tu grieta y cuánto acabas.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "EL MES",
+   "cap": "serie-v3/capturas/dia-29/d29_02_mes",
+   "sub": "Sometí, tablas, me sometieron, y el balance.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "TU JUEGO",
+   "cap": "serie-v3/capturas/dia-29/d29_03_juego",
+   "sub": "Con qué rematas y con qué te rematan.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "LA ESCALADA",
+   "cap": "serie-v3/capturas/dia-29/d29_04_escalada",
+   "sub": "Doce meses, y el día en que el balance cruzó.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "EL PESO IMPORTA",
+   "cap": "serie-v3/capturas/dia-29/d29_05_peso",
+   "sub": "Cuánto acabas con los más ligeros, los parejos y los pesados.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "TUS RIVALES",
+   "cap": "serie-v3/capturas/dia-29/d29_06_rivales",
+   "sub": "Con quién ruedas más este mes.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "TÚ CONTRA RUBÉN",
+   "cap": "serie-v3/capturas/dia-29/d29_07_ruben",
+   "sub": "Vuestros últimos rolls, del más antiguo al último.",
+   "modo": "entero"
+  },
+  {
+   "num": "08",
+   "title": "SI QUIERES, QUE LO VEAN",
+   "cap": "serie-v3/capturas/dia-29/d29_08_privacidad",
+   "sub": "Mi juego en tu perfil. Nunca con quién rodaste.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "CADA ROLL",
+    "SUMA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "dia-19",
+ "label": "PASO A PASO · TU CINTURÓN",
+ "slides": [
+  {
+   "cover": [
+    "TU CINTURÓN",
+    "TIENE HISTORIA."
+   ],
+   "lead": "Cada grado con su fecha y quién te lo dio."
+  },
+  {
+   "num": "01",
+   "title": "LE TOCA",
+   "cap": "serie-v3/capturas/dia-19/d19_01_ficha",
+   "sub": "Tu coach ve cuánto llevas con tu grado.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "PROMOCIONAR",
+   "cap": "serie-v3/capturas/dia-19/d19_02_promocionar",
+   "sub": "Disciplina, cinturón y grados.",
+   "b": 950
+  },
+  {
+   "num": "03",
+   "title": "TE HAN PROMOCIONADO",
+   "cap": "serie-v3/capturas/dia-19/d19_04_promocionado",
+   "sub": "«¡Enhorabuena! Sigue así.»",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "EN TU PERFIL",
+   "cap": "serie-v3/capturas/dia-19/d19_05_perfil",
+   "sub": "Tu cinturón nuevo, a la vista.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "TÚ DECIDES",
+   "cap": "serie-v3/capturas/dia-19/d19_06_ficha_desplegada_t",
+   "sub": "Qué ve tu centro de ti y qué no.",
+   "b": 600
+  },
+  {
+   "num": "06",
+   "title": "EL LINAJE",
+   "cap": "serie-v3/capturas/dia-19/d19_07_linaje_t",
+   "sub": "Quién te graduó, y quién le graduó a él.",
+   "b": 950
+  },
+  {
+   "cover": [
+    "CADA GRADO,",
+    "CON FIRMA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "dia-01-widget",
+ "label": "PASO A PASO · VOY",
+ "slides": [
+  {
+   "cover": [
+    "UN TOQUE",
+    "Y VAS."
+   ],
+   "lead": "Mira quién va y di que vas desde la pantalla de inicio, sin abrir la app."
+  },
+  {
+   "num": "01",
+   "title": "EL AVISO",
+   "cap": "serie-v3/capturas/dia-01/d01_01_aviso",
+   "sub": "En Inicio: «Tu próxima clase, sin abrir la app». Toca «Cómo se añade».",
+   "b": 300
+  },
+  {
+   "num": "02",
+   "title": "CÓMO SE AÑADE",
+   "cap": "serie-v3/capturas/dia-01/d01_02_como",
+   "sub": "Mantén pulsada la pantalla de inicio, «Widgets», busca STRIFE y arrástralo.",
+   "b": 200
+  },
+  {
+   "num": "03",
+   "title": "EN TU PANTALLA",
+   "cap": "serie-v3/capturas/dia-01/d01_03_widget",
+   "sub": "Tus próximas clases, con la hora y lo que falta. La cancelada, avisada.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "UN TOQUE",
+   "cap": "serie-v3/capturas/dia-01/d01_04_asistire",
+   "sub": "✓ y listo: «Enviando…» y, en un segundo, «Asistiré».",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "LA FICHA",
+   "cap": "serie-v3/capturas/dia-01/d01_06_ficha",
+   "sub": "Toca la fila y se abre la clase: lo que se trabaja hoy y quién hay en el tatami.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "QUIÉN VA",
+   "cap": "serie-v3/capturas/dia-01/d01_07_quien",
+   "sub": "Van 11, y tú dentro. Los que aún no han dicho nada, aparte.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "TU SEMANA",
+   "cap": "serie-v3/capturas/dia-01/d01_08b_desplegada",
+   "sub": "Clases › Mi semana: con lo reservado firmas la quinta semana de racha.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "¿NO VAS? AVISA",
+   "cap": "serie-v3/capturas/dia-01/d01_08_cancelar",
+   "sub": "«No asistiré» y tu plaza queda libre para otro. La app te avisa de la racha.",
+   "b": 1188
+  },
+  {
+   "cover": [
+    "DICES QUE VAS,",
+    "Y VAS."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

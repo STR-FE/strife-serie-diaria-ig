@@ -1,0 +1,77 @@
+{
+ "id": "dia-12",
+ "label": "PASO A PASO · TUS LOGROS",
+ "slides": [
+  {
+   "cover": [
+    "TU VITRINA,",
+    "CONTIGO."
+   ],
+   "lead": "Parches por asistencia, rachas y sparring, con su fecha."
+  },
+  {
+   "num": "01",
+   "title": "EN TU PERFIL",
+   "cap": "serie-v3/capturas/dia-12/d12_01_perfil",
+   "sub": "Tus parches y los seis que ve el centro primero.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "TUS PARCHES",
+   "cap": "serie-v3/capturas/dia-12/d12_02_logros",
+   "sub": "Por familias, y el nivel de tu vitrina.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "CON SU FECHA",
+   "cap": "serie-v3/capturas/dia-12/d12_03_fecha",
+   "sub": "Cuándo lo ganaste y cuántos lo tienen en el centro.",
+   "b": 750
+  },
+  {
+   "num": "04",
+   "title": "EL QUE TE FALTA",
+   "cap": "serie-v3/capturas/dia-12/d12_04_falta",
+   "sub": "Cuánto te queda. Eso solo lo ves tú.",
+   "b": 750
+  },
+  {
+   "num": "05",
+   "title": "TU VITRINA",
+   "cap": "serie-v3/capturas/dia-12/d12_05_vitrina",
+   "sub": "Elige seis: es lo primero que ven de ti.",
+   "b": 1188
+  },
+  {
+   "num": "06",
+   "title": "LA SALA DE TROFEOS",
+   "cap": "serie-v3/capturas/dia-12/d12_06_sala",
+   "sub": "Todo el centro, con sus parches y sus puntos.",
+   "modo": "entero"
+  },
+  {
+   "num": "07",
+   "title": "COMPÁRATE",
+   "cap": "serie-v3/capturas/dia-12/d12_07_compara",
+   "sub": "Lo que tiene él y lo que tienes tú.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "QUIÉN LOS VE",
+   "cap": "serie-v3/capturas/dia-12/d12_08_privacidad",
+   "sub": "Todos, solo la vitrina o nadie.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "CADA PARCHE,",
+    "CON FECHA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

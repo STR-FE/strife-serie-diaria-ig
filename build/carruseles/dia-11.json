@@ -1,0 +1,77 @@
+{
+ "id": "dia-11",
+ "label": "PASO A PASO · LA TIENDA",
+ "slides": [
+  {
+   "cover": [
+    "LA TIENDA,",
+    "SIN MOSTRADOR."
+   ],
+   "lead": "Ellos apartan en la app y tú cobras al entregar."
+  },
+  {
+   "num": "01",
+   "title": "NUEVO ARTÍCULO",
+   "cap": "serie-v3/capturas/dia-11/d11_02_nuevo",
+   "sub": "Foto, nombre, precio y si se publica ya.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "TALLAS Y STOCK",
+   "cap": "serie-v3/capturas/dia-11/d11_03_tallas",
+   "sub": "Cada combinación con sus unidades. El color, sacado de la foto.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "EN INICIO",
+   "cap": "serie-v3/capturas/dia-11/d11_05b_inicio",
+   "sub": "El escaparate, con foto y precio, a la vista de todos.",
+   "modo": "entero"
+  },
+  {
+   "num": "04",
+   "title": "TE LO APARTAN",
+   "cap": "serie-v3/capturas/dia-11/d11_06_pedidos",
+   "sub": "Álex reserva unos guantes desde la app. Por entregar.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "ENTREGAR Y COBRAR",
+   "cap": "serie-v3/capturas/dia-11/d11_07b_menos",
+   "sub": "¿Falta algo? Que te lo deba o perdónaselo.",
+   "b": 450
+  },
+  {
+   "num": "06",
+   "title": "QUEDA APUNTADO",
+   "cap": "serie-v3/capturas/dia-11/d11_07d_hecho",
+   "sub": "Entregado, cobrado y lo que queda por cobrar.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "VENDER AHORA",
+   "cap": "serie-v3/capturas/dia-11/d11_08_vender",
+   "sub": "En el mostrador: a quién, qué y cobrar.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "EN TRES TOQUES",
+   "cap": "serie-v3/capturas/dia-11/d11_08c_cobrar",
+   "sub": "Dos vendas rojas, 16 €, por Bizum.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "SIN COMISIONES,",
+    "SIN LIBRETA."
+   ],
+   "lead": "La app lleva las cuentas, no el dinero. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

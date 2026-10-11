@@ -1,0 +1,77 @@
+{
+ "id": "dia-09",
+ "label": "PASO A PASO · EL TABLÓN",
+ "slides": [
+  {
+   "cover": [
+    "DICHO",
+    "UNA VEZ."
+   ],
+   "lead": "Se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo."
+  },
+  {
+   "num": "01",
+   "title": "EL TABLÓN",
+   "cap": "serie-v3/capturas/dia-09/d09_01_tablon",
+   "sub": "Arriba en Inicio, con su foto, rotando.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "TUS ANUNCIOS",
+   "cap": "serie-v3/capturas/dia-09/d09_02_anuncios",
+   "sub": "Activos, programados y caducados.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "NUEVO ANUNCIO",
+   "cap": "serie-v3/capturas/dia-09/d09_03_nuevo",
+   "sub": "Título, texto e imagen.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "URGENTE O NO",
+   "cap": "serie-v3/capturas/dia-09/d09_05_urgente",
+   "sub": "En ámbar y el primero de la rotación, si quieres.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "ENTRA Y SALE SOLO",
+   "cap": "serie-v3/capturas/dia-09/d09_06_vigencia",
+   "sub": "Cuándo termina, franja horaria o atado a una clase.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "EL RESUMEN",
+   "cap": "serie-v3/capturas/dia-09/d09_07_resumen",
+   "sub": "Antes de publicar, todo en una línea.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "PROGRAMADO",
+   "cap": "serie-v3/capturas/dia-09/d09_02b_programados",
+   "sub": "No ocupa sitio hasta que llega su momento.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "LO VE TODO EL CENTRO",
+   "cap": "serie-v3/capturas/dia-09/d09_08_loven",
+   "sub": "Quién lo publicó y hasta cuándo está.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "UNA VEZ,",
+    "PARA TODOS."
+   ],
+   "lead": "Sin grupos de WhatsApp. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

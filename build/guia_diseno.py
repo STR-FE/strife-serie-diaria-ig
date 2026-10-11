@@ -87,6 +87,21 @@ def step_B(g, s, i, n):
 <div style="position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,#0b0c0e)"></div>''')
 
 
+def step_entero(g, s, i, n):
+    # La captura completa, barra de estado incluida, en el móvil entero: para los pasos en los que importa el contexto.
+    h = 980
+    w = round(h * 1080 / 2400)
+    return page(f'''
+<div style="position:absolute;top:58px;left:56px;right:56px;display:flex;justify-content:space-between">
+  <div class="label">{g["label"]}</div><div class="counter">{i:02d} / {n:02d}</div></div>
+<div style="position:absolute;top:118px;left:52px;display:flex;align-items:flex-end;gap:16px">
+  <div class="anton o" style="font-size:120px;line-height:0.78">{s["num"]}</div>
+  <div class="anton" style="font-size:62px;line-height:0.95;padding-bottom:6px">{s["title"]}</div></div>
+<div class="sub" style="position:absolute;top:238px;left:56px;width:968px;font-size:28px">{s["sub"]}</div>
+<div class="dev" style="left:{(1080 - w) // 2}px;top:332px;width:{w}px;height:{h}px;border-radius:48px;box-shadow:0 30px 80px rgba(0,0,0,.55)">
+  <img src="{shot_url(s["cap"])}" style="top:0"></div>''')
+
+
 def step_C(g, s, i, n):
     y = 63
     sc = 400 / 1080
@@ -137,7 +152,8 @@ def build(guia_json, variants):
             if 'cover' in s:
                 html = cover(v, g, s, i, n)
             else:
-                html = {'A': step_A, 'B': step_B, 'C': step_C}[v](g, s, i, n)
+                paso = step_entero if s.get('modo') == 'entero' else {'A': step_A, 'B': step_B, 'C': step_C}[v]
+                html = paso(g, s, i, n)
             hp = os.path.join(d, f'{i:02d}.html')
             open(hp, 'w').write(html)
             out = os.path.join(d, f'{i:02d}.png')

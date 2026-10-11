@@ -1,0 +1,70 @@
+{
+ "id": "dia-27",
+ "label": "PASO A PASO · TU CENTRO",
+ "slides": [
+  {
+   "cover": [
+    "TU CENTRO,",
+    "LO PRIMERO."
+   ],
+   "lead": "Tu foto, tu emblema y si hoy está abierto."
+  },
+  {
+   "num": "01",
+   "title": "LA PORTADA",
+   "cap": "serie-v3/capturas/dia-27/d27_01_portada",
+   "sub": "Foto, emblema, «Abierto» y disciplinas.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "LA FICHA",
+   "cap": "serie-v3/capturas/dia-27/d27_02_ficha",
+   "sub": "Horario de la semana, hoy resaltado, y cómo llegar.",
+   "b": 560
+  },
+  {
+   "num": "03",
+   "title": "LOGO Y PORTADA",
+   "cap": "serie-v3/capturas/dia-27/d27_04_perfil",
+   "sub": "Se cambian desde la cabecera.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "DESCRIPCIÓN E INSTAGRAM",
+   "cap": "serie-v3/capturas/dia-27/d27_05_info",
+   "sub": "Lo que eres, en una línea, y tu @.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "EL HORARIO",
+   "cap": "serie-v3/capturas/dia-27/d27_05b_horario",
+   "sub": "Franjas por día. Se guarda solo.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "TUS COLORES",
+   "cap": "serie-v3/capturas/dia-27/d27_06_colores",
+   "sub": "La paleta de tu centro, en toda la app.",
+   "b": 300
+  },
+  {
+   "num": "07",
+   "title": "ASÍ LO VEN",
+   "cap": "serie-v3/capturas/dia-27/d27_08_asilove",
+   "sub": "La misma portada, en el móvil de cada alumno.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "UNA APP",
+    "CON TU CARA."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

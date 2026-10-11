@@ -6,29 +6,34 @@ Archivo: dia-01-voy.png (1080×1350)
 Pie: Abre la clase, mira quién va y reserva con un toque. ¿No vas? Avisa: tu hueco lo pilla otro.
 Tags: #strife #strifeapp
 
-DÍA 2 · MARTES — para quien dirige
-Archivo: dia-02-la-semana-montada.png (1080×1350)
-Pie: Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo.
+CARRUSEL · PASO A PASO — LA SEMANA, MONTADA (quien dirige)
+Id: dia-02
+Carpeta: jpg/dia-02/ (10 fotos)
+Pie: Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo. Así se monta, paso a paso.
 Tags: #strife #clubes
 
-DÍA 3 · MIÉRCOLES — para quien entrena
-Archivo: dia-03-ficha-al-entrar.png (1080×1350)
-Pie: Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta.
+CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
+Id: dia-03
+Carpeta: jpg/dia-03/
+Pie: Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta. Así se hace, paso a paso.
 Tags: #strife #strifeapp
 
-DÍA 4 · JUEVES — para quien dirige
-Archivo: dia-04-lista-30-segundos.png (1080×1350)
-Pie: Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado.
+CARRUSEL · PASO A PASO — JUEVES — para quien dirige
+Id: dia-04
+Carpeta: jpg/dia-04/
+Pie: Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 5 · VIERNES — para quien entrena
-Archivo: dia-05-mes-nuevo-podio-nuevo.png (1080×1350)
-Pie: Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero.
+CARRUSEL · PASO A PASO — VIERNES — para quien entrena
+Id: dia-05
+Carpeta: jpg/dia-05/
+Pie: Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero. Así se hace, paso a paso.
 Tags: #strife #ranking
 
-DÍA 6 · SÁBADO — para quien dirige
-Archivo: dia-06-el-mes-cuadrado.png (1080×1350)
-Pie: Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar.
+CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
+Id: dia-06
+Carpeta: jpg/dia-06/
+Pie: Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 DÍA 7 · DOMINGO — cierre
@@ -36,14 +41,16 @@ Archivo: dia-07-cierre-semana-1.png (1080×1080)
 Pie: STRIFE ya está en Google Play. Gratis para quien entrena; 30 días de prueba para tu centro.
 Tags: #strife
 
-DÍA 8 · LUNES — para quien entrena
-Archivo: dia-08-cada-roll-apuntado.png (1080×1350)
-Pie: El parte del día en 30 segundos: con quién, cómo acabó y con qué.
+CARRUSEL · PASO A PASO — LUNES — para quien entrena
+Id: dia-08
+Carpeta: jpg/dia-08/
+Pie: El parte del día en 30 segundos: con quién, cómo acabó y con qué. Así se hace, paso a paso.
 Tags: #strife #sparring
 
-DÍA 9 · MARTES — para quien dirige
-Archivo: dia-09-dicho-una-vez.png (1080×1350)
-Pie: Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo.
+CARRUSEL · PASO A PASO — MARTES — para quien dirige
+Id: dia-09
+Carpeta: jpg/dia-09/
+Pie: Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 DÍA 10 · MIÉRCOLES — para quien entrena
@@ -51,19 +58,22 @@ Archivo: dia-10-el-peso-a-raya.png (1080×1350)
 Pie: Un número y listo: tu peso, tu objetivo y las lesiones que te frenan, en tu perfil.
 Tags: #strife #pesaje
 
-DÍA 11 · JUEVES — para quien dirige
-Archivo: dia-11-la-tienda-sin-mostrador.png (1080×1350)
-Pie: Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador.
+CARRUSEL · PASO A PASO — JUEVES — para quien dirige
+Id: dia-11
+Carpeta: jpg/dia-11/
+Pie: Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 12 · VIERNES — para quien entrena
-Archivo: dia-12-tu-vitrina-contigo.png (1080×1350)
-Pie: Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina.
+CARRUSEL · PASO A PASO — VIERNES — para quien entrena
+Id: dia-12
+Carpeta: jpg/dia-12/
+Pie: Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina. Así se hace, paso a paso.
 Tags: #strife #logros
 
-DÍA 13 · SÁBADO — para quien dirige
-Archivo: dia-13-el-club-en-orden.png (1080×1350)
-Pie: La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto.
+CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
+Id: dia-13
+Carpeta: jpg/dia-13/
+Pie: La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 DÍA 14 · DOMINGO — cierre
@@ -71,9 +81,10 @@ Archivo: dia-14-cierre-semana-2.png (1080×1080)
 Pie: Gratis para quien entrena: descarga STRIFE y busca tu gimnasio. Ya en Google Play.
 Tags: #strife
 
-DÍA 15 · LUNES — para quien entrena
-Archivo: dia-15-compites-aparece.png (1080×1350)
-Pie: Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento.
+CARRUSEL · PASO A PASO — LUNES — para quien entrena
+Id: dia-15
+Carpeta: jpg/dia-15/
+Pie: Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento. Así se hace, paso a paso.
 Tags: #strife #competicion
 
 DÍA 16 · MARTES — para quien dirige
@@ -81,24 +92,28 @@ Archivo: dia-16-nadie-se-descuelga.png (1080×1350)
 Pie: El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy.
 Tags: #strife #clubes
 
-DÍA 17 · MIÉRCOLES — para quien entrena
-Archivo: dia-17-cara-a-cara.png (1080×1350)
-Pie: Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle.
+CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
+Id: dia-17
+Carpeta: jpg/dia-17/
+Pie: Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle. Así se hace, paso a paso.
 Tags: #strife #ranking
 
-DÍA 18 · JUEVES — para quien dirige
-Archivo: dia-18-el-grupo-sin-ruido.png (1080×1350)
-Pie: El chat del centro, dentro de la app: con normas, denuncias y bloqueo.
+CARRUSEL · PASO A PASO — JUEVES — para quien dirige
+Id: dia-18
+Carpeta: jpg/dia-18/
+Pie: El chat del centro, dentro de la app: con normas, denuncias y bloqueo. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 19 · VIERNES — para quien entrena
-Archivo: dia-19-tu-cinturon-tiene-historia.png (1080×1350)
-Pie: Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse.
+CARRUSEL · PASO A PASO — VIERNES — para quien entrena
+Id: dia-19
+Carpeta: jpg/dia-19/
+Pie: Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse. Así se hace, paso a paso.
 Tags: #strife #bjj
 
-DÍA 20 · SÁBADO — para quien dirige
-Archivo: dia-20-la-puerta-con-criterio.png (1080×1350)
-Pie: Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera.
+CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
+Id: dia-20
+Carpeta: jpg/dia-20/
+Pie: Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 DÍA 21 · DOMINGO — cierre
@@ -116,24 +131,28 @@ Archivo: dia-23-abre-tu-club.png (1080×1350)
 Pie: Abrir tu centro: nombre, disciplinas y quién entra. Un revisor lo aprueba en minutos y empiezas con 30 días gratis.
 Tags: #strife #clubes
 
-DÍA 24 · MIÉRCOLES — para quien entrena
-Archivo: dia-24-tu-cuota-clara.png (1080×1350)
-Pie: Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil.
+CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
+Id: dia-24
+Carpeta: jpg/dia-24/
+Pie: Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil. Así se hace, paso a paso.
 Tags: #strife #strifeapp
 
-DÍA 25 · JUEVES — para quien dirige
-Archivo: dia-25-invita-en-un-toque.png (1080×1350)
-Pie: Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola.
+CARRUSEL · PASO A PASO — JUEVES — para quien dirige
+Id: dia-25
+Carpeta: jpg/dia-25/
+Pie: Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 26 · VIERNES — para quien entrena
-Archivo: dia-26-sabes-a-que-vas.png (1080×1350)
-Pie: El plan de hoy, el coach y quién va, antes de pisar el tatami.
+CARRUSEL · PASO A PASO — VIERNES — para quien entrena
+Id: dia-26
+Carpeta: jpg/dia-26/
+Pie: El plan de hoy, el coach y quién va, antes de pisar el tatami. Así se hace, paso a paso.
 Tags: #strife #strifeapp
 
-DÍA 27 · SÁBADO — para quien dirige
-Archivo: dia-27-tu-club-tu-casa.png (1080×1350)
-Pie: La portada es de tu centro: emblema, disciplinas, horario y estado.
+CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
+Id: dia-27
+Carpeta: jpg/dia-27/
+Pie: La portada es de tu centro: emblema, disciplinas, horario y estado. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 DÍA 28 · DOMINGO — cierre
@@ -141,9 +160,10 @@ Archivo: dia-28-cierre-semana-4.png (1080×1080)
 Pie: Todo el gimnasio en una app. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.
 Tags: #strife
 
-DÍA 29 · LUNES — para quien entrena
-Archivo: dia-29-tu-juego-en-datos.png (1080×1350)
-Pie: Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado.
+CARRUSEL · PASO A PASO — LUNES — para quien entrena
+Id: dia-29
+Carpeta: jpg/dia-29/
+Pie: Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado. Así se hace, paso a paso.
 Tags: #strife #sparring
 
 CARRUSEL · GUÍA — TU PRIMER DÍA (alumno)

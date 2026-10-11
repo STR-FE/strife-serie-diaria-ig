@@ -1,0 +1,70 @@
+{
+ "id": "dia-20",
+ "label": "PASO A PASO · ADMISIONES",
+ "slides": [
+  {
+   "cover": [
+    "LA PUERTA,",
+    "CON CRITERIO."
+   ],
+   "lead": "Tú decides cómo se entra en tu centro."
+  },
+  {
+   "num": "01",
+   "title": "CÓMO SE ENTRA",
+   "cap": "serie-v3/capturas/dia-20/d20_01_politica",
+   "sub": "Abierto, bajo solicitud, solo invitación o secreto.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "LA PIDE",
+   "cap": "serie-v3/capturas/dia-20/d20_02_pide",
+   "sub": "Hugo encuentra el centro en el mapa y pide plaza.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "TE AVISA",
+   "cap": "serie-v3/capturas/dia-20/d20_03_aviso",
+   "sub": "Solicitudes pendientes, en Inicio.",
+   "modo": "entero"
+  },
+  {
+   "num": "04",
+   "title": "PENDIENTES",
+   "cap": "serie-v3/capturas/dia-20/d20_05_pendientes",
+   "sub": "«Solicita entrar como alumno». Aceptar o rechazar.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "HISTORIAL",
+   "cap": "serie-v3/capturas/dia-20/d20_06_historial",
+   "sub": "Cada solicitud: quién, por quién y cuándo.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "LE LLEGA",
+   "cap": "serie-v3/capturas/dia-20/d20_07_lellega",
+   "sub": "«Te han aceptado en Villalba Fighting Co.»",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "YA ES DE LOS TUYOS",
+   "cap": "serie-v3/capturas/dia-20/d20_08_miembros",
+   "sub": "Hugo, en Alumnos, desde hoy.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "TU GENTE,",
+    "DENTRO."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "dia-02",
+ "label": "PASO A PASO · TU HORARIO",
+ "slides": [
+  {
+   "cover": [
+    "LA SEMANA,",
+    "MONTADA."
+   ],
+   "lead": "Días, hora, aforo y coach: lo pones una vez y el mes entero se rellena solo."
+  },
+  {
+   "num": "01",
+   "title": "TUS CLASES",
+   "cap": "serie-v3/capturas/dia-02/d02_01_catalogo",
+   "sub": "Clases › Catálogo: cada clase con su icono, su edad y su duración.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "NUEVA CLASE",
+   "cap": "serie-v3/capturas/dia-02/d02_02_nueva",
+   "sub": "Con el «+»: disciplina, nombre y una línea para quien se apunta.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "SU ICONO, SU COLOR",
+   "cap": "serie-v3/capturas/dia-02/d02_03_icono",
+   "sub": "Y la abreviatura con la que sale en el calendario.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "PON EL HORARIO",
+   "cap": "serie-v3/capturas/dia-02/d02_04_horario",
+   "sub": "Clases › Horario › «+»: la clase, desde cuándo y hasta cuándo.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "DÍAS, HORA Y CUPO",
+   "cap": "serie-v3/capturas/dia-02/d02_05_dias",
+   "sub": "Lunes y miércoles a las 19:00, una hora, 16 plazas y su coach.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "EL MES, SOLO",
+   "cap": "serie-v3/capturas/dia-02/d02_06_mes",
+   "sub": "Antes de guardar ya ves el mes entero, con todas las clases del centro.",
+   "modo": "entero"
+  },
+  {
+   "num": "07",
+   "title": "GUARDADO",
+   "cap": "serie-v3/capturas/dia-02/d02_07_guardado",
+   "sub": "Cada clase con sus días, su hora, su cupo y su coach.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "A TU CALENDARIO",
+   "cap": "serie-v3/capturas/dia-02/d02_08_exportar",
+   "sub": "Las próximas cuatro semanas, al calendario del móvil en un toque.",
+   "b": 1188
+  },
+  {
+   "cover": [
+    "UNA VEZ,",
+    "Y LISTO."
+   ],
+   "lead": "Quien entrena lo ve al momento y reserva desde su móvil. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

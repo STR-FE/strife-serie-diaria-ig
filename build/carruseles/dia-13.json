@@ -1,0 +1,77 @@
+{
+ "id": "dia-13",
+ "label": "PASO A PASO · LA FICHA",
+ "slides": [
+  {
+   "cover": [
+    "CADA ALUMNO,",
+    "SU FICHA."
+   ],
+   "lead": "Cuota, cinturón, asistencia y contacto en un solo sitio."
+  },
+  {
+   "num": "01",
+   "title": "TU GENTE",
+   "cap": "serie-v3/capturas/dia-13/d13_01_miembros",
+   "sub": "Todos tus alumnos, con su cinturón.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "LE TOCA",
+   "cap": "serie-v3/capturas/dia-13/d13_02_samuel",
+   "sub": "Samuel lleva más tiempo con su grado que la media del centro.",
+   "b": 700
+  },
+  {
+   "num": "03",
+   "title": "EL DINERO",
+   "cap": "serie-v3/capturas/dia-13/d13_03_oscar",
+   "sub": "Óscar: cuota vencida y un bono con tres clases.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "FUERA DEL TATAMI",
+   "cap": "serie-v3/capturas/dia-13/d13_04_nerea",
+   "sub": "Nerea lo comparte: entrena a medias hasta fin de mes.",
+   "b": 520
+  },
+  {
+   "num": "05",
+   "title": "DENTRO DEL CENTRO",
+   "cap": "serie-v3/capturas/dia-13/d13_05_dentro_t",
+   "sub": "Ranking, clases, con quién rueda y quién le graduó.",
+   "modo": "entero"
+  },
+  {
+   "num": "06",
+   "title": "CONTACTO",
+   "cap": "serie-v3/capturas/dia-13/d13_06_contacto_t",
+   "sub": "El teléfono solo lo ve quien gestiona miembros.",
+   "modo": "entero"
+  },
+  {
+   "num": "07",
+   "title": "ACTIVIDAD",
+   "cap": "serie-v3/capturas/dia-13/d13_07_actividad",
+   "sub": "Doce semanas: cuándo viene, cancelaciones y faltas.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "PROMOCIONA",
+   "cap": "serie-v3/capturas/dia-13/d13_08a_cinturon",
+   "sub": "Cinturón y grado, con fecha, desde su ficha.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "EL CENTRO,",
+    "EN ORDEN."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

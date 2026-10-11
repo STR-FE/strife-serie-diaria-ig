@@ -1,0 +1,49 @@
+{
+ "id": "dia-24",
+ "label": "PASO A PASO · TU CUOTA",
+ "slides": [
+  {
+   "cover": [
+    "TU CUOTA,",
+    "CLARA."
+   ],
+   "lead": "Cuánto pagas y hasta cuándo está cubierta, en tu perfil."
+  },
+  {
+   "num": "01",
+   "title": "EL AVISO",
+   "cap": "serie-v3/capturas/dia-24/d24_01_aviso",
+   "sub": "«Tu cuota vence hoy · se paga en recepción».",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "MI CUOTA",
+   "cap": "serie-v3/capturas/dia-24/d24_02_micuota",
+   "sub": "Tu tarifa y hasta cuándo estás cubierto.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "EN RECEPCIÓN",
+   "cap": "serie-v3/capturas/dia-06/d06_04_registrar",
+   "sub": "Pagas en el centro y lo registran en dos toques.",
+   "b": 1000
+  },
+  {
+   "num": "04",
+   "title": "AL DÍA",
+   "cap": "serie-v3/capturas/dia-24/d24_06_aldia",
+   "sub": "Y en tu perfil, cubierta hasta el mes que viene.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "SIN SORPRESAS",
+    "A FIN DE MES."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "dia-25",
+ "label": "PASO A PASO · INVITAR",
+ "slides": [
+  {
+   "cover": [
+    "INVITA EN",
+    "UN TOQUE."
+   ],
+   "lead": "Tenga la app o no."
+  },
+  {
+   "num": "01",
+   "title": "INVITAR",
+   "cap": "serie-v3/capturas/dia-25/d25_01_invitar",
+   "sub": "Email, @usuario o nombre: un solo buscador.",
+   "b": 560
+  },
+  {
+   "num": "02",
+   "title": "BÚSCALO",
+   "cap": "serie-v3/capturas/dia-25/d25_02_buscalo",
+   "sub": "Por su nombre.",
+   "b": 560
+  },
+  {
+   "num": "03",
+   "title": "CON QUÉ ROL",
+   "cap": "serie-v3/capturas/dia-25/d25_03_rol",
+   "sub": "Alumno, entrenador o administrador.",
+   "b": 300
+  },
+  {
+   "num": "04",
+   "title": "¿NO TIENE LA APP?",
+   "cap": "serie-v3/capturas/dia-25/d25_05_compartir",
+   "sub": "Mándale el enlace a Google Play por WhatsApp.",
+   "b": 1188
+  },
+  {
+   "num": "05",
+   "title": "PENDIENTE",
+   "cap": "serie-v3/capturas/dia-25/d25_06_pendiente",
+   "sub": "La invitación, con su fecha de caducidad.",
+   "b": 1100
+  },
+  {
+   "num": "06",
+   "title": "LE LLEGA",
+   "cap": "serie-v3/capturas/dia-25/d25_07_lellega",
+   "sub": "Aceptar o rechazar, desde el aviso.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "YA ES MIEMBRO",
+   "cap": "serie-v3/capturas/dia-25/d25_08_miembro",
+   "sub": "«Ya eres miembro de Villalba Fighting Co.»",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "TU GENTE,",
+    "DENTRO."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

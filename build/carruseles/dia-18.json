@@ -1,0 +1,77 @@
+{
+ "id": "dia-18",
+ "label": "PASO A PASO · EL CHAT",
+ "slides": [
+  {
+   "cover": [
+    "EL GRUPO,",
+    "SIN RUIDO."
+   ],
+   "lead": "El chat del centro, dentro de la app: con normas, denuncias y bloqueo."
+  },
+  {
+   "num": "01",
+   "title": "EL CHAT DEL CENTRO",
+   "cap": "serie-v3/capturas/dia-18/d18_01b_conversacion",
+   "sub": "Un solo grupo para todo el centro.",
+   "b": 420
+  },
+  {
+   "num": "02",
+   "title": "MANTÉN PULSADO",
+   "cap": "serie-v3/capturas/dia-18/d18_03_pulsado",
+   "sub": "Responder, copiar, denunciar o bloquear.",
+   "b": 1188
+  },
+  {
+   "num": "03",
+   "title": "¿QUÉ PASA?",
+   "cap": "serie-v3/capturas/dia-18/d18_04_motivo",
+   "sub": "Spam o publicidad. No sabrá quién le ha denunciado.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "REGISTRADA",
+   "cap": "serie-v3/capturas/dia-18/d18_05_registrada",
+   "sub": "Quién la ve y qué puede pasar.",
+   "b": 1000
+  },
+  {
+   "num": "05",
+   "title": "BLOQUEAR",
+   "cap": "serie-v3/capturas/dia-18/d18_06_bloquear",
+   "sub": "Dejáis de veros en el chat. Sigue en el centro.",
+   "b": 650
+  },
+  {
+   "num": "06",
+   "title": "LA BANDEJA",
+   "cap": "serie-v3/capturas/dia-18/d18_07_bandeja",
+   "sub": "Las denuncias, solo para el admin y los coaches.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "RESUELVE",
+   "cap": "serie-v3/capturas/dia-18/d18_08_resuelve",
+   "sub": "Borrar, avisar al autor o desestimar.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "RETIRADO",
+   "cap": "serie-v3/capturas/dia-18/d18_08c_retirado",
+   "sub": "«Mensaje retirado por incumplir las normas».",
+   "b": 1000
+  },
+  {
+   "cover": [
+    "CON NORMAS",
+    "DE VERDAD."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

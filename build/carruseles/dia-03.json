@@ -1,0 +1,77 @@
+{
+ "id": "dia-03",
+ "label": "PASO A PASO · FICHAR CON QR",
+ "slides": [
+  {
+   "cover": [
+    "LLEGAS,",
+    "Y FICHAS."
+   ],
+   "lead": "Escaneas el QR de la clase y quedas presente. Sin libreta en la puerta."
+  },
+  {
+   "num": "01",
+   "title": "TU CLASE, YA",
+   "cap": "serie-v3/capturas/dia-03/d03_01_hoy",
+   "sub": "En Hoy: tu clase de esta tarde, reservada.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "EL BOTÓN",
+   "cap": "serie-v3/capturas/dia-03/d03_02_ficha",
+   "sub": "Se abre 15 minutos antes y se cierra al terminar la clase.",
+   "b": 1188
+  },
+  {
+   "num": "03",
+   "title": "EL QR DE LA PUERTA",
+   "cap": "serie-v3/capturas/dia-03/d03_03_qr",
+   "sub": "Tu coach lo proyecta en la tele. Cambia cada 30 segundos.",
+   "modo": "entero"
+  },
+  {
+   "num": "04",
+   "title": "APÚNTALE",
+   "cap": "serie-v3/capturas/dia-03/d03_04_visor",
+   "sub": "Apunta al QR de tu coach o al de la puerta.",
+   "modo": "entero"
+  },
+  {
+   "num": "05",
+   "title": "¡PRESENTE!",
+   "cap": "serie-v3/capturas/dia-03/d03_05_presente",
+   "sub": "Marcado con tu hora. +10 puntos cuando termine la clase.",
+   "b": 1100
+  },
+  {
+   "num": "06",
+   "title": "¿LLEGAS TARDE?",
+   "cap": "serie-v3/capturas/dia-03/d03_06_tarde",
+   "sub": "«Presente · con retraso»: +6, y tu coach puede perdonártelo.",
+   "b": 1100
+  },
+  {
+   "num": "07",
+   "title": "SIN CÁMARA, CÓDIGO",
+   "cap": "serie-v3/capturas/dia-03/d03_07_codigo",
+   "sub": "Las seis letras que salen debajo del QR.",
+   "b": 600
+  },
+  {
+   "num": "08",
+   "title": "Y EN SU LISTA",
+   "cap": "serie-v3/capturas/dia-03/d03_08_lista",
+   "sub": "Tu coach te ve dentro, «vía QR», con tu hora.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "SIN LIBRETA",
+    "EN LA PUERTA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

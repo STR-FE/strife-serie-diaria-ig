@@ -1,0 +1,77 @@
+{
+ "id": "dia-04",
+ "label": "PASO A PASO · PASAR LISTA",
+ "slides": [
+  {
+   "cover": [
+    "LISTA EN",
+    "30 SEGUNDOS."
+   ],
+   "lead": "Presente, ausente o retraso. Y el QR hace la mitad."
+  },
+  {
+   "num": "01",
+   "title": "CLASES DE HOY",
+   "cap": "serie-v3/capturas/dia-04/d04_01_hoy",
+   "sub": "La que está en curso, con su aforo y quién va.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "LA SESIÓN",
+   "cap": "serie-v3/capturas/dia-04/d04_02_sesion",
+   "sub": "El plan de hoy y quién va, cada uno con su cara.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "GESTIONAR",
+   "cap": "serie-v3/capturas/dia-04/d04_03_gestionar",
+   "sub": "Pasar lista, plan, aforo, sustituto u horario.",
+   "b": 1188
+  },
+  {
+   "num": "04",
+   "title": "PASAR LISTA",
+   "cap": "serie-v3/capturas/dia-04/d04_04_lista",
+   "sub": "Proyectar el QR, lista con foto o marcar el resto.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "PROYECTA EL QR",
+   "cap": "serie-v3/capturas/dia-04/d04_05_qr",
+   "sub": "En la tele: cambia solo y cuenta quién va entrando.",
+   "modo": "entero"
+  },
+  {
+   "num": "06",
+   "title": "O EN LA PIZARRA",
+   "cap": "serie-v3/capturas/dia-04/d04_05b_pizarra",
+   "sub": "Modo pizarra, en claro, para la pared del tatami.",
+   "modo": "entero"
+  },
+  {
+   "num": "07",
+   "title": "EL RESTO, A MANO",
+   "cap": "serie-v3/capturas/dia-04/d04_07_mano",
+   "sub": "P, A o R por fila. Quien fichó con el QR ya está dentro.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "MARCAR RESTO",
+   "cap": "serie-v3/capturas/dia-04/d04_08_resto",
+   "sub": "Un toque y la lista entera marcada.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "LA PUERTA,",
+    "SIN LIBRETA."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

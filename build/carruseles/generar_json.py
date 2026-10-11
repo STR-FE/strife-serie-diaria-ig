@@ -1,0 +1,248 @@
+# Escribe build/carruseles/dia-XX.json a partir de las tablas de abajo (una por post).
+# Paso: (captura, título, subtítulo, b) — b = desde qué píxel de la captura empieza el zoom (diseño B), o 'E' para el
+# móvil entero. Las capturas viven en strife-marketing/serie-v3/capturas/dia-XX/ (las _t llevan los datos tapados).
+#   python3 build/carruseles/generar_json.py
+import json, os
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+ALUMNO = 'Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.'
+CENTRO = '30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.'
+
+C = {}
+
+C['dia-02'] = ('PASO A PASO · TU HORARIO', ['LA SEMANA,', 'MONTADA.'],
+  'Días, hora, aforo y coach: lo pones una vez y el mes entero se rellena solo.', [
+  ('d02_01_catalogo', 'TUS CLASES', 'Clases › Catálogo: cada clase con su icono, su edad y su duración.', 'E'),
+  ('d02_02_nueva', 'NUEVA CLASE', 'Con el «+»: disciplina, nombre y una línea para quien se apunta.', 63),
+  ('d02_03_icono', 'SU ICONO, SU COLOR', 'Y la abreviatura con la que sale en el calendario.', 63),
+  ('d02_04_horario', 'PON EL HORARIO', 'Clases › Horario › «+»: la clase, desde cuándo y hasta cuándo.', 63),
+  ('d02_05_dias', 'DÍAS, HORA Y CUPO', 'Lunes y miércoles a las 19:00, una hora, 16 plazas y su coach.', 63),
+  ('d02_06_mes', 'EL MES, SOLO', 'Antes de guardar ya ves el mes entero, con todas las clases del centro.', 'E'),
+  ('d02_07_guardado', 'GUARDADO', 'Cada clase con sus días, su hora, su cupo y su coach.', 63),
+  ('d02_08_exportar', 'A TU CALENDARIO', 'Las próximas cuatro semanas, al calendario del móvil en un toque.', 1188)],
+  ['UNA VEZ,', 'Y LISTO.'], 'Quien entrena lo ve al momento y reserva desde su móvil. ' + CENTRO)
+
+C['dia-03'] = ('PASO A PASO · FICHAR CON QR', ['LLEGAS,', 'Y FICHAS.'],
+  'Escaneas el QR de la clase y quedas presente. Sin libreta en la puerta.', [
+  ('d03_01_hoy', 'TU CLASE, YA', 'En Hoy: tu clase de esta tarde, reservada.', 63),
+  ('d03_02_ficha', 'EL BOTÓN', 'Se abre 15 minutos antes y se cierra al terminar la clase.', 1188),
+  ('d03_03_qr', 'EL QR DE LA PUERTA', 'Tu coach lo proyecta en la tele. Cambia cada 30 segundos.', 'E'),
+  ('d03_04_visor', 'APÚNTALE', 'Apunta al QR de tu coach o al de la puerta.', 'E'),
+  ('d03_05_presente', '¡PRESENTE!', 'Marcado con tu hora. +10 puntos cuando termine la clase.', 1100),
+  ('d03_06_tarde', '¿LLEGAS TARDE?', '«Presente · con retraso»: +6, y tu coach puede perdonártelo.', 1100),
+  ('d03_07_codigo', 'SIN CÁMARA, CÓDIGO', 'Las seis letras que salen debajo del QR.', 600),
+  ('d03_08_lista', 'Y EN SU LISTA', 'Tu coach te ve dentro, «vía QR», con tu hora.', 63)],
+  ['SIN LIBRETA', 'EN LA PUERTA.'], ALUMNO)
+
+C['dia-04'] = ('PASO A PASO · PASAR LISTA', ['LISTA EN', '30 SEGUNDOS.'],
+  'Presente, ausente o retraso. Y el QR hace la mitad.', [
+  ('d04_01_hoy', 'CLASES DE HOY', 'La que está en curso, con su aforo y quién va.', 63),
+  ('d04_02_sesion', 'LA SESIÓN', 'El plan de hoy y quién va, cada uno con su cara.', 63),
+  ('d04_03_gestionar', 'GESTIONAR', 'Pasar lista, plan, aforo, sustituto u horario.', 1188),
+  ('d04_04_lista', 'PASAR LISTA', 'Proyectar el QR, lista con foto o marcar el resto.', 63),
+  ('d04_05_qr', 'PROYECTA EL QR', 'En la tele: cambia solo y cuenta quién va entrando.', 'E'),
+  ('d04_05b_pizarra', 'O EN LA PIZARRA', 'Modo pizarra, en claro, para la pared del tatami.', 'E'),
+  ('d04_07_mano', 'EL RESTO, A MANO', 'P, A o R por fila. Quien fichó con el QR ya está dentro.', 63),
+  ('d04_08_resto', 'MARCAR RESTO', 'Un toque y la lista entera marcada.', 63)],
+  ['LA PUERTA,', 'SIN LIBRETA.'], CENTRO)
+
+C['dia-05'] = ('PASO A PASO · EL RANKING', ['MES NUEVO,', 'PODIO NUEVO.'],
+  'Cada clase a la que vas suma. Podio por disciplina y por clase.', [
+  ('d05_01_inicio', 'EN INICIO', 'Tu gente y el ranking del mes, a un toque.', 'E'),
+  ('d05_02_podio', 'EL PODIO', 'Los tres de arriba, con sus puntos y cuánto queda para el cierre.', 'E'),
+  ('d05_03_boxeo', 'POR DISCIPLINA', 'Boxeo, Muay Thai, MMA o jiu-jitsu: cada una con su podio.', 'E'),
+  ('d05_04_nogi', 'Y POR CLASE', 'Solo NO-GI, solo Open Mat… Tú eliges.', 'E'),
+  ('d05_02b_lista', 'TODO EL CENTRO', 'Quién sube, quién baja y a cuántas clases por semana va.', 900),
+  ('d05_05_reglas', 'CÓMO SE SUMA', 'Presente +10, retraso +6 y +5 por cada semana de racha.', 63),
+  ('d05_06_desglose', 'CLASE A CLASE', 'Toca a cualquiera y ves de dónde sale cada punto.', 700),
+  ('d05_07_racha', 'TU RACHA', 'Las semanas seguidas que llevas, y el club de la constancia.', 'E')],
+  ['CADA CLASE', 'SUMA.'], ALUMNO)
+
+C['dia-06'] = ('PASO A PASO · LA CAJA', ['EL MES,', 'CUADRADO.'],
+  'Lo cobrado y quién falta por pagar. Sin hoja de cálculo.', [
+  ('d06_01_caja', 'LA CAJA', 'En Inicio: quién está vencido y su cobro, a un toque.', 'E'),
+  ('d06_02_cuotas', 'LAS CUOTAS', 'Cobrado este mes, al día, vencen pronto y vencidos.', 63),
+  ('d06_03_historial', 'SU FICHA DE PAGOS', 'Su tarifa y cada ciclo de cuota que ha pagado.', 1188),
+  ('d06_04_registrar', 'REGISTRAR PAGO', 'El importe ya viene puesto. Efectivo, Bizum o transferencia.', 1000),
+  ('d06_05_aldia', 'AL DÍA', 'Cuadra al momento: un vencido menos.', 63),
+  ('d06_06_bonos', 'BONOS', 'Packs de clases que se descuentan solos al pasar lista.', 650),
+  ('d06_07_tarifa', 'TARIFAS', 'Nombre, precio y las disciplinas que incluye.', 1188),
+  ('d06_08b_recordar', 'LA APP LO RECUERDA', 'Avisa al alumno antes de que venza su cuota.', 700)],
+  ['TÚ COBRAS,', 'LA APP CUENTA.'], 'La app lleva las cuentas, no el dinero. ' + CENTRO)
+
+C['dia-08'] = ('PASO A PASO · EL PARTE', ['CADA ROLL,', 'APUNTADO.'],
+  'El parte del día en 30 segundos: con quién, cómo acabó y con qué.', [
+  ('d08_01_alacabar', 'AL ACABAR', 'En Hoy: «El parte de NO-GI está sin registrar».', 'E'),
+  ('d08_02_sesion', '¿DE QUÉ CLASE?', 'Solo las clases a las que fuiste.', 63),
+  ('d08_03_corro', 'EL CORRO', '¿Con quién rodaste? Solo salen los que estaban.', 63),
+  ('d08_04_como', '¿CÓMO ACABÓ?', 'Sometí, tablas o me sometieron.', 780),
+  ('d08_05_conque', '¿CON QUÉ?', 'Opcional: mataleón, kimura, triángulo…', 63),
+  ('d08_06_tres', 'TRES ROLLS', 'Uno ganado, uno empatado, uno perdido. Guardar.', 63),
+  ('d08_06b_guardado', 'APUNTADO', 'Tu marcador del mes, al día.', 'E'),
+  ('d08_07_diario', 'TU DIARIO', 'Doce meses de rolls, sesión a sesión.', 63)],
+  ['CADA ROLL', 'CUENTA.'], ALUMNO)
+
+C['dia-09'] = ('PASO A PASO · EL TABLÓN', ['DICHO', 'UNA VEZ.'],
+  'Se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo.', [
+  ('d09_01_tablon', 'EL TABLÓN', 'Arriba en Inicio, con su foto, rotando.', 'E'),
+  ('d09_02_anuncios', 'TUS ANUNCIOS', 'Activos, programados y caducados.', 63),
+  ('d09_03_nuevo', 'NUEVO ANUNCIO', 'Título, texto e imagen.', 63),
+  ('d09_05_urgente', 'URGENTE O NO', 'En ámbar y el primero de la rotación, si quieres.', 63),
+  ('d09_06_vigencia', 'ENTRA Y SALE SOLO', 'Cuándo termina, franja horaria o atado a una clase.', 63),
+  ('d09_07_resumen', 'EL RESUMEN', 'Antes de publicar, todo en una línea.', 63),
+  ('d09_02b_programados', 'PROGRAMADO', 'No ocupa sitio hasta que llega su momento.', 63),
+  ('d09_08_loven', 'LO VE TODO EL CENTRO', 'Quién lo publicó y hasta cuándo está.', 'E')],
+  ['UNA VEZ,', 'PARA TODOS.'], 'Sin grupos de WhatsApp. ' + CENTRO)
+
+C['dia-11'] = ('PASO A PASO · LA TIENDA', ['LA TIENDA,', 'SIN MOSTRADOR.'],
+  'Ellos apartan en la app y tú cobras al entregar.', [
+  ('d11_02_nuevo', 'NUEVO ARTÍCULO', 'Foto, nombre, precio y si se publica ya.', 'E'),
+  ('d11_03_tallas', 'TALLAS Y STOCK', 'Cada combinación con sus unidades. El color, sacado de la foto.', 63),
+  ('d11_05b_inicio', 'EN INICIO', 'El escaparate, con foto y precio, a la vista de todos.', 'E'),
+  ('d11_06_pedidos', 'TE LO APARTAN', 'Álex reserva unos guantes desde la app. Por entregar.', 63),
+  ('d11_07b_menos', 'ENTREGAR Y COBRAR', '¿Falta algo? Que te lo deba o perdónaselo.', 450),
+  ('d11_07d_hecho', 'QUEDA APUNTADO', 'Entregado, cobrado y lo que queda por cobrar.', 63),
+  ('d11_08_vender', 'VENDER AHORA', 'En el mostrador: a quién, qué y cobrar.', 63),
+  ('d11_08c_cobrar', 'EN TRES TOQUES', 'Dos vendas rojas, 16 €, por Bizum.', 63)],
+  ['SIN COMISIONES,', 'SIN LIBRETA.'], 'La app lleva las cuentas, no el dinero. ' + CENTRO)
+
+C['dia-12'] = ('PASO A PASO · TUS LOGROS', ['TU VITRINA,', 'CONTIGO.'],
+  'Parches por asistencia, rachas y sparring, con su fecha.', [
+  ('d12_01_perfil', 'EN TU PERFIL', 'Tus parches y los seis que ve el centro primero.', 'E'),
+  ('d12_02_logros', 'TUS PARCHES', 'Por familias, y el nivel de tu vitrina.', 63),
+  ('d12_03_fecha', 'CON SU FECHA', 'Cuándo lo ganaste y cuántos lo tienen en el centro.', 750),
+  ('d12_04_falta', 'EL QUE TE FALTA', 'Cuánto te queda. Eso solo lo ves tú.', 750),
+  ('d12_05_vitrina', 'TU VITRINA', 'Elige seis: es lo primero que ven de ti.', 1188),
+  ('d12_06_sala', 'LA SALA DE TROFEOS', 'Todo el centro, con sus parches y sus puntos.', 'E'),
+  ('d12_07_compara', 'COMPÁRATE', 'Lo que tiene él y lo que tienes tú.', 63),
+  ('d12_08_privacidad', 'QUIÉN LOS VE', 'Todos, solo la vitrina o nadie.', 63)],
+  ['CADA PARCHE,', 'CON FECHA.'], ALUMNO)
+
+C['dia-13'] = ('PASO A PASO · LA FICHA', ['CADA ALUMNO,', 'SU FICHA.'],
+  'Cuota, cinturón, asistencia y contacto en un solo sitio.', [
+  ('d13_01_miembros', 'TU GENTE', 'Todos tus alumnos, con su cinturón.', 'E'),
+  ('d13_02_samuel', 'LE TOCA', 'Samuel lleva más tiempo con su grado que la media del centro.', 700),
+  ('d13_03_oscar', 'EL DINERO', 'Óscar: cuota vencida y un bono con tres clases.', 63),
+  ('d13_04_nerea', 'FUERA DEL TATAMI', 'Nerea lo comparte: entrena a medias hasta fin de mes.', 520),
+  ('d13_05_dentro_t', 'DENTRO DEL CENTRO', 'Ranking, clases, con quién rueda y quién le graduó.', 'E'),
+  ('d13_06_contacto_t', 'CONTACTO', 'El teléfono solo lo ve quien gestiona miembros.', 'E'),
+  ('d13_07_actividad', 'ACTIVIDAD', 'Doce semanas: cuándo viene, cancelaciones y faltas.', 63),
+  ('d13_08a_cinturon', 'PROMOCIONA', 'Cinturón y grado, con fecha, desde su ficha.', 'E')],
+  ['EL CENTRO,', 'EN ORDEN.'], CENTRO)
+
+C['dia-15'] = ('PASO A PASO · COMPETICIÓN', ['COMPITES,', 'APARECE.'],
+  'Vincula tu Smoothcomp y tu palmarés entra en tu ficha.', [
+  ('d15_05_competicion', 'TU COMPETICIÓN', 'Victorias, por puntos o por sumisión, y eventos.', 'E'),
+  ('d15_05b_desplegado', 'CADA COMBATE', 'Contra quién, cómo acabó y la medalla.', 63),
+  ('d15_06_palmares', 'EL PALMARÉS', 'Año a año, evento a evento.', 63),
+  ('d15_08_derrotas', 'TUS DERROTAS, TUYAS', 'El centro ve tus victorias. Las derrotas, si quieres.', 'E')],
+  ['TU PALMARÉS,', 'EN TU FICHA.'], ALUMNO)
+
+C['dia-17'] = ('PASO A PASO · CARA A CARA', ['CARA', 'A CARA.'],
+  'Elige rival en el ranking y compárate: puntos, rachas y asistencia.', [
+  ('d17_01_rival', 'ELIGE RIVAL', 'El que va justo delante. Toca «VS».', 'E'),
+  ('d17_03_caraacara', 'EL COMBATE', 'El que defiende contra el aspirante, asalto a asalto.', 'E'),
+  ('d17_06_remontada', 'LA REMONTADA', 'Octubre, día a día, y cuánto te separa.', 'E'),
+  ('d17_08_espejo', 'EL ESPEJO', 'Así entrena cada uno, y dónde os cruzáis.', 'E')],
+  ['TRES CLASES', 'Y ES TUYO.'], ALUMNO)
+
+C['dia-18'] = ('PASO A PASO · EL CHAT', ['EL GRUPO,', 'SIN RUIDO.'],
+  'El chat del centro, dentro de la app: con normas, denuncias y bloqueo.', [
+  ('d18_01b_conversacion', 'EL CHAT DEL CENTRO', 'Un solo grupo para todo el centro.', 420),
+  ('d18_03_pulsado', 'MANTÉN PULSADO', 'Responder, copiar, denunciar o bloquear.', 1188),
+  ('d18_04_motivo', '¿QUÉ PASA?', 'Spam o publicidad. No sabrá quién le ha denunciado.', 63),
+  ('d18_05_registrada', 'REGISTRADA', 'Quién la ve y qué puede pasar.', 1000),
+  ('d18_06_bloquear', 'BLOQUEAR', 'Dejáis de veros en el chat. Sigue en el centro.', 650),
+  ('d18_07_bandeja', 'LA BANDEJA', 'Las denuncias, solo para el admin y los coaches.', 63),
+  ('d18_08_resuelve', 'RESUELVE', 'Borrar, avisar al autor o desestimar.', 63),
+  ('d18_08c_retirado', 'RETIRADO', '«Mensaje retirado por incumplir las normas».', 1000)],
+  ['CON NORMAS', 'DE VERDAD.'], CENTRO)
+
+C['dia-19'] = ('PASO A PASO · TU CINTURÓN', ['TU CINTURÓN', 'TIENE HISTORIA.'],
+  'Cada grado con su fecha y quién te lo dio.', [
+  ('d19_01_ficha', 'LE TOCA', 'Tu coach ve cuánto llevas con tu grado.', 'E'),
+  ('d19_02_promocionar', 'PROMOCIONAR', 'Disciplina, cinturón y grados.', 950),
+  ('d19_04_promocionado', 'TE HAN PROMOCIONADO', '«¡Enhorabuena! Sigue así.»', 63),
+  ('d19_05_perfil', 'EN TU PERFIL', 'Tu cinturón nuevo, a la vista.', 63),
+  ('d19_06_ficha_desplegada_t', 'TÚ DECIDES', 'Qué ve tu centro de ti y qué no.', 600),
+  ('d19_07_linaje_t', 'EL LINAJE', 'Quién te graduó, y quién le graduó a él.', 950)],
+  ['CADA GRADO,', 'CON FIRMA.'], ALUMNO)
+
+C['dia-20'] = ('PASO A PASO · ADMISIONES', ['LA PUERTA,', 'CON CRITERIO.'],
+  'Tú decides cómo se entra en tu centro.', [
+  ('d20_01_politica', 'CÓMO SE ENTRA', 'Abierto, bajo solicitud, solo invitación o secreto.', 63),
+  ('d20_02_pide', 'LA PIDE', 'Hugo encuentra el centro en el mapa y pide plaza.', 'E'),
+  ('d20_03_aviso', 'TE AVISA', 'Solicitudes pendientes, en Inicio.', 'E'),
+  ('d20_05_pendientes', 'PENDIENTES', '«Solicita entrar como alumno». Aceptar o rechazar.', 63),
+  ('d20_06_historial', 'HISTORIAL', 'Cada solicitud: quién, por quién y cuándo.', 63),
+  ('d20_07_lellega', 'LE LLEGA', '«Te han aceptado en Villalba Fighting Co.»', 63),
+  ('d20_08_miembros', 'YA ES DE LOS TUYOS', 'Hugo, en Alumnos, desde hoy.', 'E')],
+  ['TU GENTE,', 'DENTRO.'], CENTRO)
+
+C['dia-24'] = ('PASO A PASO · TU CUOTA', ['TU CUOTA,', 'CLARA.'],
+  'Cuánto pagas y hasta cuándo está cubierta, en tu perfil.', [
+  ('d24_01_aviso', 'EL AVISO', '«Tu cuota vence hoy · se paga en recepción».', 63),
+  ('d24_02_micuota', 'MI CUOTA', 'Tu tarifa y hasta cuándo estás cubierto.', 'E'),
+  ('d06_04_registrar', 'EN RECEPCIÓN', 'Pagas en el centro y lo registran en dos toques.', 1000),
+  ('d24_06_aldia', 'AL DÍA', 'Y en tu perfil, cubierta hasta el mes que viene.', 'E')],
+  ['SIN SORPRESAS', 'A FIN DE MES.'], ALUMNO)
+
+C['dia-25'] = ('PASO A PASO · INVITAR', ['INVITA EN', 'UN TOQUE.'],
+  'Tenga la app o no.', [
+  ('d25_01_invitar', 'INVITAR', 'Email, @usuario o nombre: un solo buscador.', 560),
+  ('d25_02_buscalo', 'BÚSCALO', 'Por su nombre.', 560),
+  ('d25_03_rol', 'CON QUÉ ROL', 'Alumno, entrenador o administrador.', 300),
+  ('d25_05_compartir', '¿NO TIENE LA APP?', 'Mándale el enlace a Google Play por WhatsApp.', 1188),
+  ('d25_06_pendiente', 'PENDIENTE', 'La invitación, con su fecha de caducidad.', 1100),
+  ('d25_07_lellega', 'LE LLEGA', 'Aceptar o rechazar, desde el aviso.', 63),
+  ('d25_08_miembro', 'YA ES MIEMBRO', '«Ya eres miembro de Villalba Fighting Co.»', 'E')],
+  ['TU GENTE,', 'DENTRO.'], CENTRO)
+
+C['dia-26'] = ('PASO A PASO · TU CLASE', ['SABES', 'A QUÉ VAS.'],
+  'El plan de hoy, el coach y quién va, antes de pisar el tatami.', [
+  ('d26_01_hoy', 'LAS DE HOY', 'Despliega: aforo, quién va y reserva.', 'E'),
+  ('d26_02_clase', 'LA CLASE', 'Cuándo, cuánto dura, para quién y quién la da.', 63),
+  ('d26_03_plan', 'HOY TRABAJAMOS', 'Lo que ha preparado tu coach.', 63),
+  ('d26_04_sala', 'QUIÉN VA', 'Van once. Con quién empezar y con quién exigirte.', 63),
+  ('d26_06_ruben', '¿CON QUIÉN?', 'Toca a cualquiera: su cinturón, sus parches y su juego.', 'E'),
+  ('d26_08_exportar', 'A TU CALENDARIO', 'Las próximas cuatro semanas, en el calendario del móvil.', 1188)],
+  ['SABES', 'A QUÉ VAS.'], ALUMNO)
+
+C['dia-27'] = ('PASO A PASO · TU CENTRO', ['TU CENTRO,', 'LO PRIMERO.'],
+  'Tu foto, tu emblema y si hoy está abierto.', [
+  ('d27_01_portada', 'LA PORTADA', 'Foto, emblema, «Abierto» y disciplinas.', 'E'),
+  ('d27_02_ficha', 'LA FICHA', 'Horario de la semana, hoy resaltado, y cómo llegar.', 560),
+  ('d27_04_perfil', 'LOGO Y PORTADA', 'Se cambian desde la cabecera.', 63),
+  ('d27_05_info', 'DESCRIPCIÓN E INSTAGRAM', 'Lo que eres, en una línea, y tu @.', 63),
+  ('d27_05b_horario', 'EL HORARIO', 'Franjas por día. Se guarda solo.', 63),
+  ('d27_06_colores', 'TUS COLORES', 'La paleta de tu centro, en toda la app.', 300),
+  ('d27_08_asilove', 'ASÍ LO VEN', 'La misma portada, en el móvil de cada alumno.', 'E')],
+  ['UNA APP', 'CON TU CARA.'], CENTRO)
+
+C['dia-29'] = ('PASO A PASO · MI JUEGO', ['TU JUEGO,', 'EN DATOS.'],
+  'Lo que rematas, lo que te rematan y contra quién.', [
+  ('d29_01_perfil', 'EN TU PERFIL', 'Tu arma, tu grieta y cuánto acabas.', 'E'),
+  ('d29_02_mes', 'EL MES', 'Sometí, tablas, me sometieron, y el balance.', 63),
+  ('d29_03_juego', 'TU JUEGO', 'Con qué rematas y con qué te rematan.', 63),
+  ('d29_04_escalada', 'LA ESCALADA', 'Doce meses, y el día en que el balance cruzó.', 63),
+  ('d29_05_peso', 'EL PESO IMPORTA', 'Cuánto acabas con los más ligeros, los parejos y los pesados.', 63),
+  ('d29_06_rivales', 'TUS RIVALES', 'Con quién ruedas más este mes.', 63),
+  ('d29_07_ruben', 'TÚ CONTRA RUBÉN', 'Vuestros últimos rolls, del más antiguo al último.', 'E'),
+  ('d29_08_privacidad', 'SI QUIERES, QUE LO VEAN', 'Mi juego en tu perfil. Nunca con quién rodaste.', 63)],
+  ['CADA ROLL', 'SUMA.'], ALUMNO)
+
+
+for pid, (label, cover, lead, pasos, cierre, lead_cierre) in C.items():
+    slides = [{'cover': cover, 'lead': lead}]
+    for k, (cap, title, sub, b) in enumerate(pasos, 1):
+        carpeta = 'dia-24' if cap.startswith('d24') else ('dia-06' if cap.startswith('d06') else 'dia-' + cap[1:3])
+        s = {'num': f'{k:02d}', 'title': title, 'cap': f'serie-v3/capturas/{carpeta}/{cap}', 'sub': sub}
+        if b == 'E':
+            s['modo'] = 'entero'
+        else:
+            s['b'] = b
+        slides.append(s)
+    slides.append({'cover': cierre, 'lead': lead_cierre, 'tag': 'YA EN GOOGLE PLAY'})
+    json.dump({'id': pid, 'label': label, 'slides': slides}, open(os.path.join(AQUI, pid + '.json'), 'w'),
+              ensure_ascii=False, indent=1)
+    print(pid, len(slides))

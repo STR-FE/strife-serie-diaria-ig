@@ -1,0 +1,77 @@
+{
+ "id": "dia-05",
+ "label": "PASO A PASO · EL RANKING",
+ "slides": [
+  {
+   "cover": [
+    "MES NUEVO,",
+    "PODIO NUEVO."
+   ],
+   "lead": "Cada clase a la que vas suma. Podio por disciplina y por clase."
+  },
+  {
+   "num": "01",
+   "title": "EN INICIO",
+   "cap": "serie-v3/capturas/dia-05/d05_01_inicio",
+   "sub": "Tu gente y el ranking del mes, a un toque.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "EL PODIO",
+   "cap": "serie-v3/capturas/dia-05/d05_02_podio",
+   "sub": "Los tres de arriba, con sus puntos y cuánto queda para el cierre.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "POR DISCIPLINA",
+   "cap": "serie-v3/capturas/dia-05/d05_03_boxeo",
+   "sub": "Boxeo, Muay Thai, MMA o jiu-jitsu: cada una con su podio.",
+   "modo": "entero"
+  },
+  {
+   "num": "04",
+   "title": "Y POR CLASE",
+   "cap": "serie-v3/capturas/dia-05/d05_04_nogi",
+   "sub": "Solo NO-GI, solo Open Mat… Tú eliges.",
+   "modo": "entero"
+  },
+  {
+   "num": "05",
+   "title": "TODO EL CENTRO",
+   "cap": "serie-v3/capturas/dia-05/d05_02b_lista",
+   "sub": "Quién sube, quién baja y a cuántas clases por semana va.",
+   "b": 900
+  },
+  {
+   "num": "06",
+   "title": "CÓMO SE SUMA",
+   "cap": "serie-v3/capturas/dia-05/d05_05_reglas",
+   "sub": "Presente +10, retraso +6 y +5 por cada semana de racha.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "CLASE A CLASE",
+   "cap": "serie-v3/capturas/dia-05/d05_06_desglose",
+   "sub": "Toca a cualquiera y ves de dónde sale cada punto.",
+   "b": 700
+  },
+  {
+   "num": "08",
+   "title": "TU RACHA",
+   "cap": "serie-v3/capturas/dia-05/d05_07_racha",
+   "sub": "Las semanas seguidas que llevas, y el club de la constancia.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "CADA CLASE",
+    "SUMA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

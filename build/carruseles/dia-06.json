@@ -1,0 +1,77 @@
+{
+ "id": "dia-06",
+ "label": "PASO A PASO · LA CAJA",
+ "slides": [
+  {
+   "cover": [
+    "EL MES,",
+    "CUADRADO."
+   ],
+   "lead": "Lo cobrado y quién falta por pagar. Sin hoja de cálculo."
+  },
+  {
+   "num": "01",
+   "title": "LA CAJA",
+   "cap": "serie-v3/capturas/dia-06/d06_01_caja",
+   "sub": "En Inicio: quién está vencido y su cobro, a un toque.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "LAS CUOTAS",
+   "cap": "serie-v3/capturas/dia-06/d06_02_cuotas",
+   "sub": "Cobrado este mes, al día, vencen pronto y vencidos.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "SU FICHA DE PAGOS",
+   "cap": "serie-v3/capturas/dia-06/d06_03_historial",
+   "sub": "Su tarifa y cada ciclo de cuota que ha pagado.",
+   "b": 1188
+  },
+  {
+   "num": "04",
+   "title": "REGISTRAR PAGO",
+   "cap": "serie-v3/capturas/dia-06/d06_04_registrar",
+   "sub": "El importe ya viene puesto. Efectivo, Bizum o transferencia.",
+   "b": 1000
+  },
+  {
+   "num": "05",
+   "title": "AL DÍA",
+   "cap": "serie-v3/capturas/dia-06/d06_05_aldia",
+   "sub": "Cuadra al momento: un vencido menos.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "BONOS",
+   "cap": "serie-v3/capturas/dia-06/d06_06_bonos",
+   "sub": "Packs de clases que se descuentan solos al pasar lista.",
+   "b": 650
+  },
+  {
+   "num": "07",
+   "title": "TARIFAS",
+   "cap": "serie-v3/capturas/dia-06/d06_07_tarifa",
+   "sub": "Nombre, precio y las disciplinas que incluye.",
+   "b": 1188
+  },
+  {
+   "num": "08",
+   "title": "LA APP LO RECUERDA",
+   "cap": "serie-v3/capturas/dia-06/d06_08b_recordar",
+   "sub": "Avisa al alumno antes de que venza su cuota.",
+   "b": 700
+  },
+  {
+   "cover": [
+    "TÚ COBRAS,",
+    "LA APP CUENTA."
+   ],
+   "lead": "La app lleva las cuentas, no el dinero. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}
