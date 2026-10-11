@@ -1,0 +1,77 @@
+{
+ "id": "guia-peso",
+ "label": "GUÍA · TU PESO",
+ "slides": [
+  {
+   "cover": [
+    "EL PESO,",
+    "A RAYA."
+   ],
+   "lead": "Un año de registros, cada lesión encima de la curva y el margen hasta tu categoría."
+  },
+  {
+   "num": "01",
+   "title": "TU CUERPO",
+   "cap": "serie-v3/capturas/peso/p01_cuerpo",
+   "sub": "Peso, estado y lo que llevas este año, en una pantalla.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "ANOTA",
+   "cap": "serie-v3/capturas/peso/l02_anotar",
+   "sub": "Un número y su contexto. La lesión abierta se cruza sola.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "UN AÑO ENTERO",
+   "cap": "serie-v3/capturas/peso/p03_meses",
+   "sub": "Media y rango por meses, con cada lesión encima.",
+   "b": 700
+  },
+  {
+   "num": "04",
+   "title": "O SIN EPISODIOS",
+   "cap": "serie-v3/capturas/peso/p02b_sinepisodios",
+   "sub": "Apágalos y queda la curva limpia.",
+   "b": 700
+  },
+  {
+   "num": "05",
+   "title": "CADA REGISTRO",
+   "cap": "serie-v3/capturas/peso/p04_registros",
+   "sub": "Los últimos 90 días, registro a registro.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "EL CRUCE",
+   "cap": "serie-v3/capturas/peso/p05_diario",
+   "sub": "Cuánto te mueven las lesiones y los días que te dejaron fuera.",
+   "b": 1188
+  },
+  {
+   "num": "07",
+   "title": "TU OBJETIVO",
+   "cap": "serie-v3/capturas/peso/pe03_objetivo",
+   "sub": "Los límites de tus categorías, o el número que quieras.",
+   "b": 1188
+  },
+  {
+   "num": "08",
+   "title": "TU CATEGORÍA",
+   "cap": "serie-v3/capturas/peso/pe01_bascula",
+   "sub": "Con gi y sin gi: tu límite y el margen que te queda.",
+   "b": 900
+  },
+  {
+   "cover": [
+    "TU PESO,",
+    "TUYO."
+   ],
+   "lead": "Peso y lesiones solo los ves tú. Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -223,13 +223,13 @@ Tags: #strife #sparring #tutorial
 CARRUSEL · GUÍA — UNA LESIÓN
 Id: guia-lesion
 Carpeta: jpg/guia-lesion/ (10 fotos)
-Pie: Hasta el menisco: marca la lesión en la silueta, concrétala en 3D y mira cuánto te cuesta en el peso y en el tatami.
+Pie: Hasta el ligamento: marca la lesión en la silueta, concrétala en 3D, mira cuánto te frena y decide si se lo cuentas a tu centro.
 Tags: #strife #lesiones #tutorial
 
 CARRUSEL · GUÍA — PESO Y EPISODIOS
 Id: guia-peso
-Carpeta: jpg/guia-peso/ (9 fotos)
-Pie: El peso, a raya: un número cuando quieras y cada lesión encima de la curva. Tus datos son tuyos.
+Carpeta: jpg/guia-peso/ (10 fotos)
+Pie: El peso, a raya: un año de registros, cada lesión encima de la curva y el margen hasta tu categoría. Tus datos son tuyos.
 Tags: #strife #pesaje
 
 CARRUSEL · GUÍA — EL PARTE DE CLASE
@@ -291,3 +291,21 @@ Id: guia-ajustes-centro
 Carpeta: jpg/guia-ajustes-centro/ (6 fotos)
 Pie: Tu centro, tus reglas: admisión, tablón, tienda, seguimiento, roles, pagos y la suscripción. 30 días gratis.
 Tags: #strife #clubes
+
+CARRUSEL · GUÍA — LA LESIÓN EN TU JUEGO
+Id: guia-lesion-juego
+Carpeta: jpg/guia-lesion-juego/ (9 fotos)
+Pie: Tocado, pero contado: tus partes de sparring llevan la lesión de ese día, tu diario compara cuánto ruedas y cuánto acabas, y tu coach solo ve «fuera del tatami».
+Tags: #strife #lesiones #bjj
+
+CARRUSEL · GUÍA — EL APARTE
+Id: guia-aparte
+Carpeta: jpg/guia-aparte/ (8 fotos)
+Pie: Solo tú y tu centro: un hilo privado para lo que no dirías en el chat de todos. Te escribe una persona, nunca un aviso automático.
+Tags: #strife #strifeapp
+
+CARRUSEL · GUÍA — LOS AVISOS
+Id: guia-avisos
+Carpeta: jpg/guia-avisos/ (6 fotos)
+Pie: Solo lo que importa: tu cuota, tus clases, tus ascensos y tus pedidos. Y tú eliges qué te avisa.
+Tags: #strife #strifeapp

@@ -494,7 +494,7 @@
       "jpg/guia-lesion/09.jpg",
       "jpg/guia-lesion/10.jpg"
     ],
-    "caption": "Hasta el menisco: marca la lesión en la silueta, concrétala en 3D y mira cuánto te cuesta en el peso y en el tatami.\n\n#strife #lesiones #tutorial"
+    "caption": "Hasta el ligamento: marca la lesión en la silueta, concrétala en 3D, mira cuánto te frena y decide si se lo cuentas a tu centro.\n\n#strife #lesiones #tutorial"
   },
   {
     "id": "guia-peso",
@@ -513,9 +513,10 @@
       "jpg/guia-peso/06.jpg",
       "jpg/guia-peso/07.jpg",
       "jpg/guia-peso/08.jpg",
-      "jpg/guia-peso/09.jpg"
+      "jpg/guia-peso/09.jpg",
+      "jpg/guia-peso/10.jpg"
     ],
-    "caption": "El peso, a raya: un número cuando quieras y cada lesión encima de la curva. Tus datos son tuyos.\n\n#strife #pesaje"
+    "caption": "El peso, a raya: un año de registros, cada lesión encima de la curva y el margen hasta tu categoría. Tus datos son tuyos.\n\n#strife #pesaje"
   },
   {
     "id": "dia-05",
@@ -962,5 +963,64 @@
       "jpg/guia-ajustes-centro/06.jpg"
     ],
     "caption": "Tu centro, tus reglas: admisión, tablón, tienda, seguimiento, roles, pagos y la suscripción. 30 días gratis.\n\n#strife #clubes"
+  },
+  {
+    "id": "guia-lesion-juego",
+    "orden": 51,
+    "fecha": "2026-11-25",
+    "dia_semana": "miercoles",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-lesion-juego/01.jpg",
+      "jpg/guia-lesion-juego/02.jpg",
+      "jpg/guia-lesion-juego/03.jpg",
+      "jpg/guia-lesion-juego/04.jpg",
+      "jpg/guia-lesion-juego/05.jpg",
+      "jpg/guia-lesion-juego/06.jpg",
+      "jpg/guia-lesion-juego/07.jpg",
+      "jpg/guia-lesion-juego/08.jpg",
+      "jpg/guia-lesion-juego/09.jpg"
+    ],
+    "caption": "Tocado, pero contado: tus partes de sparring llevan la lesión de ese día, tu diario compara cuánto ruedas y cuánto acabas, y tu coach solo ve «fuera del tatami».\n\n#strife #lesiones #bjj"
+  },
+  {
+    "id": "guia-aparte",
+    "orden": 52,
+    "fecha": "2026-11-26",
+    "dia_semana": "jueves",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-aparte/01.jpg",
+      "jpg/guia-aparte/02.jpg",
+      "jpg/guia-aparte/03.jpg",
+      "jpg/guia-aparte/04.jpg",
+      "jpg/guia-aparte/05.jpg",
+      "jpg/guia-aparte/06.jpg",
+      "jpg/guia-aparte/07.jpg",
+      "jpg/guia-aparte/08.jpg"
+    ],
+    "caption": "Solo tú y tu centro: un hilo privado para lo que no dirías en el chat de todos. Te escribe una persona, nunca un aviso automático.\n\n#strife #strifeapp"
+  },
+  {
+    "id": "guia-avisos",
+    "orden": 53,
+    "fecha": "2026-11-27",
+    "dia_semana": "viernes",
+    "hora": "21:30",
+    "audiencia": "alumno",
+    "tipo": "carrusel",
+    "archivos": [
+      "jpg/guia-avisos/01.jpg",
+      "jpg/guia-avisos/02.jpg",
+      "jpg/guia-avisos/03.jpg",
+      "jpg/guia-avisos/04.jpg",
+      "jpg/guia-avisos/05.jpg",
+      "jpg/guia-avisos/06.jpg"
+    ],
+    "caption": "Solo lo que importa: tu cuota, tus clases, tus ascensos y tus pedidos. Y tú eliges qué te avisa.\n\n#strife #strifeapp"
   }
 ]

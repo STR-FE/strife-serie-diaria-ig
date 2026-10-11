@@ -1,0 +1,70 @@
+{
+ "id": "guia-lesion-juego",
+ "label": "GUÍA · LA LESIÓN EN TU JUEGO",
+ "slides": [
+  {
+   "cover": [
+    "TOCADO,",
+    "PERO CONTADO."
+   ],
+   "lead": "Lo que te frena una lesión, en tu sparring, en tu diario y en tu centro."
+  },
+  {
+   "num": "01",
+   "title": "TOCADO",
+   "cap": "serie-v3/capturas/lesion/l08_guardado",
+   "sub": "Tu estado, arriba en Cuerpo. Y la lesión sobre tu curva de peso.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "CADA PARTE, CON LO SUYO",
+   "cap": "serie-v3/capturas/lesion/j01_hoy",
+   "sub": "Tus partes de sparring llevan la lesión que tenías ese día.",
+   "b": 900
+  },
+  {
+   "num": "03",
+   "title": "RODASTE CON…",
+   "cap": "serie-v3/capturas/lesion/j02_parte",
+   "sub": "«Rodaste con luxación, fuera del tatami.» Y aun así, tres rolls.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "EL DIARIO LO MARCA",
+   "cap": "serie-v3/capturas/lesion/j03_diario",
+   "sub": "Desde que te lesionaste, cuántos rolls haces y cuánto acabas.",
+   "b": 400
+  },
+  {
+   "num": "05",
+   "title": "SESIÓN A SESIÓN",
+   "cap": "serie-v3/capturas/lesion/j03b_diario",
+   "sub": "Cada clase con el episodio que tenías entonces.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "LO QUE VE TU COACH",
+   "cap": "serie-v3/capturas/lesion/l13_coach",
+   "sub": "Solo «fuera del tatami». Nadie pregunta, y nadie te escribe por faltar.",
+   "b": 520
+  },
+  {
+   "num": "07",
+   "title": "YA ESTOY BIEN",
+   "cap": "serie-v3/capturas/lesion/l10_cerrar",
+   "sub": "Un toque y se cierra. Tu curva y tu juego vuelven a lo normal.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "VUELVES",
+    "CUANDO TOCA."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

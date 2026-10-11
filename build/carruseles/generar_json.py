@@ -231,12 +231,69 @@ C['dia-29'] = ('PASO A PASO · MI JUEGO', ['TU JUEGO,', 'EN DATOS.'],
   ('d29_08_privacidad', 'SI QUIERES, QUE LO VEAN', 'Mi juego en tu perfil. Nunca con quién rodaste.', 63)],
   ['CADA ROLL', 'SUMA.'], ALUMNO)
 
+C['guia-lesion'] = ('GUÍA · TU CUERPO EN 3D', ['HASTA EL', 'LIGAMENTO.'],
+  'Apunta una lesión en la silueta, concrétala en 3D y mira cuánto te cuesta.', [
+  ('lesion/l03_queha', '¿QUÉ HA PASADO?', 'Lesión, enfermedad o piel. Y el tipo: esguince, rotura, luxación…', 63),
+  ('lesion/l04_zona', 'MARCA DÓNDE', 'Toca la zona en la silueta, por delante o por detrás.', 'E'),
+  ('lesion/l05_3d', 'CONCRÉTALO EN 3D', 'El hombro en 3D: por fuera, de frente, por dentro y por detrás.', 63),
+  ('lesion/l06c_interna', 'SIN MÚSCULOS', 'Filtra por articulaciones y los músculos se vuelven transparentes.', 63),
+  ('lesion/l06_ahiesta', 'AHÍ ESTÁ', 'Ligamento glenohumeral inferior: se ilumina en el modelo.', 63),
+  ('lesion/l07_cuanto', 'CUÁNTO TE FRENA', 'Desde cuándo y cuánto: normal, a medias o fuera del tatami.', 'E'),
+  ('lesion/l11_episodio', 'TU EPISODIO', 'Dónde, qué, desde cuándo y tu peso durante la lesión.', 1100),
+  ('lesion/l12_compartir', '¿SE LO DICES?', 'Solo que estás fuera, y si quieres hasta cuándo. Ni el qué ni dónde.', 900)],
+  ['TUS DATOS', 'SON TUYOS.'], ALUMNO)
+
+C['guia-lesion-juego'] = ('GUÍA · LA LESIÓN EN TU JUEGO', ['TOCADO,', 'PERO CONTADO.'],
+  'Lo que te frena una lesión, en tu sparring, en tu diario y en tu centro.', [
+  ('lesion/l08_guardado', 'TOCADO', 'Tu estado, arriba en Cuerpo. Y la lesión sobre tu curva de peso.', 63),
+  ('lesion/j01_hoy', 'CADA PARTE, CON LO SUYO', 'Tus partes de sparring llevan la lesión que tenías ese día.', 900),
+  ('lesion/j02_parte', 'RODASTE CON…', '«Rodaste con luxación, fuera del tatami.» Y aun así, tres rolls.', 63),
+  ('lesion/j03_diario', 'EL DIARIO LO MARCA', 'Desde que te lesionaste, cuántos rolls haces y cuánto acabas.', 400),
+  ('lesion/j03b_diario', 'SESIÓN A SESIÓN', 'Cada clase con el episodio que tenías entonces.', 63),
+  ('lesion/l13_coach', 'LO QUE VE TU COACH', 'Solo «fuera del tatami». Nadie pregunta, y nadie te escribe por faltar.', 520),
+  ('lesion/l10_cerrar', 'YA ESTOY BIEN', 'Un toque y se cierra. Tu curva y tu juego vuelven a lo normal.', 'E')],
+  ['VUELVES', 'CUANDO TOCA.'], ALUMNO)
+
+C['guia-peso'] = ('GUÍA · TU PESO', ['EL PESO,', 'A RAYA.'],
+  'Un año de registros, cada lesión encima de la curva y el margen hasta tu categoría.', [
+  ('peso/p01_cuerpo', 'TU CUERPO', 'Peso, estado y lo que llevas este año, en una pantalla.', 'E'),
+  ('peso/l02_anotar', 'ANOTA', 'Un número y su contexto. La lesión abierta se cruza sola.', 63),
+  ('peso/p03_meses', 'UN AÑO ENTERO', 'Media y rango por meses, con cada lesión encima.', 700),
+  ('peso/p02b_sinepisodios', 'O SIN EPISODIOS', 'Apágalos y queda la curva limpia.', 700),
+  ('peso/p04_registros', 'CADA REGISTRO', 'Los últimos 90 días, registro a registro.', 63),
+  ('peso/p05_diario', 'EL CRUCE', 'Cuánto te mueven las lesiones y los días que te dejaron fuera.', 1188),
+  ('peso/pe03_objetivo', 'TU OBJETIVO', 'Los límites de tus categorías, o el número que quieras.', 1188),
+  ('peso/pe01_bascula', 'TU CATEGORÍA', 'Con gi y sin gi: tu límite y el margen que te queda.', 900)],
+  ['TU PESO,', 'TUYO.'], 'Peso y lesiones solo los ves tú. ' + ALUMNO)
+
+C['guia-aparte'] = ('GUÍA · EL APARTE', ['SOLO TÚ', 'Y TU CENTRO.'],
+  'Un hilo privado con tu centro. Lo que no dirías en el chat de todos.', [
+  ('aparte/ap01_hoy', 'EN HOY', 'El aparte, con el último mensaje de tu centro.', 'E'),
+  ('aparte/ap02_hilo', 'EL HILO', 'Solo entre tú y el centro. Nadie más del grupo lo ve.', 'E'),
+  ('aparte/ap04_enviado', 'CONTESTA', 'Cuando quieras y como quieras.', 1000),
+  ('lesion/l13_coach', 'LO QUE VE TU CENTRO', 'Tu ritmo, no tus datos. Si estás lesionado, solo «fuera del tatami».', 520),
+  ('aparte/ap06_coach', 'LO ESCRIBE UNA PERSONA', 'Tu coach elige cómo decírtelo y lo firma con su nombre.', 1000),
+  ('aparte/ap08_lellega', 'TE LLEGA', 'Como mensaje de tu centro, nunca como aviso automático.', 1000)],
+  ['HABLA', 'CON TU CENTRO.'], ALUMNO)
+
+C['guia-avisos'] = ('GUÍA · LOS AVISOS', ['SOLO LO', 'QUE IMPORTA.'],
+  'Tu cuota, tus clases, tus ascensos y tus rolls. Y tú eliges cuáles.', [
+  ('avisos/av01_campana', 'LA CAMPANA', 'Cuota, pedidos, ascensos y clases canceladas, en un sitio.', 'E'),
+  ('avisos/av02_abre_t', 'UN TOQUE Y VAS', 'Cada aviso te lleva a lo suyo: un ascenso, a tu cinturón.', 63),
+  ('avisos/av04_tramo1', 'TÚ ELIGES', 'Ajustes › Notificaciones: cinturones, clases y sparring.', 600),
+  ('avisos/av04_tramo2', 'Y TU TIENDA', 'Tu pedido te espera, pedido actualizado o anulado.', 1100)],
+  ['ENTÉRATE', 'A TIEMPO.'], ALUMNO)
+
 
 for pid, (label, cover, lead, pasos, cierre, lead_cierre) in C.items():
     slides = [{'cover': cover, 'lead': lead}]
     for k, (cap, title, sub, b) in enumerate(pasos, 1):
-        carpeta = 'dia-24' if cap.startswith('d24') else ('dia-06' if cap.startswith('d06') else 'dia-' + cap[1:3])
-        s = {'num': f'{k:02d}', 'title': title, 'cap': f'serie-v3/capturas/{carpeta}/{cap}', 'sub': sub}
+        if '/' in cap:
+            ruta = cap
+        else:
+            carpeta = 'dia-24' if cap.startswith('d24') else ('dia-06' if cap.startswith('d06') else 'dia-' + cap[1:3])
+            ruta = f'{carpeta}/{cap}'
+        s = {'num': f'{k:02d}', 'title': title, 'cap': f'serie-v3/capturas/{ruta}', 'sub': sub}
         if b == 'E':
             s['modo'] = 'entero'
         else:

@@ -1,0 +1,49 @@
+{
+ "id": "guia-avisos",
+ "label": "GUÍA · LOS AVISOS",
+ "slides": [
+  {
+   "cover": [
+    "SOLO LO",
+    "QUE IMPORTA."
+   ],
+   "lead": "Tu cuota, tus clases, tus ascensos y tus rolls. Y tú eliges cuáles."
+  },
+  {
+   "num": "01",
+   "title": "LA CAMPANA",
+   "cap": "serie-v3/capturas/avisos/av01_campana",
+   "sub": "Cuota, pedidos, ascensos y clases canceladas, en un sitio.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "UN TOQUE Y VAS",
+   "cap": "serie-v3/capturas/avisos/av02_abre_t",
+   "sub": "Cada aviso te lleva a lo suyo: un ascenso, a tu cinturón.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "TÚ ELIGES",
+   "cap": "serie-v3/capturas/avisos/av04_tramo1",
+   "sub": "Ajustes › Notificaciones: cinturones, clases y sparring.",
+   "b": 600
+  },
+  {
+   "num": "04",
+   "title": "Y TU TIENDA",
+   "cap": "serie-v3/capturas/avisos/av04_tramo2",
+   "sub": "Tu pedido te espera, pedido actualizado o anulado.",
+   "b": 1100
+  },
+  {
+   "cover": [
+    "ENTÉRATE",
+    "A TIEMPO."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

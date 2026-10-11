@@ -1,0 +1,63 @@
+{
+ "id": "guia-aparte",
+ "label": "GUÍA · EL APARTE",
+ "slides": [
+  {
+   "cover": [
+    "SOLO TÚ",
+    "Y TU CENTRO."
+   ],
+   "lead": "Un hilo privado con tu centro. Lo que no dirías en el chat de todos."
+  },
+  {
+   "num": "01",
+   "title": "EN HOY",
+   "cap": "serie-v3/capturas/aparte/ap01_hoy",
+   "sub": "El aparte, con el último mensaje de tu centro.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "EL HILO",
+   "cap": "serie-v3/capturas/aparte/ap02_hilo",
+   "sub": "Solo entre tú y el centro. Nadie más del grupo lo ve.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "CONTESTA",
+   "cap": "serie-v3/capturas/aparte/ap04_enviado",
+   "sub": "Cuando quieras y como quieras.",
+   "b": 1000
+  },
+  {
+   "num": "04",
+   "title": "LO QUE VE TU CENTRO",
+   "cap": "serie-v3/capturas/lesion/l13_coach",
+   "sub": "Tu ritmo, no tus datos. Si estás lesionado, solo «fuera del tatami».",
+   "b": 520
+  },
+  {
+   "num": "05",
+   "title": "LO ESCRIBE UNA PERSONA",
+   "cap": "serie-v3/capturas/aparte/ap06_coach",
+   "sub": "Tu coach elige cómo decírtelo y lo firma con su nombre.",
+   "b": 1000
+  },
+  {
+   "num": "06",
+   "title": "TE LLEGA",
+   "cap": "serie-v3/capturas/aparte/ap08_lellega",
+   "sub": "Como mensaje de tu centro, nunca como aviso automático.",
+   "b": 1000
+  },
+  {
+   "cover": [
+    "HABLA",
+    "CON TU CENTRO."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Convierte pies-de-foto.txt en calendario.json siguiendo ORDEN.
 
-Serie: 29 posts de imagen y 21 carruseles-guía, uno al día desde la fecha de inicio,
+Serie: posts de imagen y carruseles paso a paso, uno al día desde la fecha de inicio,
 en el orden de ORDEN y a la hora que toca según el público y el día de la semana.
 
   python3 generar_calendario.py 2026-10-06        (o FECHA_INICIO=2026-10-06)
@@ -53,6 +53,7 @@ ORDEN = [
     ("dia-27", "centro"), ("guia-centro", "centro"),
     ("dia-28", "marca"),
     ("guia-ajustes-alumno", "alumno"), ("guia-ajustes-centro", "centro"),
+    ("guia-lesion-juego", "alumno"), ("guia-aparte", "alumno"), ("guia-avisos", "alumno"),
 ]
 
 

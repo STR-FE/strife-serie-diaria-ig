@@ -1,0 +1,77 @@
+{
+ "id": "guia-lesion",
+ "label": "GUÍA · TU CUERPO EN 3D",
+ "slides": [
+  {
+   "cover": [
+    "HASTA EL",
+    "LIGAMENTO."
+   ],
+   "lead": "Apunta una lesión en la silueta, concrétala en 3D y mira cuánto te cuesta."
+  },
+  {
+   "num": "01",
+   "title": "¿QUÉ HA PASADO?",
+   "cap": "serie-v3/capturas/lesion/l03_queha",
+   "sub": "Lesión, enfermedad o piel. Y el tipo: esguince, rotura, luxación…",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "MARCA DÓNDE",
+   "cap": "serie-v3/capturas/lesion/l04_zona",
+   "sub": "Toca la zona en la silueta, por delante o por detrás.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "CONCRÉTALO EN 3D",
+   "cap": "serie-v3/capturas/lesion/l05_3d",
+   "sub": "El hombro en 3D: por fuera, de frente, por dentro y por detrás.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "SIN MÚSCULOS",
+   "cap": "serie-v3/capturas/lesion/l06c_interna",
+   "sub": "Filtra por articulaciones y los músculos se vuelven transparentes.",
+   "b": 63
+  },
+  {
+   "num": "05",
+   "title": "AHÍ ESTÁ",
+   "cap": "serie-v3/capturas/lesion/l06_ahiesta",
+   "sub": "Ligamento glenohumeral inferior: se ilumina en el modelo.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "CUÁNTO TE FRENA",
+   "cap": "serie-v3/capturas/lesion/l07_cuanto",
+   "sub": "Desde cuándo y cuánto: normal, a medias o fuera del tatami.",
+   "modo": "entero"
+  },
+  {
+   "num": "07",
+   "title": "TU EPISODIO",
+   "cap": "serie-v3/capturas/lesion/l11_episodio",
+   "sub": "Dónde, qué, desde cuándo y tu peso durante la lesión.",
+   "b": 1100
+  },
+  {
+   "num": "08",
+   "title": "¿SE LO DICES?",
+   "cap": "serie-v3/capturas/lesion/l12_compartir",
+   "sub": "Solo que estás fuera, y si quieres hasta cuándo. Ni el qué ni dónde.",
+   "b": 900
+  },
+  {
+   "cover": [
+    "TUS DATOS",
+    "SON TUYOS."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}
