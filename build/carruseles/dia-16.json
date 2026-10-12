@@ -1,0 +1,77 @@
+{
+ "id": "dia-16",
+ "label": "PASO A PASO · SEGUIMIENTO",
+ "slides": [
+  {
+   "cover": [
+    "NADIE SE",
+    "DESCUELGA."
+   ],
+   "lead": "El termómetro te dice quién se está enfriando antes de que se vaya. Y le escribes tú."
+  },
+  {
+   "num": "01",
+   "title": "EL AVISO",
+   "cap": "serie-v3/capturas/dia-16/d16_01_aviso",
+   "sub": "«Óscar Lozano se está yendo.» Te enteras antes de que deje de venir.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "SU FICHA",
+   "cap": "serie-v3/capturas/dia-16/d16_02_oscar",
+   "sub": "54 sobre 100, y de qué está hecho: de 2,5 clases a la semana a 0,3.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "LAS CUENTAS",
+   "cap": "serie-v3/capturas/dia-16/d16_04_cuentas",
+   "sub": "Cinco sumas, y cada una sale de algo que pasó, con su fecha.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "CADA DÍA, EN HOY",
+   "cap": "serie-v3/capturas/dia-16/d16_03_hoy",
+   "sub": "Cuántos se enfrían y cuántos se van, a un toque.",
+   "b": 430
+  },
+  {
+   "num": "05",
+   "title": "EL TABLERO",
+   "cap": "serie-v3/capturas/dia-16/d16_05_tablero",
+   "sub": "Ordenados por lo que puedes hacer hoy, no por puntuación.",
+   "modo": "entero"
+  },
+  {
+   "num": "06",
+   "title": "ESCRÍBELE TÚ",
+   "cap": "serie-v3/capturas/dia-16/d16_06_escribir",
+   "sub": "Tres arranques con sus datos dentro, y lo firmas tú.",
+   "b": 600
+  },
+  {
+   "num": "07",
+   "title": "¿DE VIAJE? APLÁZALO",
+   "cap": "serie-v3/capturas/dia-16/d16_10_aplazar",
+   "sub": "Lo silencias hasta una fecha, con el motivo escrito para el resto del staff.",
+   "b": 63
+  },
+  {
+   "num": "08",
+   "title": "VOLVIERON",
+   "cap": "serie-v3/capturas/dia-16/d16_08_volvieron",
+   "sub": "Estaba frío y ha vuelto a entrenar. La lista que importa.",
+   "b": 380
+  },
+  {
+   "cover": [
+    "LO NOTAS",
+    "A TIEMPO."
+   ],
+   "lead": "Lo escribe una persona, nunca la app. Incluido en tu centro. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

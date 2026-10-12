@@ -1,0 +1,77 @@
+{
+ "id": "dia-10",
+ "label": "PASO A PASO · DAR EL PESO",
+ "slides": [
+  {
+   "cover": [
+    "PESAJE EN",
+    "12 DÍAS."
+   ],
+   "lead": "Anota tu peso, dile tu división y mira cuánto te falta para el pesaje."
+  },
+  {
+   "num": "01",
+   "title": "¿PESO DE HOY?",
+   "cap": "serie-v3/capturas/dia-10/d10_01_aviso",
+   "sub": "Si llevas más de una semana sin anotar, Hoy te lo pregunta.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "UN NÚMERO",
+   "cap": "serie-v3/capturas/dia-10/d10_02_hoja",
+   "sub": "Y su contexto: en ayunas, tras entreno o con gi. La lesión se cruza sola.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "TU TORNEO",
+   "cap": "serie-v3/capturas/dia-10/d10_04_torneo",
+   "sub": "Tu próxima inscripción de Smoothcomp y los días hasta el pesaje.",
+   "b": 270
+  },
+  {
+   "num": "04",
+   "title": "TU DIVISIÓN",
+   "cap": "serie-v3/capturas/dia-10/d10_05_inscripcion",
+   "sub": "Si no viene, la dices tú: división, límite y día del pesaje.",
+   "modo": "entero"
+  },
+  {
+   "num": "05",
+   "title": "A RAYA",
+   "cap": "serie-v3/capturas/dia-10/d10_06_bascula",
+   "sub": "0,3 kg por encima, tu ritmo y el que necesitas para llegar.",
+   "b": 290
+  },
+  {
+   "num": "06",
+   "title": "LA LÍNEA",
+   "cap": "serie-v3/capturas/dia-10/d10_07_cuerpo",
+   "sub": "Tu peso por quincenas, con tu límite y cada lesión encima.",
+   "b": 640
+  },
+  {
+   "num": "07",
+   "title": "TU OBJETIVO",
+   "cap": "serie-v3/capturas/dia-10/d10_08_objetivo",
+   "sub": "El límite de una de tus divisiones, o el número que quieras.",
+   "b": 1188
+  },
+  {
+   "num": "08",
+   "title": "SOLO TÚ",
+   "cap": "serie-v3/capturas/dia-10/d10_10_privacidad",
+   "sub": "Tu peso es privado de entrada. Tú decides si lo ven tus compañeros.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "A DAR",
+    "EL PESO."
+   ],
+   "lead": "Tu peso y tus lesiones solo los ves tú. Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

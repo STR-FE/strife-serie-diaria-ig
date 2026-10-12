@@ -9,12 +9,14 @@ Estado a 11 de octubre de 2026, 19:20:
 - **No hay commit ni push hasta tener TODOS los flujos** (Jaime, 11 oct). Mientras tanto, lo programado se publica
   como estaba (imagen suelta).
 - Capturas hechas (strife-marketing/serie-v3/capturas): dia-02, 03, 04, 05, 06, 08, 09, 11, 12, 13, 17, 18, 19, 20,
-  24, 25, 26, 27 y 29. dia-01 con el widget, apartado. Faltan: dia-10 (a partir del 12 oct), dia-15 (Smoothcomp),
-  dia-16 (con la versión de RL-357), dia-05 paso «el día 1, a cero» (1 nov) y los cierres dia-21 y dia-28.
+  24, 25, 26, 27 y 29, y dia-10 (12 oct: aviso de peso, inscripción inventada «Open de Otoño Alicante No-Gi» en
+  el Smoothcomp ficticio de Álex, `siembra/v3_24_dia10_*`) y dia-16 (12 oct, con la rama de RL-357 compilada en
+  release; `siembra/v3_25_dia16_clean.sql`, ya ejecutado). dia-01
+  con el widget, apartado. dia-05 «el día 1, a cero» capturado el 12 oct con el emulador a 1 nov y las asistencias de
+  octubre movidas 100 años atrás (`siembra/v3_26_dia05_cero_*`, ya deshecho). Faltan los cierres dia-21 y dia-28.
 - Fernando Muller Jung (persona real) sale de Villalba por decisión de Jaime (11 oct): `v3_00_fernando_seed.sql`.
 - Siembra autorizada para toda la serie, cada paso con su limpieza: `siembra/v3_limpiar.sh` lo deshace todo en orden
   inverso y termina con `v3_check.sql`, en el que todas las filas deben salir `true`.
-- dia-10 se captura a partir del 12 oct: el aviso de peso pide más de 7 días desde el último peso (el 4 oct).
 
 Fallos de la app vistos al capturar, para tickets:
 
@@ -119,16 +121,15 @@ Por post: protagonista, pasos (pantalla `.dart`, cómo se llega, cuenta, siembra
     las listas de tomas: asistencia, miembros, invitar, centro y, en parte, juego.
   - guia-clases pierde catálogo, horario y mes, que ya salen en dia-02.
 - **Seguimiento (dia-16):** el tablero no tiene entrada en la UI. Ticket **RL-357** (rolllab.atlassian.net/browse/RL-357).
-  dia-16 se captura con la versión que lo
-  arregle, antes del 30 de octubre.
+  dia-16 se capturó con la rama que lo arregla. El post no depende de cuándo salga la versión: si la entrada cambia,
+  se rehacen las capturas.
 - **Widget (dia-01):** en el emulador, con un lanzador limpio.
 - **Por defecto, si Jaime no dice otra cosa:**
   - QR: el emulador lo proyecta y el Redmi lo escanea de verdad.
   - Smoothcomp: el perfil de Jaime, con los rivales y el banner pixelados.
   - El mensaje de WhatsApp se captura tal cual sale.
   - Cierres: dia-21 «un día en tu centro» y dia-28 «empieza en 5 pasos».
-  - dia-05 se captura el 1 de noviembre.
-
+  
 ## Además
 
 - **guia-asistencia (16 oct)** enseña la fila de botones de la 1.4 (sin «Lista con foto») y un avatar de

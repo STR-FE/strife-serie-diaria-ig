@@ -53,9 +53,10 @@ Carpeta: jpg/dia-09/
 Pie: Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 10 · MIÉRCOLES — para quien entrena
-Archivo: dia-10-el-peso-a-raya.png (1080×1350)
-Pie: Un número y listo: tu peso, tu objetivo y las lesiones que te frenan, en tu perfil.
+CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
+Id: dia-10
+Carpeta: jpg/dia-10/
+Pie: Un número cada semana: tu peso, tu división y lo que te falta para el pesaje. Así se hace, paso a paso.
 Tags: #strife #pesaje
 
 CARRUSEL · PASO A PASO — JUEVES — para quien dirige
@@ -87,9 +88,10 @@ Carpeta: jpg/dia-15/
 Pie: Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento. Así se hace, paso a paso.
 Tags: #strife #competicion
 
-DÍA 16 · MARTES — para quien dirige
-Archivo: dia-16-nadie-se-descuelga.png (1080×1350)
-Pie: El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy.
+CARRUSEL · PASO A PASO — MARTES — para quien dirige
+Id: dia-16
+Carpeta: jpg/dia-16/
+Pie: El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy. Así se hace, paso a paso.
 Tags: #strife #clubes
 
 CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena

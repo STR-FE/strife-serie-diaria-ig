@@ -39,30 +39,30 @@
   },
   {
    "num": "05",
-   "title": "TODO EL CENTRO",
-   "cap": "serie-v3/capturas/dia-05/d05_02b_lista",
-   "sub": "Quién sube, quién baja y a cuántas clases por semana va.",
-   "b": 900
-  },
-  {
-   "num": "06",
    "title": "CÓMO SE SUMA",
    "cap": "serie-v3/capturas/dia-05/d05_05_reglas",
    "sub": "Presente +10, retraso +6 y +5 por cada semana de racha.",
    "b": 63
   },
   {
-   "num": "07",
+   "num": "06",
    "title": "CLASE A CLASE",
    "cap": "serie-v3/capturas/dia-05/d05_06_desglose",
    "sub": "Toca a cualquiera y ves de dónde sale cada punto.",
    "b": 700
   },
   {
-   "num": "08",
+   "num": "07",
    "title": "TU RACHA",
    "cap": "serie-v3/capturas/dia-05/d05_07_racha",
    "sub": "Las semanas seguidas que llevas, y el club de la constancia.",
+   "modo": "entero"
+  },
+  {
+   "num": "08",
+   "title": "EL DÍA 1, A CERO",
+   "cap": "serie-v3/capturas/dia-05/d05_08_cero",
+   "sub": "Mes nuevo, marcador en blanco: todos empiezan igual.",
    "modo": "entero"
   },
   {

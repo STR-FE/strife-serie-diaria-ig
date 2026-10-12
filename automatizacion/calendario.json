@@ -467,12 +467,20 @@
     "dia_semana": "viernes",
     "hora": "21:30",
     "audiencia": "alumno",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-10-el-peso-a-raya.jpg"
+      "jpg/dia-10/01.jpg",
+      "jpg/dia-10/02.jpg",
+      "jpg/dia-10/03.jpg",
+      "jpg/dia-10/04.jpg",
+      "jpg/dia-10/05.jpg",
+      "jpg/dia-10/06.jpg",
+      "jpg/dia-10/07.jpg",
+      "jpg/dia-10/08.jpg",
+      "jpg/dia-10/09.jpg",
+      "jpg/dia-10/10.jpg"
     ],
-    "caption": "Un número y listo: tu peso, tu objetivo y las lesiones que te frenan, en tu perfil.\n\n#strife #pesaje",
-    "archivo": "jpg/dia-10-el-peso-a-raya.jpg"
+    "caption": "Un número cada semana: tu peso, tu división y lo que te falta para el pesaje. Así se hace, paso a paso.\n\n#strife #pesaje"
   },
   {
     "id": "guia-lesion",
@@ -547,12 +555,20 @@
     "dia_semana": "martes",
     "hora": "14:00",
     "audiencia": "centro",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-16-nadie-se-descuelga.jpg"
+      "jpg/dia-16/01.jpg",
+      "jpg/dia-16/02.jpg",
+      "jpg/dia-16/03.jpg",
+      "jpg/dia-16/04.jpg",
+      "jpg/dia-16/05.jpg",
+      "jpg/dia-16/06.jpg",
+      "jpg/dia-16/07.jpg",
+      "jpg/dia-16/08.jpg",
+      "jpg/dia-16/09.jpg",
+      "jpg/dia-16/10.jpg"
     ],
-    "caption": "El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy.\n\n#strife #clubes",
-    "archivo": "jpg/dia-16-nadie-se-descuelga.jpg"
+    "caption": "El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy. Así se hace, paso a paso.\n\n#strife #clubes"
   },
   {
     "id": "guia-parte",

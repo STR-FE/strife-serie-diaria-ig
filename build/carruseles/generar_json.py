@@ -52,10 +52,10 @@ C['dia-05'] = ('PASO A PASO · EL RANKING', ['MES NUEVO,', 'PODIO NUEVO.'],
   ('d05_02_podio', 'EL PODIO', 'Los tres de arriba, con sus puntos y cuánto queda para el cierre.', 'E'),
   ('d05_03_boxeo', 'POR DISCIPLINA', 'Boxeo, Muay Thai, MMA o jiu-jitsu: cada una con su podio.', 'E'),
   ('d05_04_nogi', 'Y POR CLASE', 'Solo NO-GI, solo Open Mat… Tú eliges.', 'E'),
-  ('d05_02b_lista', 'TODO EL CENTRO', 'Quién sube, quién baja y a cuántas clases por semana va.', 900),
   ('d05_05_reglas', 'CÓMO SE SUMA', 'Presente +10, retraso +6 y +5 por cada semana de racha.', 63),
   ('d05_06_desglose', 'CLASE A CLASE', 'Toca a cualquiera y ves de dónde sale cada punto.', 700),
-  ('d05_07_racha', 'TU RACHA', 'Las semanas seguidas que llevas, y el club de la constancia.', 'E')],
+  ('d05_07_racha', 'TU RACHA', 'Las semanas seguidas que llevas, y el club de la constancia.', 'E'),
+  ('d05_08_cero', 'EL DÍA 1, A CERO', 'Mes nuevo, marcador en blanco: todos empiezan igual.', 'E')],
   ['CADA CLASE', 'SUMA.'], ALUMNO)
 
 C['dia-06'] = ('PASO A PASO · LA CAJA', ['EL MES,', 'CUADRADO.'],
@@ -93,6 +93,18 @@ C['dia-09'] = ('PASO A PASO · EL TABLÓN', ['DICHO', 'UNA VEZ.'],
   ('d09_02b_programados', 'PROGRAMADO', 'No ocupa sitio hasta que llega su momento.', 63),
   ('d09_08_loven', 'LO VE TODO EL CENTRO', 'Quién lo publicó y hasta cuándo está.', 'E')],
   ['UNA VEZ,', 'PARA TODOS.'], 'Sin grupos de WhatsApp. ' + CENTRO)
+
+C['dia-10'] = ('PASO A PASO · DAR EL PESO', ['PESAJE EN', '12 DÍAS.'],
+  'Anota tu peso, dile tu división y mira cuánto te falta para el pesaje.', [
+  ('d10_01_aviso', '¿PESO DE HOY?', 'Si llevas más de una semana sin anotar, Hoy te lo pregunta.', 63),
+  ('d10_02_hoja', 'UN NÚMERO', 'Y su contexto: en ayunas, tras entreno o con gi. La lesión se cruza sola.', 'E'),
+  ('d10_04_torneo', 'TU TORNEO', 'Tu próxima inscripción de Smoothcomp y los días hasta el pesaje.', 270),
+  ('d10_05_inscripcion', 'TU DIVISIÓN', 'Si no viene, la dices tú: división, límite y día del pesaje.', 'E'),
+  ('d10_06_bascula', 'A RAYA', '0,3 kg por encima, tu ritmo y el que necesitas para llegar.', 290),
+  ('d10_07_cuerpo', 'LA LÍNEA', 'Tu peso por quincenas, con tu límite y cada lesión encima.', 640),
+  ('d10_08_objetivo', 'TU OBJETIVO', 'El límite de una de tus divisiones, o el número que quieras.', 1188),
+  ('d10_10_privacidad', 'SOLO TÚ', 'Tu peso es privado de entrada. Tú decides si lo ven tus compañeros.', 63)],
+  ['A DAR', 'EL PESO.'], 'Tu peso y tus lesiones solo los ves tú. ' + ALUMNO)
 
 C['dia-11'] = ('PASO A PASO · LA TIENDA', ['LA TIENDA,', 'SIN MOSTRADOR.'],
   'Ellos apartan en la app y tú cobras al entregar.', [
@@ -137,6 +149,18 @@ C['dia-15'] = ('PASO A PASO · COMPETICIÓN', ['COMPITES,', 'APARECE.'],
   ('d15_06_palmares', 'EL PALMARÉS', 'Año a año, evento a evento.', 63),
   ('d15_08_derrotas', 'TUS DERROTAS, TUYAS', 'El centro ve tus victorias. Las derrotas, si quieres.', 'E')],
   ['TU PALMARÉS,', 'EN TU FICHA.'], ALUMNO)
+
+C['dia-16'] = ('PASO A PASO · SEGUIMIENTO', ['NADIE SE', 'DESCUELGA.'],
+  'El termómetro te dice quién se está enfriando antes de que se vaya. Y le escribes tú.', [
+  ('d16_01_aviso', 'EL AVISO', '«Óscar Lozano se está yendo.» Te enteras antes de que deje de venir.', 63),
+  ('d16_02_oscar', 'SU FICHA', '54 sobre 100, y de qué está hecho: de 2,5 clases a la semana a 0,3.', 'E'),
+  ('d16_04_cuentas', 'LAS CUENTAS', 'Cinco sumas, y cada una sale de algo que pasó, con su fecha.', 63),
+  ('d16_03_hoy', 'CADA DÍA, EN HOY', 'Cuántos se enfrían y cuántos se van, a un toque.', 430),
+  ('d16_05_tablero', 'EL TABLERO', 'Ordenados por lo que puedes hacer hoy, no por puntuación.', 'E'),
+  ('d16_06_escribir', 'ESCRÍBELE TÚ', 'Tres arranques con sus datos dentro, y lo firmas tú.', 600),
+  ('d16_10_aplazar', '¿DE VIAJE? APLÁZALO', 'Lo silencias hasta una fecha, con el motivo escrito para el resto del staff.', 63),
+  ('d16_08_volvieron', 'VOLVIERON', 'Estaba frío y ha vuelto a entrenar. La lista que importa.', 380)],
+  ['LO NOTAS', 'A TIEMPO.'], 'Lo escribe una persona, nunca la app. Incluido en tu centro. ' + CENTRO)
 
 C['dia-17'] = ('PASO A PASO · CARA A CARA', ['CARA', 'A CARA.'],
   'Elige rival en el ranking y compárate: puntos, rachas y asistencia.', [
