@@ -1,22 +1,21 @@
 # Plan: cada post suelto, un carrusel paso a paso
 
-Estado a 11 de octubre de 2026, 19:20:
+Estado a 12 de octubre de 2026, 12:10 — **serie terminada**:
 
-- **dia-02 hecho** (`jpg/dia-02/`), en el calendario como carrusel. Pendiente de que Jaime lo revise antes del push.
-- **dia-01 sigue como imagen suelta.** El carrusel del widget (`build/carruseles/dia-01-widget.json`) no se publica de
-  momento: puede confundirse con la forma normal de reservar desde la app, y no deja claro que es un widget de la
-  pantalla de inicio del teléfono. Si se retoma, tiene que enseñar el móvil entero, con el escritorio.
-- **No hay commit ni push hasta tener TODOS los flujos** (Jaime, 11 oct). Mientras tanto, lo programado se publica
-  como estaba (imagen suelta).
-- Capturas hechas (strife-marketing/serie-v3/capturas): dia-02, 03, 04, 05, 06, 08, 09, 11, 12, 13, 17, 18, 19, 20,
-  24, 25, 26, 27 y 29, y dia-10 (12 oct: aviso de peso, inscripción inventada «Open de Otoño Alicante No-Gi» en
-  el Smoothcomp ficticio de Álex, `siembra/v3_24_dia10_*`) y dia-16 (12 oct, con la rama de RL-357 compilada en
-  release; `siembra/v3_25_dia16_clean.sql`, ya ejecutado). dia-01
-  con el widget, apartado. dia-05 «el día 1, a cero» capturado el 12 oct con el emulador a 1 nov y las asistencias de
-  octubre movidas 100 años atrás (`siembra/v3_26_dia05_cero_*`, ya deshecho). Faltan los cierres dia-21 y dia-28.
-- Fernando Muller Jung (persona real) sale de Villalba por decisión de Jaime (11 oct): `v3_00_fernando_seed.sql`.
-- Siembra autorizada para toda la serie, cada paso con su limpieza: `siembra/v3_limpiar.sh` lo deshace todo en orden
-  inverso y termina con `v3_check.sql`, en el que todas las filas deben salir `true`.
+- Todos los posts desde el 12 oct son carruseles con capturas de la 1.5.8, salvo **dia-01**, que sigue como imagen
+  suelta: el carrusel del widget (`build/carruseles/dia-01-widget.json`) no se publica (puede confundirse con reservar
+  desde la app y no deja claro que es un widget de la pantalla de inicio).
+- Cierres de marca: dia-21 «Un día en tu centro» y dia-28 «En marcha en 5 pasos» (sin «Descárgala»: la ficha de Play de
+  las cuentas del equipo es la de tester interno).
+- Guías rehechas en la 1.5.8 con el ángulo que no repite el post de al lado: guia-clases (el lado de quien entrena),
+  guia-asistencia (la lista, al día siguiente), guia-juego (un roll, dos partes), guia-miembros (cómo viene y sus
+  permisos), guia-invitar (por correo, sin cuenta) y guia-centro (Inicio del gestor). También guia-lesion, guia-peso
+  y las tres nuevas del final.
+- dia-16 se capturó con la rama de RL-357 compilada en release (con el arreglo de la tarjeta, `71de734b`). Si la
+  entrada cambia antes de publicarse, se rehacen las capturas.
+- **Producción limpia**: `siembra/v3_limpiar.sh` ejecutado el 12 oct; `v3_check.sql`, 32 de 32 a `true`. Fernando
+  sigue fuera de Villalba (decisión de Jaime).
+- Fallos e incoherencias: RL-357, RL-358 y RL-359 (con sus comentarios del 12 oct).
 
 Fallos de la app vistos al capturar, para tickets:
 

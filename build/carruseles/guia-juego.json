@@ -1,0 +1,63 @@
+{
+ "id": "guia-juego",
+ "label": "GUÍA · MI JUEGO",
+ "slides": [
+  {
+   "cover": [
+    "UN ROLL,",
+    "DOS PARTES."
+   ],
+   "lead": "Lo apuntas tú y a tu compañero le aparece solo, con el resultado dado la vuelta."
+  },
+  {
+   "num": "01",
+   "title": "TU PARTE",
+   "cap": "serie-v3/capturas/juego/gj_01_parte_alex",
+   "sub": "Álex añade dos rolls con Miguel a su parte del domingo.",
+   "b": 880
+  },
+  {
+   "num": "02",
+   "title": "LE LLEGA",
+   "cap": "serie-v3/capturas/juego/gj_02_aviso",
+   "sub": "«Álex Romero ha registrado 2 rolls contigo en NO-GI.»",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "YA ESTÁ EN SU PARTE",
+   "cap": "serie-v3/capturas/juego/gj_03_suparte",
+   "sub": "La kimura de Álex, en el parte de Miguel como «Sometí». Sin tocar nada.",
+   "b": 200
+  },
+  {
+   "num": "04",
+   "title": "Y EN SU HOY",
+   "cap": "serie-v3/capturas/juego/gj_04_hoy",
+   "sub": "Su mes al día: 1 · 1 · 0 y todos los partes hechos.",
+   "b": 780
+  },
+  {
+   "num": "05",
+   "title": "CUENTA PARA LOS DOS",
+   "cap": "serie-v3/capturas/juego/gj_05_mijuego",
+   "sub": "Su arma del mes, su balance y su escalada.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "QUIÉN MÁS LO VE",
+   "cap": "serie-v3/capturas/juego/gj_06_quien",
+   "sub": "Solo el rival de cada roll. El coach, agregados anónimos.",
+   "b": 800
+  },
+  {
+   "cover": [
+    "EL SPARRING,",
+    "CONTADO."
+   ],
+   "lead": "Si tu compañero lo anota, también sale en tu diario. Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

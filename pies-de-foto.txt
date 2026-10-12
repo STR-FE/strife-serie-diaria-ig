@@ -118,9 +118,10 @@ Carpeta: jpg/dia-20/
 Pie: Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 21 · DOMINGO — cierre
-Archivo: dia-21-cierre-semana-3.png (1080×1080)
-Pie: Una idea: tu gimnasio entero en una app. 30 días gratis para tu centro, ya en Google Play.
+CARRUSEL · CIERRE — DOMINGO — marca
+Id: dia-21
+Carpeta: jpg/dia-21/
+Pie: Un día en tu centro, de la caja de la mañana al termómetro de la noche. Tu gimnasio entero en una app: 30 días gratis para tu centro, ya en Google Play.
 Tags: #strife
 
 DÍA 22 · LUNES — para quien entrena
@@ -157,9 +158,10 @@ Carpeta: jpg/dia-27/
 Pie: La portada es de tu centro: emblema, disciplinas, horario y estado. Así se hace, paso a paso.
 Tags: #strife #clubes
 
-DÍA 28 · DOMINGO — cierre
-Archivo: dia-28-cierre-semana-4.png (1080×1080)
-Pie: Todo el gimnasio en una app. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.
+CARRUSEL · CIERRE — DOMINGO — marca
+Id: dia-28
+Carpeta: jpg/dia-28/
+Pie: Tu centro en marcha en cinco pasos: horario, invitaciones, lista y cobros. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.
 Tags: #strife
 
 CARRUSEL · PASO A PASO — LUNES — para quien entrena
@@ -182,14 +184,14 @@ Tags: #strife #clubes #tutorial
 
 CARRUSEL · GUÍA — LA TAB CLASES
 Id: guia-clases
-Carpeta: jpg/guia-clases/ (10 fotos)
-Pie: Tu horario, en una tab: quien dirige lo monta una vez y quien entrena lo ve por semana, mes o lista, reserva con un toque y se lo lleva a su calendario.
+Carpeta: jpg/guia-clases/ (8 fotos)
+Pie: Tu horario, en una tab: por semana, por mes o en lista. Reservas con un toque, ves quién más va y llevas tu racha.
 Tags: #strife #clases #tutorial
 
 CARRUSEL · GUÍA — PASAR LISTA
 Id: guia-asistencia
-Carpeta: jpg/guia-asistencia/ (7 fotos)
-Pie: Lista en 30 segundos: presente, ausente o retraso. O proyecta el QR y la lista se llena sola mientras saludas en la puerta.
+Carpeta: jpg/guia-asistencia/ (8 fotos)
+Pie: La lista, también al día siguiente: quien no vino, quien vino sin reservar y el retraso que perdonas. Cuadrada en un minuto.
 Tags: #strife #clubes #tutorial
 
 CARRUSEL · GUÍA — LISTA CON FOTO
@@ -218,8 +220,8 @@ Tags: #strife #clubes
 
 CARRUSEL · GUÍA — MI JUEGO
 Id: guia-juego
-Carpeta: jpg/guia-juego/ (10 fotos)
-Pie: Cada roll, apuntado: con quién, cómo acabó y con qué técnica. Tu diario de sparring, mes a mes.
+Carpeta: jpg/guia-juego/ (8 fotos)
+Pie: Un roll, dos partes: lo apuntas tú y a tu compañero le aparece solo, con el resultado dado la vuelta. Cuenta para los dos.
 Tags: #strife #sparring #tutorial
 
 CARRUSEL · GUÍA — UNA LESIÓN
@@ -255,13 +257,13 @@ Tags: #strife #strifeapp
 CARRUSEL · GUÍA — MIEMBROS
 Id: guia-miembros
 Carpeta: jpg/guia-miembros/ (8 fotos)
-Pie: Cada alumno, una ficha: cómo viene, su cinturón, su cuota, sus notas y su acceso. Todo en una pantalla.
+Pie: Cada alumno, una ficha: cómo viene, cuándo viene, si se está enfriando y qué puede hacer en tu centro.
 Tags: #strife #clubes #tutorial
 
 CARRUSEL · GUÍA — INVITAR
 Id: guia-invitar
-Carpeta: jpg/guia-invitar/ (7 fotos)
-Pie: Invita en un toque: por nombre, @usuario o email. Le llega la invitación y el alta se hace sola.
+Carpeta: jpg/guia-invitar/ (6 fotos)
+Pie: ¿Aún no tiene cuenta? Invítale con su correo y la invitación le espera hasta que se registre.
 Tags: #strife #clubes
 
 CARRUSEL · GUÍA — EL CHAT DEL CENTRO
@@ -278,8 +280,8 @@ Tags: #strife #clubes #tutorial
 
 CARRUSEL · GUÍA — TU CENTRO EN INICIO
 Id: guia-centro
-Carpeta: jpg/guia-centro/ (4 fotos)
-Pie: Tu centro, tu casa: portada, tablón, miembros, tienda y caja en la primera pestaña.
+Carpeta: jpg/guia-centro/ (8 fotos)
+Pie: Tu centro, tu casa: portada, tablón, tu gente, la tienda, la caja y lo que te espera, en la primera pestaña.
 Tags: #strife #clubes
 
 CARRUSEL · GUÍA — AJUSTES DEL ALUMNO

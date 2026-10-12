@@ -1,0 +1,63 @@
+{
+ "id": "guia-clases",
+ "label": "GUÍA · LA TAB CLASES",
+ "slides": [
+  {
+   "cover": [
+    "TU HORARIO,",
+    "EN UNA TAB."
+   ],
+   "lead": "Por semana, por mes o en lista. Reservas con un toque y ves quién más va."
+  },
+  {
+   "num": "01",
+   "title": "TU SEMANA",
+   "cap": "serie-v3/capturas/clases/gc_01_semana",
+   "sub": "Cada clase con su color, día a día. Las canceladas, tachadas.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "O POR MES",
+   "cap": "serie-v3/capturas/clases/gc_02_mes",
+   "sub": "Todo octubre de un vistazo, hoy resaltado.",
+   "b": 380
+  },
+  {
+   "num": "03",
+   "title": "O EN LISTA",
+   "cap": "serie-v3/capturas/clases/gc_03_lista",
+   "sub": "Con el coach, el aforo y las caras de quien ya va.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "SABES A QUÉ VAS",
+   "cap": "serie-v3/capturas/clases/gc_04_sesion",
+   "sub": "La ficha de la clase: cuándo, cuánto dura y la sala de hoy.",
+   "modo": "entero"
+  },
+  {
+   "num": "05",
+   "title": "VOY.",
+   "cap": "serie-v3/capturas/clases/gc_05_voy",
+   "sub": "Un toque en «Asistiré» y estás en la lista. ¿No vas? Avisa y tu hueco lo pilla otro.",
+   "b": 860
+  },
+  {
+   "num": "06",
+   "title": "MI SEMANA",
+   "cap": "serie-v3/capturas/clases/gc_06_misemana",
+   "sub": "Tu racha, tu próxima clase y lo que ya pasó esta semana.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "RESERVA",
+    "EN UN TOQUE."
+   ],
+   "lead": "Gratis para quien entrena: descarga STRIFE y busca tu gimnasio.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

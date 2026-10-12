@@ -1,0 +1,63 @@
+{
+ "id": "guia-miembros",
+ "label": "GUÍA · MIEMBROS",
+ "slides": [
+  {
+   "cover": [
+    "CADA ALUMNO,",
+    "UNA FICHA."
+   ],
+   "lead": "Cómo viene, cuándo viene, si se está enfriando y qué puede hacer en tu centro."
+  },
+  {
+   "num": "01",
+   "title": "TU GENTE",
+   "cap": "serie-v3/capturas/miembros/gm_01_miembros",
+   "sub": "Staff y alumnos, con su cinturón. Y el termómetro, arriba.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "CÓMO VIENE",
+   "cap": "serie-v3/capturas/miembros/gm_02_ficha",
+   "sub": "Rubén: 5,7 clases por semana, su media son 2,9. En racha.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "CUÁNDO VIENE",
+   "cap": "serie-v3/capturas/miembros/gm_03_actividad",
+   "sub": "Doce semanas, sus clases fijas y si cancela o falta.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "SU TERMÓMETRO",
+   "cap": "serie-v3/capturas/miembros/gm_04_seguimiento",
+   "sub": "De qué está hecha su puntuación, señal a señal.",
+   "b": 640
+  },
+  {
+   "num": "05",
+   "title": "ANTES DE TOCAR",
+   "cap": "serie-v3/capturas/miembros/gm_06_acceso",
+   "sub": "Lo que hace cada rol se decide en Ajustes. Aquí, solo excepciones.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "SU ROL",
+   "cap": "serie-v3/capturas/miembros/gm_07_permisos",
+   "sub": "Alumno, entrenador o administrador. Y cada permiso, a mano si hace falta.",
+   "b": 600
+  },
+  {
+   "cover": [
+    "EL CENTRO,",
+    "EN ORDEN."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

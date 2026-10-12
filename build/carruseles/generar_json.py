@@ -1,6 +1,7 @@
 # Escribe build/carruseles/dia-XX.json a partir de las tablas de abajo (una por post).
 # Paso: (captura, título, subtítulo, b) — b = desde qué píxel de la captura empieza el zoom (diseño B), o 'E' para el
-# móvil entero. Las capturas viven en strife-marketing/serie-v3/capturas/dia-XX/ (las _t llevan los datos tapados).
+# móvil entero. Las capturas viven en strife-marketing/serie-v3/capturas/dia-XX/ (las _t llevan los datos tapados);
+# las que empiezan por serie-v2/ o reel/ son rutas de strife-marketing tal cual.
 #   python3 build/carruseles/generar_json.py
 import json, os
 
@@ -203,6 +204,17 @@ C['dia-20'] = ('PASO A PASO · ADMISIONES', ['LA PUERTA,', 'CON CRITERIO.'],
   ('d20_08_miembros', 'YA ES DE LOS TUYOS', 'Hugo, en Alumnos, desde hoy.', 'E')],
   ['TU GENTE,', 'DENTRO.'], CENTRO)
 
+C['dia-21'] = ('STRIFE · UN DÍA EN TU CENTRO', ['UN DÍA', 'EN TU CENTRO.'],
+  'Villalba Fighting Co., de la mañana a la noche. Todo en la misma app.', [
+  ('d06_01_caja', '09:00 · LA CAJA', 'Con el café: quién está vencido y su cobro, a un toque.', 'E'),
+  ('d20_05_pendientes', '13:30 · UNA SOLICITUD', 'Hugo pide plaza. Aceptar o rechazar, desde el móvil.', 63),
+  ('d03_01_hoy', '18:00 · ¿VAS?', 'Álex tiene su clase de la tarde reservada.', 63),
+  ('d04_05_qr', '19:58 · EL QR', 'En la tele de la entrada. Cambia solo y cuenta quién va entrando.', 'E'),
+  ('d04_04_lista', '20:00 · LA LISTA', 'Quien fichó con el QR ya está dentro. El resto, de un toque.', 63),
+  ('d08_06_tres', '21:30 · LOS ROLLS', 'Álex apunta con quién rodó y cómo acabó.', 63),
+  ('d16_05_tablero', '22:00 · EL TERMÓMETRO', 'Quién se está enfriando, antes de que se vaya.', 400)],
+  ['TU GIMNASIO,', 'EN UNA APP.'], CENTRO)
+
 C['dia-24'] = ('PASO A PASO · TU CUOTA', ['TU CUOTA,', 'CLARA.'],
   'Cuánto pagas y hasta cuándo está cubierta, en tu perfil.', [
   ('d24_01_aviso', 'EL AVISO', '«Tu cuota vence hoy · se paga en recepción».', 63),
@@ -243,6 +255,15 @@ C['dia-27'] = ('PASO A PASO · TU CENTRO', ['TU CENTRO,', 'LO PRIMERO.'],
   ('d27_08_asilove', 'ASÍ LO VEN', 'La misma portada, en el móvil de cada alumno.', 'E')],
   ['UNA APP', 'CON TU CARA.'], CENTRO)
 
+C['dia-28'] = ('STRIFE · EN MARCHA', ['EN MARCHA', 'EN 5 PASOS.'],
+  'Tu centro en STRIFE, esta semana. Y lo que cuesta, claro.', [
+  ('d02_05_dias', 'PON EL HORARIO', 'Una vez, y el mes entero se rellena solo.', 63),
+  ('d25_03_rol', 'INVITA A TU GENTE', 'Por @usuario, por correo o por WhatsApp.', 300),
+  ('d04_04_lista', 'PASA LISTA', 'Con el QR, con una foto o a mano.', 63),
+  ('d06_04_registrar', 'COBRA', 'Cada cuota, con su importe ya puesto. Efectivo, Bizum o transferencia.', 1000),
+  ('dia-28/d28_05_suscripcion', 'LO QUE CUESTA', '30 días gratis. Después, 14,99 €/mes con todo dentro.', 63)],
+  ['30 DÍAS', 'GRATIS.'], 'Para tu centro, y luego 14,99 €/mes. Atletas y coaches, gratis siempre.')
+
 C['dia-29'] = ('PASO A PASO · MI JUEGO', ['TU JUEGO,', 'EN DATOS.'],
   'Lo que rematas, lo que te rematan y contra quién.', [
   ('d29_01_perfil', 'EN TU PERFIL', 'Tu arma, tu grieta y cuánto acabas.', 'E'),
@@ -254,6 +275,65 @@ C['dia-29'] = ('PASO A PASO · MI JUEGO', ['TU JUEGO,', 'EN DATOS.'],
   ('d29_07_ruben', 'TÚ CONTRA RUBÉN', 'Vuestros últimos rolls, del más antiguo al último.', 'E'),
   ('d29_08_privacidad', 'SI QUIERES, QUE LO VEAN', 'Mi juego en tu perfil. Nunca con quién rodaste.', 63)],
   ['CADA ROLL', 'SUMA.'], ALUMNO)
+
+V2 = 'serie-v2/capturas/guias/'
+C['guia-clases'] = ('GUÍA · LA TAB CLASES', ['TU HORARIO,', 'EN UNA TAB.'],
+  'Por semana, por mes o en lista. Reservas con un toque y ves quién más va.', [
+  ('clases/gc_01_semana', 'TU SEMANA', 'Cada clase con su color, día a día. Las canceladas, tachadas.', 'E'),
+  ('clases/gc_02_mes', 'O POR MES', 'Todo octubre de un vistazo, hoy resaltado.', 380),
+  ('clases/gc_03_lista', 'O EN LISTA', 'Con el coach, el aforo y las caras de quien ya va.', 63),
+  ('clases/gc_04_sesion', 'SABES A QUÉ VAS', 'La ficha de la clase: cuándo, cuánto dura y la sala de hoy.', 'E'),
+  ('clases/gc_05_voy', 'VOY.', 'Un toque en «Asistiré» y estás en la lista. ¿No vas? Avisa y tu hueco lo pilla otro.', 860),
+  ('clases/gc_06_misemana', 'MI SEMANA', 'Tu racha, tu próxima clase y lo que ya pasó esta semana.', 63)],
+  ['RESERVA', 'EN UN TOQUE.'], ALUMNO)
+
+C['guia-juego'] = ('GUÍA · MI JUEGO', ['UN ROLL,', 'DOS PARTES.'],
+  'Lo apuntas tú y a tu compañero le aparece solo, con el resultado dado la vuelta.', [
+  ('juego/gj_01_parte_alex', 'TU PARTE', 'Álex añade dos rolls con Miguel a su parte del domingo.', 880),
+  ('juego/gj_02_aviso', 'LE LLEGA', '«Álex Romero ha registrado 2 rolls contigo en NO-GI.»', 63),
+  ('juego/gj_03_suparte', 'YA ESTÁ EN SU PARTE', 'La kimura de Álex, en el parte de Miguel como «Sometí». Sin tocar nada.', 200),
+  ('juego/gj_04_hoy', 'Y EN SU HOY', 'Su mes al día: 1 · 1 · 0 y todos los partes hechos.', 780),
+  ('juego/gj_05_mijuego', 'CUENTA PARA LOS DOS', 'Su arma del mes, su balance y su escalada.', 63),
+  ('juego/gj_06_quien', 'QUIÉN MÁS LO VE', 'Solo el rival de cada roll. El coach, agregados anónimos.', 800)],
+  ['EL SPARRING,', 'CONTADO.'], 'Si tu compañero lo anota, también sale en tu diario. ' + ALUMNO)
+
+C['guia-centro'] = ('GUÍA · TU CENTRO EN INICIO', ['TU CENTRO,', 'TU CASA.'],
+  'La portada, el tablón, tu gente, la tienda y la caja, en la primera pestaña.', [
+  ('centro/ce_01_inicio', 'LA PORTADA', 'Tu foto, tu emblema, si hoy está abierto y tus disciplinas.', 'E'),
+  ('centro/ce_01_inicio', 'EL TABLÓN', 'Lo que has publicado, pasando solo. Un toque y lo lee entero.', 820),
+  ('centro/ce_02_gente', 'TU GENTE', 'Cuántos sois, los cinturones y quién lidera el ranking.', 950),
+  ('centro/ce_03_tienda_caja', 'LA TIENDA', 'Lo vendido este mes, lo que queda y quién debe.', 800),
+  ('centro/ce_03_tienda_caja', 'LA CAJA', 'Las cuotas del mes: lo cobrado y cuántos están al día.', 1300),
+  ('dia-20/d20_03_aviso', 'Y LO QUE ESPERA', 'Una solicitud nueva sale arriba, antes que nada.', 'E')],
+  ['UNA APP,', 'TODO EL CENTRO.'], CENTRO)
+
+C['guia-asistencia'] = ('GUÍA · PASAR LISTA', ['LA LISTA,', 'DESPUÉS.'],
+  'Cerraste la puerta y quedan huecos. La lista del domingo se arregla el lunes.', [
+  ('asistencia/ga_01_lista', 'SIGUE ABIERTA', 'La del domingo: 8 de 17 marcados y 9 sin marcar.', 63),
+  ('asistencia/ga_02_marcas', 'QUIEN NO VINO', 'Dani reservó y no apareció: ausente. Diego llegó tarde: retraso.', 'E'),
+  ('asistencia/ga_03_buscar', 'SE TE PASÓ ALGUIEN', 'Nerea vino sin reservar. La buscas por su nombre y la marcas.', 400),
+  ('asistencia/ga_04_antes', '¿TARDE?', 'Diego, con su retraso: +6 en vez de +10.', 700),
+  ('asistencia/ga_04_perdon', '¿LO VES JUSTO?', 'Un toque en P y el retraso pasa a presente.', 700),
+  ('asistencia/ga_05_final', 'CUADRADA', '11 de 17: 10 presentes y 1 ausente. Y el ranking, al día.', 63)],
+  ['LA PUERTA,', 'SIN LIBRETA.'], 'Pasar lista, también al día siguiente. ' + CENTRO)
+
+C['guia-miembros'] = ('GUÍA · MIEMBROS', ['CADA ALUMNO,', 'UNA FICHA.'],
+  'Cómo viene, cuándo viene, si se está enfriando y qué puede hacer en tu centro.', [
+  ('miembros/gm_01_miembros', 'TU GENTE', 'Staff y alumnos, con su cinturón. Y el termómetro, arriba.', 'E'),
+  ('miembros/gm_02_ficha', 'CÓMO VIENE', 'Rubén: 5,7 clases por semana, su media son 2,9. En racha.', 63),
+  ('miembros/gm_03_actividad', 'CUÁNDO VIENE', 'Doce semanas, sus clases fijas y si cancela o falta.', 63),
+  ('miembros/gm_04_seguimiento', 'SU TERMÓMETRO', 'De qué está hecha su puntuación, señal a señal.', 640),
+  ('miembros/gm_06_acceso', 'ANTES DE TOCAR', 'Lo que hace cada rol se decide en Ajustes. Aquí, solo excepciones.', 63),
+  ('miembros/gm_07_permisos', 'SU ROL', 'Alumno, entrenador o administrador. Y cada permiso, a mano si hace falta.', 600)],
+  ['EL CENTRO,', 'EN ORDEN.'], CENTRO)
+
+C['guia-invitar'] = ('GUÍA · INVITAR', ['AÚN NO TIENE', 'CUENTA.'],
+  'Invítale con su correo y la invitación le espera hasta que se registre.', [
+  ('invitar/gi_02_nadie', 'NO ESTÁ', '«Nadie se llama así en STRIFE.» ¿Tienes su correo?', 300),
+  ('invitar/gi_03_correo', 'SU CORREO', '«Aún no hay cuenta con ese correo: la invitación quedará esperando.»', 300),
+  ('invitar/gi_03_correo', 'CON QUÉ ROL', 'Alumno, entrenador o administrador.', 900),
+  ('invitar/gi_04_creada', 'CREADA', 'La verá al registrarse con ese correo. Caduca en un mes.', 1300)],
+  ['TU GENTE,', 'DENTRO.'], CENTRO)
 
 C['guia-lesion'] = ('GUÍA · TU CUERPO EN 3D', ['HASTA EL', 'LIGAMENTO.'],
   'Apunta una lesión en la silueta, concrétala en 3D y mira cuánto te cuesta.', [
@@ -312,12 +392,14 @@ C['guia-avisos'] = ('GUÍA · LOS AVISOS', ['SOLO LO', 'QUE IMPORTA.'],
 for pid, (label, cover, lead, pasos, cierre, lead_cierre) in C.items():
     slides = [{'cover': cover, 'lead': lead}]
     for k, (cap, title, sub, b) in enumerate(pasos, 1):
-        if '/' in cap:
+        if cap.startswith(('serie-v2/', 'reel/')):
+            ruta = None
+        elif '/' in cap:
             ruta = cap
         else:
             carpeta = 'dia-24' if cap.startswith('d24') else ('dia-06' if cap.startswith('d06') else 'dia-' + cap[1:3])
             ruta = f'{carpeta}/{cap}'
-        s = {'num': f'{k:02d}', 'title': title, 'cap': f'serie-v3/capturas/{ruta}', 'sub': sub}
+        s = {'num': f'{k:02d}', 'title': title, 'cap': cap if ruta is None else f'serie-v3/capturas/{ruta}', 'sub': sub}
         if b == 'E':
             s['modo'] = 'entero'
         else:

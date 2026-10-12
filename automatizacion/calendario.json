@@ -149,11 +149,9 @@
       "jpg/guia-clases/05.jpg",
       "jpg/guia-clases/06.jpg",
       "jpg/guia-clases/07.jpg",
-      "jpg/guia-clases/08.jpg",
-      "jpg/guia-clases/09.jpg",
-      "jpg/guia-clases/10.jpg"
+      "jpg/guia-clases/08.jpg"
     ],
-    "caption": "Tu horario, en una tab: quien dirige lo monta una vez y quien entrena lo ve por semana, mes o lista, reserva con un toque y se lo lleva a su calendario.\n\n#strife #clases #tutorial"
+    "caption": "Tu horario, en una tab: por semana, por mes o en lista. Reservas con un toque, ves quién más va y llevas tu racha.\n\n#strife #clases #tutorial"
   },
   {
     "id": "dia-04",
@@ -192,9 +190,10 @@
       "jpg/guia-asistencia/04.jpg",
       "jpg/guia-asistencia/05.jpg",
       "jpg/guia-asistencia/06.jpg",
-      "jpg/guia-asistencia/07.jpg"
+      "jpg/guia-asistencia/07.jpg",
+      "jpg/guia-asistencia/08.jpg"
     ],
-    "caption": "Lista en 30 segundos: presente, ausente o retraso. O proyecta el QR y la lista se llena sola mientras saludas en la puerta.\n\n#strife #clubes #tutorial"
+    "caption": "La lista, también al día siguiente: quien no vino, quien vino sin reservar y el retraso que perdonas. Cuadrada en un minuto.\n\n#strife #clubes #tutorial"
   },
   {
     "id": "guia-lista-foto",
@@ -367,12 +366,19 @@
     "dia_semana": "domingo",
     "hora": "20:30",
     "audiencia": "marca",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-21-cierre-semana-3.jpg"
+      "jpg/dia-21/01.jpg",
+      "jpg/dia-21/02.jpg",
+      "jpg/dia-21/03.jpg",
+      "jpg/dia-21/04.jpg",
+      "jpg/dia-21/05.jpg",
+      "jpg/dia-21/06.jpg",
+      "jpg/dia-21/07.jpg",
+      "jpg/dia-21/08.jpg",
+      "jpg/dia-21/09.jpg"
     ],
-    "caption": "Una idea: tu gimnasio entero en una app. 30 días gratis para tu centro, ya en Google Play.\n\n#strife",
-    "archivo": "jpg/dia-21-cierre-semana-3.jpg"
+    "caption": "Un día en tu centro, de la caja de la mañana al termómetro de la noche. Tu gimnasio entero en una app: 30 días gratis para tu centro, ya en Google Play.\n\n#strife"
   },
   {
     "id": "dia-26",
@@ -432,11 +438,9 @@
       "jpg/guia-juego/05.jpg",
       "jpg/guia-juego/06.jpg",
       "jpg/guia-juego/07.jpg",
-      "jpg/guia-juego/08.jpg",
-      "jpg/guia-juego/09.jpg",
-      "jpg/guia-juego/10.jpg"
+      "jpg/guia-juego/08.jpg"
     ],
-    "caption": "Cada roll, apuntado: con quién, cómo acabó y con qué técnica. Tu diario de sparring, mes a mes.\n\n#strife #sparring #tutorial"
+    "caption": "Un roll, dos partes: lo apuntas tú y a tu compañero le aparece solo, con el resultado dado la vuelta. Cuenta para los dos.\n\n#strife #sparring #tutorial"
   },
   {
     "id": "dia-29",
@@ -727,7 +731,7 @@
       "jpg/guia-miembros/07.jpg",
       "jpg/guia-miembros/08.jpg"
     ],
-    "caption": "Cada alumno, una ficha: cómo viene, su cinturón, su cuota, sus notas y su acceso. Todo en una pantalla.\n\n#strife #clubes #tutorial"
+    "caption": "Cada alumno, una ficha: cómo viene, cuándo viene, si se está enfriando y qué puede hacer en tu centro.\n\n#strife #clubes #tutorial"
   },
   {
     "id": "dia-20",
@@ -785,10 +789,9 @@
       "jpg/guia-invitar/03.jpg",
       "jpg/guia-invitar/04.jpg",
       "jpg/guia-invitar/05.jpg",
-      "jpg/guia-invitar/06.jpg",
-      "jpg/guia-invitar/07.jpg"
+      "jpg/guia-invitar/06.jpg"
     ],
-    "caption": "Invita en un toque: por nombre, @usuario o email. Le llega la invitación y el alta se hace sola.\n\n#strife #clubes"
+    "caption": "¿Aún no tiene cuenta? Invítale con su correo y la invitación le espera hasta que se registre.\n\n#strife #clubes"
   },
   {
     "id": "dia-18",
@@ -924,9 +927,13 @@
       "jpg/guia-centro/01.jpg",
       "jpg/guia-centro/02.jpg",
       "jpg/guia-centro/03.jpg",
-      "jpg/guia-centro/04.jpg"
+      "jpg/guia-centro/04.jpg",
+      "jpg/guia-centro/05.jpg",
+      "jpg/guia-centro/06.jpg",
+      "jpg/guia-centro/07.jpg",
+      "jpg/guia-centro/08.jpg"
     ],
-    "caption": "Tu centro, tu casa: portada, tablón, miembros, tienda y caja en la primera pestaña.\n\n#strife #clubes"
+    "caption": "Tu centro, tu casa: portada, tablón, tu gente, la tienda, la caja y lo que te espera, en la primera pestaña.\n\n#strife #clubes"
   },
   {
     "id": "dia-28",
@@ -935,12 +942,17 @@
     "dia_semana": "domingo",
     "hora": "20:30",
     "audiencia": "marca",
-    "tipo": "imagen",
+    "tipo": "carrusel",
     "archivos": [
-      "jpg/dia-28-cierre-semana-4.jpg"
+      "jpg/dia-28/01.jpg",
+      "jpg/dia-28/02.jpg",
+      "jpg/dia-28/03.jpg",
+      "jpg/dia-28/04.jpg",
+      "jpg/dia-28/05.jpg",
+      "jpg/dia-28/06.jpg",
+      "jpg/dia-28/07.jpg"
     ],
-    "caption": "Todo el gimnasio en una app. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.\n\n#strife",
-    "archivo": "jpg/dia-28-cierre-semana-4.jpg"
+    "caption": "Tu centro en marcha en cinco pasos: horario, invitaciones, lista y cobros. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.\n\n#strife"
   },
   {
     "id": "guia-ajustes-alumno",

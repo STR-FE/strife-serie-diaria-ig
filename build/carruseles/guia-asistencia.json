@@ -1,0 +1,63 @@
+{
+ "id": "guia-asistencia",
+ "label": "GUÍA · PASAR LISTA",
+ "slides": [
+  {
+   "cover": [
+    "LA LISTA,",
+    "DESPUÉS."
+   ],
+   "lead": "Cerraste la puerta y quedan huecos. La lista del domingo se arregla el lunes."
+  },
+  {
+   "num": "01",
+   "title": "SIGUE ABIERTA",
+   "cap": "serie-v3/capturas/asistencia/ga_01_lista",
+   "sub": "La del domingo: 8 de 17 marcados y 9 sin marcar.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "QUIEN NO VINO",
+   "cap": "serie-v3/capturas/asistencia/ga_02_marcas",
+   "sub": "Dani reservó y no apareció: ausente. Diego llegó tarde: retraso.",
+   "modo": "entero"
+  },
+  {
+   "num": "03",
+   "title": "SE TE PASÓ ALGUIEN",
+   "cap": "serie-v3/capturas/asistencia/ga_03_buscar",
+   "sub": "Nerea vino sin reservar. La buscas por su nombre y la marcas.",
+   "b": 400
+  },
+  {
+   "num": "04",
+   "title": "¿TARDE?",
+   "cap": "serie-v3/capturas/asistencia/ga_04_antes",
+   "sub": "Diego, con su retraso: +6 en vez de +10.",
+   "b": 700
+  },
+  {
+   "num": "05",
+   "title": "¿LO VES JUSTO?",
+   "cap": "serie-v3/capturas/asistencia/ga_04_perdon",
+   "sub": "Un toque en P y el retraso pasa a presente.",
+   "b": 700
+  },
+  {
+   "num": "06",
+   "title": "CUADRADA",
+   "cap": "serie-v3/capturas/asistencia/ga_05_final",
+   "sub": "11 de 17: 10 presentes y 1 ausente. Y el ranking, al día.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "LA PUERTA,",
+    "SIN LIBRETA."
+   ],
+   "lead": "Pasar lista, también al día siguiente. 30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

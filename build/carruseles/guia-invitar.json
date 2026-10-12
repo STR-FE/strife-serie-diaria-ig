@@ -1,0 +1,49 @@
+{
+ "id": "guia-invitar",
+ "label": "GUÍA · INVITAR",
+ "slides": [
+  {
+   "cover": [
+    "AÚN NO TIENE",
+    "CUENTA."
+   ],
+   "lead": "Invítale con su correo y la invitación le espera hasta que se registre."
+  },
+  {
+   "num": "01",
+   "title": "NO ESTÁ",
+   "cap": "serie-v3/capturas/invitar/gi_02_nadie",
+   "sub": "«Nadie se llama así en STRIFE.» ¿Tienes su correo?",
+   "b": 300
+  },
+  {
+   "num": "02",
+   "title": "SU CORREO",
+   "cap": "serie-v3/capturas/invitar/gi_03_correo",
+   "sub": "«Aún no hay cuenta con ese correo: la invitación quedará esperando.»",
+   "b": 300
+  },
+  {
+   "num": "03",
+   "title": "CON QUÉ ROL",
+   "cap": "serie-v3/capturas/invitar/gi_03_correo",
+   "sub": "Alumno, entrenador o administrador.",
+   "b": 900
+  },
+  {
+   "num": "04",
+   "title": "CREADA",
+   "cap": "serie-v3/capturas/invitar/gi_04_creada",
+   "sub": "La verá al registrarse con ese correo. Caduca en un mes.",
+   "b": 1300
+  },
+  {
+   "cover": [
+    "TU GENTE,",
+    "DENTRO."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

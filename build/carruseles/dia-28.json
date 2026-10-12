@@ -1,0 +1,56 @@
+{
+ "id": "dia-28",
+ "label": "STRIFE · EN MARCHA",
+ "slides": [
+  {
+   "cover": [
+    "EN MARCHA",
+    "EN 5 PASOS."
+   ],
+   "lead": "Tu centro en STRIFE, esta semana. Y lo que cuesta, claro."
+  },
+  {
+   "num": "01",
+   "title": "PON EL HORARIO",
+   "cap": "serie-v3/capturas/dia-02/d02_05_dias",
+   "sub": "Una vez, y el mes entero se rellena solo.",
+   "b": 63
+  },
+  {
+   "num": "02",
+   "title": "INVITA A TU GENTE",
+   "cap": "serie-v3/capturas/dia-25/d25_03_rol",
+   "sub": "Por @usuario, por correo o por WhatsApp.",
+   "b": 300
+  },
+  {
+   "num": "03",
+   "title": "PASA LISTA",
+   "cap": "serie-v3/capturas/dia-04/d04_04_lista",
+   "sub": "Con el QR, con una foto o a mano.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "COBRA",
+   "cap": "serie-v3/capturas/dia-06/d06_04_registrar",
+   "sub": "Cada cuota, con su importe ya puesto. Efectivo, Bizum o transferencia.",
+   "b": 1000
+  },
+  {
+   "num": "05",
+   "title": "LO QUE CUESTA",
+   "cap": "serie-v3/capturas/dia-28/d28_05_suscripcion",
+   "sub": "30 días gratis. Después, 14,99 €/mes con todo dentro.",
+   "b": 63
+  },
+  {
+   "cover": [
+    "30 DÍAS",
+    "GRATIS."
+   ],
+   "lead": "Para tu centro, y luego 14,99 €/mes. Atletas y coaches, gratis siempre.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

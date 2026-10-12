@@ -1,0 +1,63 @@
+{
+ "id": "guia-centro",
+ "label": "GUÍA · TU CENTRO EN INICIO",
+ "slides": [
+  {
+   "cover": [
+    "TU CENTRO,",
+    "TU CASA."
+   ],
+   "lead": "La portada, el tablón, tu gente, la tienda y la caja, en la primera pestaña."
+  },
+  {
+   "num": "01",
+   "title": "LA PORTADA",
+   "cap": "serie-v3/capturas/centro/ce_01_inicio",
+   "sub": "Tu foto, tu emblema, si hoy está abierto y tus disciplinas.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "EL TABLÓN",
+   "cap": "serie-v3/capturas/centro/ce_01_inicio",
+   "sub": "Lo que has publicado, pasando solo. Un toque y lo lee entero.",
+   "b": 820
+  },
+  {
+   "num": "03",
+   "title": "TU GENTE",
+   "cap": "serie-v3/capturas/centro/ce_02_gente",
+   "sub": "Cuántos sois, los cinturones y quién lidera el ranking.",
+   "b": 950
+  },
+  {
+   "num": "04",
+   "title": "LA TIENDA",
+   "cap": "serie-v3/capturas/centro/ce_03_tienda_caja",
+   "sub": "Lo vendido este mes, lo que queda y quién debe.",
+   "b": 800
+  },
+  {
+   "num": "05",
+   "title": "LA CAJA",
+   "cap": "serie-v3/capturas/centro/ce_03_tienda_caja",
+   "sub": "Las cuotas del mes: lo cobrado y cuántos están al día.",
+   "b": 1300
+  },
+  {
+   "num": "06",
+   "title": "Y LO QUE ESPERA",
+   "cap": "serie-v3/capturas/dia-20/d20_03_aviso",
+   "sub": "Una solicitud nueva sale arriba, antes que nada.",
+   "modo": "entero"
+  },
+  {
+   "cover": [
+    "UNA APP,",
+    "TODO EL CENTRO."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}

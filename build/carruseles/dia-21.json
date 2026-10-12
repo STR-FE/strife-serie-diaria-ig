@@ -1,0 +1,70 @@
+{
+ "id": "dia-21",
+ "label": "STRIFE · UN DÍA EN TU CENTRO",
+ "slides": [
+  {
+   "cover": [
+    "UN DÍA",
+    "EN TU CENTRO."
+   ],
+   "lead": "Villalba Fighting Co., de la mañana a la noche. Todo en la misma app."
+  },
+  {
+   "num": "01",
+   "title": "09:00 · LA CAJA",
+   "cap": "serie-v3/capturas/dia-06/d06_01_caja",
+   "sub": "Con el café: quién está vencido y su cobro, a un toque.",
+   "modo": "entero"
+  },
+  {
+   "num": "02",
+   "title": "13:30 · UNA SOLICITUD",
+   "cap": "serie-v3/capturas/dia-20/d20_05_pendientes",
+   "sub": "Hugo pide plaza. Aceptar o rechazar, desde el móvil.",
+   "b": 63
+  },
+  {
+   "num": "03",
+   "title": "18:00 · ¿VAS?",
+   "cap": "serie-v3/capturas/dia-03/d03_01_hoy",
+   "sub": "Álex tiene su clase de la tarde reservada.",
+   "b": 63
+  },
+  {
+   "num": "04",
+   "title": "19:58 · EL QR",
+   "cap": "serie-v3/capturas/dia-04/d04_05_qr",
+   "sub": "En la tele de la entrada. Cambia solo y cuenta quién va entrando.",
+   "modo": "entero"
+  },
+  {
+   "num": "05",
+   "title": "20:00 · LA LISTA",
+   "cap": "serie-v3/capturas/dia-04/d04_04_lista",
+   "sub": "Quien fichó con el QR ya está dentro. El resto, de un toque.",
+   "b": 63
+  },
+  {
+   "num": "06",
+   "title": "21:30 · LOS ROLLS",
+   "cap": "serie-v3/capturas/dia-08/d08_06_tres",
+   "sub": "Álex apunta con quién rodó y cómo acabó.",
+   "b": 63
+  },
+  {
+   "num": "07",
+   "title": "22:00 · EL TERMÓMETRO",
+   "cap": "serie-v3/capturas/dia-16/d16_05_tablero",
+   "sub": "Quién se está enfriando, antes de que se vaya.",
+   "b": 400
+  },
+  {
+   "cover": [
+    "TU GIMNASIO,",
+    "EN UNA APP."
+   ],
+   "lead": "30 días gratis para tu centro y luego 14,99 €/mes. Sin comisiones.",
+   "tag": "YA EN GOOGLE PLAY"
+  }
+ ]
+}
