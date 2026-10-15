@@ -4,312 +4,312 @@ Pie de foto listo para pegar bajo cada imagen.
 DÍA 1 · LUNES — para quien entrena
 Archivo: dia-01-voy.png (1080×1350)
 Pie: Abre la clase, mira quién va y reserva con un toque. ¿No vas? Avisa: tu hueco lo pilla otro.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #nogi
 
 CARRUSEL · PASO A PASO — LA SEMANA, MONTADA (quien dirige)
 Id: dia-02
 Carpeta: jpg/dia-02/ (10 fotos)
 Pie: Días, hora, aforo y coach: el horario se pone una vez y el mes entero se rellena solo. Así se monta, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
 Id: dia-03
 Carpeta: jpg/dia-03/
 Pie: Llegas, escaneas el QR de la clase y quedas presente. Sin libreta en la puerta. Así se hace, paso a paso.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · PASO A PASO — JUEVES — para quien dirige
 Id: dia-04
 Carpeta: jpg/dia-04/
 Pie: Pasar lista deja de ser un papel: presente, ausente o retraso. Quien ficha con el QR ya entra marcado. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — VIERNES — para quien entrena
 Id: dia-05
 Carpeta: jpg/dia-05/
 Pie: Cada clase a la que vas suma. Podio por disciplina y por clase; el día 1, todos a cero. Así se hace, paso a paso.
-Tags: #strife #ranking
+Tags: #bjj #jiujitsu #bjjespaña #grappling #artesmarciales
 
 CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
 Id: dia-06
 Carpeta: jpg/dia-06/
 Pie: Fin de mes sin hoja de cálculo: lo cobrado, lo parcial y quién falta por pagar. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 DÍA 7 · DOMINGO — cierre
 Archivo: dia-07-cierre-semana-1.png (1080×1080)
 Pie: STRIFE ya está en Google Play. Gratis para quien entrena; 30 días de prueba para tu centro.
-Tags: #strife
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · PASO A PASO — LUNES — para quien entrena
 Id: dia-08
 Carpeta: jpg/dia-08/
 Pie: El parte del día en 30 segundos: con quién, cómo acabó y con qué. Así se hace, paso a paso.
-Tags: #strife #sparring
+Tags: #bjj #jiujitsu #bjjespaña #grappling #bjjlife
 
 CARRUSEL · PASO A PASO — MARTES — para quien dirige
 Id: dia-09
 Carpeta: jpg/dia-09/
 Pie: Festivo, norma nueva, seminario: se publica una vez en el tablón y lo ve todo el centro. Entra y sale solo. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
 Id: dia-10
 Carpeta: jpg/dia-10/
 Pie: Un número cada semana: tu peso, tu división y lo que te falta para el pesaje. Así se hace, paso a paso.
-Tags: #strife #pesaje
+Tags: #bjj #jiujitsu #bjjespaña #ibjjf #mma
 
 CARRUSEL · PASO A PASO — JUEVES — para quien dirige
 Id: dia-11
 Carpeta: jpg/dia-11/
 Pie: Guantes, vendas o camisetas: el alumno reserva talla y color en la app y tú cobras en el mostrador. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — VIERNES — para quien entrena
 Id: dia-12
 Carpeta: jpg/dia-12/
 Pie: Parches por asistencia, rachas y sparring, con su fecha. Y tus seis favoritos en la vitrina. Así se hace, paso a paso.
-Tags: #strife #logros
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #muaythai
 
 CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
 Id: dia-13
 Carpeta: jpg/dia-13/
 Pie: La ficha de cada alumno en un solo sitio: cuota, cinturón, asistencia y contacto. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 DÍA 14 · DOMINGO — cierre
 Archivo: dia-14-cierre-semana-2.png (1080×1080)
 Pie: Gratis para quien entrena: descarga STRIFE y busca tu gimnasio. Ya en Google Play.
-Tags: #strife
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · PASO A PASO — LUNES — para quien entrena
 Id: dia-15
 Carpeta: jpg/dia-15/
 Pie: Vincula tu perfil de Smoothcomp y tu palmarés entra en tu ficha: victorias, medallas y cada evento. Así se hace, paso a paso.
-Tags: #strife #competicion
+Tags: #bjj #jiujitsu #bjjespaña #ibjjf #grappling
 
 CARRUSEL · PASO A PASO — MARTES — para quien dirige
 Id: dia-16
 Carpeta: jpg/dia-16/
 Pie: El termómetro avisa de quién se está enfriando antes de que se vaya, y a quién escribir hoy. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
 Id: dia-17
 Carpeta: jpg/dia-17/
 Pie: Elige rival en el ranking y compárate: puntos, rachas y asistencia, lado a lado. Y cuánto te falta para pasarle. Así se hace, paso a paso.
-Tags: #strife #ranking
+Tags: #bjj #jiujitsu #bjjespaña #grappling #bjjlife
 
 CARRUSEL · PASO A PASO — JUEVES — para quien dirige
 Id: dia-18
 Carpeta: jpg/dia-18/
 Pie: El chat del centro, dentro de la app: con normas, denuncias y bloqueo. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — VIERNES — para quien entrena
 Id: dia-19
 Carpeta: jpg/dia-19/
 Pie: Promocionas desde la ficha del alumno: cinturón y grados, con fecha y firma. El linaje del centro, sin romperse. Así se hace, paso a paso.
-Tags: #strife #bjj
+Tags: #bjj #jiujitsu #bjjespaña #brazilianjiujitsu #grappling
 
 CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
 Id: dia-20
 Carpeta: jpg/dia-20/
 Pie: Cada solicitud llega con su nombre y su rol. Un toque: dentro o fuera. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · CIERRE — DOMINGO — marca
 Id: dia-21
 Carpeta: jpg/dia-21/
 Pie: Un día en tu centro, de la caja de la mañana al termómetro de la noche. Tu gimnasio entero en una app: 30 días gratis para tu centro, ya en Google Play.
-Tags: #strife
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 DÍA 22 · LUNES — para quien entrena
 Archivo: dia-22-empieza-aqui.png (1080×1350)
 Pie: Descargas la app, buscas tu gimnasio en el mapa y pides plaza. El primer día empieza antes de llegar.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 DÍA 23 · MARTES — para quien dirige
 Archivo: dia-23-abre-tu-club.png (1080×1350)
 Pie: Abrir tu centro: nombre, disciplinas y quién entra. Un revisor lo aprueba en minutos y empiezas con 30 días gratis.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — MIÉRCOLES — para quien entrena
 Id: dia-24
 Carpeta: jpg/dia-24/
 Pie: Sin sorpresas a fin de mes: cuánto pagas y hasta cuándo está cubierta tu cuota, en tu perfil. Así se hace, paso a paso.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #muaythai
 
 CARRUSEL · PASO A PASO — JUEVES — para quien dirige
 Id: dia-25
 Carpeta: jpg/dia-25/
 Pie: Nombre, @usuario o email, y el rol con el que entra. La invitación le llega y el alta se hace sola. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · PASO A PASO — VIERNES — para quien entrena
 Id: dia-26
 Carpeta: jpg/dia-26/
 Pie: El plan de hoy, el coach y quién va, antes de pisar el tatami. Así se hace, paso a paso.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #nogi
 
 CARRUSEL · PASO A PASO — SÁBADO — para quien dirige
 Id: dia-27
 Carpeta: jpg/dia-27/
 Pie: La portada es de tu centro: emblema, disciplinas, horario y estado. Así se hace, paso a paso.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · CIERRE — DOMINGO — marca
 Id: dia-28
 Carpeta: jpg/dia-28/
 Pie: Tu centro en marcha en cinco pasos: horario, invitaciones, lista y cobros. Ya en Google Play: 30 días gratis para tu centro, 14,99 €/mes después. Atletas y coaches, gratis siempre.
-Tags: #strife
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · PASO A PASO — LUNES — para quien entrena
 Id: dia-29
 Carpeta: jpg/dia-29/
 Pie: Mi juego: rolls del mes, balance, lo que rematas y lo que te rematan. El sparring, contado. Así se hace, paso a paso.
-Tags: #strife #sparring
+Tags: #bjj #jiujitsu #bjjespaña #grappling #nogi
 
 CARRUSEL · GUÍA — TU PRIMER DÍA (alumno)
 Id: guia-alumno
 Carpeta: guia-alumno/ (8 fotos, una publicación; subir en orden 01→08)
 Pie: Tu primer día, paso a paso: cuenta, perfil, rol, tu gimnasio en el mapa y plaza pedida. Guárdatelo para el día uno.
-Tags: #strife #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · GUÍA — ABRE TU CENTRO (admin / admin+coach)
 Id: guia-club
 Carpeta: guia-club/ (10 fotos, una publicación; subir en orden 01→10)
 Pie: Abrir tu centro, paso a paso: cuenta, rol, datos, disciplinas, quién entra y solicitud enviada. Cinco minutos y 30 días gratis.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — LA TAB CLASES
 Id: guia-clases
 Carpeta: jpg/guia-clases/ (8 fotos)
 Pie: Tu horario, en una tab: por semana, por mes o en lista. Reservas con un toque, ves quién más va y llevas tu racha.
-Tags: #strife #clases #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #muaythai
 
 CARRUSEL · GUÍA — PASAR LISTA
 Id: guia-asistencia
 Carpeta: jpg/guia-asistencia/ (8 fotos)
 Pie: La lista, también al día siguiente: quien no vino, quien vino sin reservar y el retraso que perdonas. Cuadrada en un minuto.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — LISTA CON FOTO
 Id: guia-lista-foto
 Carpeta: jpg/guia-lista-foto/ (10 fotos)
 Pie: La foto de grupo al acabar la clase ya pasa lista. El móvil marca cada cara, tú eliges quién es y queda apuntado «vía foto». La foto no se sube ni se guarda.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — HOY
 Id: guia-hoy
 Carpeta: jpg/guia-hoy/ (5 fotos)
 Pie: Tu día de un vistazo: las clases de hoy, el parte que te falta apuntar y lo que pasa en tu centro.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #nogi
 
 CARRUSEL · GUÍA — COBRAR LA CUOTA
 Id: guia-cobrar
 Carpeta: jpg/guia-cobrar/ (10 fotos)
 Pie: Sabes quién debe, hoy. Registras el pago en dos toques y la app le recuerda la cuota al alumno. Sin comisiones: la app lleva las cuentas, no el dinero.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — LA TIENDA DEL CENTRO
 Id: guia-tienda
 Carpeta: jpg/guia-tienda/ (7 fotos)
 Pie: Guantes, vendas o espinilleras: el alumno elige talla y color, lo reserva en la app y lo paga al recogerlo en el mostrador.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — MI JUEGO
 Id: guia-juego
 Carpeta: jpg/guia-juego/ (8 fotos)
 Pie: Un roll, dos partes: lo apuntas tú y a tu compañero le aparece solo, con el resultado dado la vuelta. Cuenta para los dos.
-Tags: #strife #sparring #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #grappling #bjjlife
 
 CARRUSEL · GUÍA — UNA LESIÓN
 Id: guia-lesion
 Carpeta: jpg/guia-lesion/ (10 fotos)
 Pie: Hasta el ligamento: marca la lesión en la silueta, concrétala en 3D, mira cuánto te frena y decide si se lo cuentas a tu centro.
-Tags: #strife #lesiones #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #bjjlife #grappling
 
 CARRUSEL · GUÍA — PESO Y EPISODIOS
 Id: guia-peso
 Carpeta: jpg/guia-peso/ (10 fotos)
 Pie: El peso, a raya: un año de registros, cada lesión encima de la curva y el margen hasta tu categoría. Tus datos son tuyos.
-Tags: #strife #pesaje
+Tags: #bjj #jiujitsu #bjjespaña #ibjjf #mma
 
 CARRUSEL · GUÍA — EL PARTE DE CLASE
 Id: guia-parte
 Carpeta: jpg/guia-parte/ (7 fotos)
 Pie: El parte en un minuto: quien dio la clase marca a cada uno —bien, normal u ojo— y dos frases si hace falta. Privado: el alumno no lo ve.
-Tags: #strife #coaches #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — SEGUIMIENTO
 Id: guia-seguimiento
 Carpeta: jpg/guia-seguimiento/ (8 fotos)
 Pie: Nadie se descuelga sin que lo veas: el termómetro avisa de quién se enfría y te dice a quién escribir hoy. Sin «te echamos de menos» automáticos.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — TU PERFIL
 Id: guia-perfil
 Carpeta: jpg/guia-perfil/ (8 fotos)
 Pie: Tu ficha de luchador: cinturón con su historia, palmarés de competición, logros y tu sparring del mes.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #brazilianjiujitsu #artesmarciales
 
 CARRUSEL · GUÍA — MIEMBROS
 Id: guia-miembros
 Carpeta: jpg/guia-miembros/ (8 fotos)
 Pie: Cada alumno, una ficha: cómo viene, cuándo viene, si se está enfriando y qué puede hacer en tu centro.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — INVITAR
 Id: guia-invitar
 Carpeta: jpg/guia-invitar/ (6 fotos)
 Pie: ¿Aún no tiene cuenta? Invítale con su correo y la invitación le espera hasta que se registre.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — EL CHAT DEL CENTRO
 Id: guia-chat
 Carpeta: jpg/guia-chat/ (6 fotos)
 Pie: El grupo del centro, sin ruido: dentro de la app, con normas, reacciones, denuncias y bloqueo.
-Tags: #strife #comunidad
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
 
 CARRUSEL · GUÍA — PERMISOS
 Id: guia-permisos
 Carpeta: jpg/guia-permisos/ (7 fotos)
 Pie: ¿El coach llega tarde? Dale «pasar lista» a un alumno de confianza. Solo a ese, y queda apuntado quién y cuándo.
-Tags: #strife #clubes #tutorial
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — TU CENTRO EN INICIO
 Id: guia-centro
 Carpeta: jpg/guia-centro/ (8 fotos)
 Pie: Tu centro, tu casa: portada, tablón, tu gente, la tienda, la caja y lo que te espera, en la primera pestaña.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — AJUSTES DEL ALUMNO
 Id: guia-ajustes-alumno
 Carpeta: jpg/guia-ajustes-alumno/ (8 fotos)
 Pie: Tu cuenta, a tu manera: privacidad, modo claro u oscuro, cinco idiomas y tus datos a la vista.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #nogi
 
 CARRUSEL · GUÍA — AJUSTES DEL CENTRO
 Id: guia-ajustes-centro
 Carpeta: jpg/guia-ajustes-centro/ (6 fotos)
 Pie: Tu centro, tus reglas: admisión, tablón, tienda, seguimiento, roles, pagos y la suscripción. 30 días gratis.
-Tags: #strife #clubes
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #jiujitsuespaña
 
 CARRUSEL · GUÍA — LA LESIÓN EN TU JUEGO
 Id: guia-lesion-juego
 Carpeta: jpg/guia-lesion-juego/ (9 fotos)
 Pie: Tocado, pero contado: tus partes de sparring llevan la lesión de ese día, tu diario compara cuánto ruedas y cuánto acabas, y tu coach solo ve «fuera del tatami».
-Tags: #strife #lesiones #bjj
+Tags: #bjj #jiujitsu #bjjespaña #bjjlife #grappling
 
 CARRUSEL · GUÍA — EL APARTE
 Id: guia-aparte
 Carpeta: jpg/guia-aparte/ (8 fotos)
 Pie: Solo tú y tu centro: un hilo privado para lo que no dirías en el chat de todos. Te escribe una persona, nunca un aviso automático.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #grappling
 
 CARRUSEL · GUÍA — LOS AVISOS
 Id: guia-avisos
 Carpeta: jpg/guia-avisos/ (6 fotos)
 Pie: Solo lo que importa: tu cuota, tus clases, tus ascensos y tus pedidos. Y tú eliges qué te avisa.
-Tags: #strife #strifeapp
+Tags: #bjj #jiujitsu #bjjespaña #artesmarciales #mma
