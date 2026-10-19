@@ -168,5 +168,17 @@
     ],
     "post_id": "17986663194119174",
     "publicado_en": "2026-10-18T18:32:26+00:00"
+  },
+  "guia-hoy": {
+    "fecha_programada": "2026-10-19",
+    "archivos": [
+      "jpg/guia-hoy/01.jpg",
+      "jpg/guia-hoy/02.jpg",
+      "jpg/guia-hoy/03.jpg",
+      "jpg/guia-hoy/04.jpg",
+      "jpg/guia-hoy/05.jpg"
+    ],
+    "post_id": "18131871500494775",
+    "publicado_en": "2026-10-19T19:31:41+00:00"
   }
 }
