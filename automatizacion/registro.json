@@ -244,5 +244,19 @@
     ],
     "post_id": "18119857667085883",
     "publicado_en": "2026-10-23T12:02:16+00:00"
+  },
+  "guia-tienda": {
+    "fecha_programada": "2026-10-24",
+    "archivos": [
+      "jpg/guia-tienda/01.jpg",
+      "jpg/guia-tienda/02.jpg",
+      "jpg/guia-tienda/03.jpg",
+      "jpg/guia-tienda/04.jpg",
+      "jpg/guia-tienda/05.jpg",
+      "jpg/guia-tienda/06.jpg",
+      "jpg/guia-tienda/07.jpg"
+    ],
+    "post_id": "18415651768095688",
+    "publicado_en": "2026-10-24T11:01:59+00:00"
   }
 }
